@@ -14,10 +14,11 @@
           <img src="./images/main.f2e0fb0.png" alt="" />
           <div class="tabs">
             <ul class="tabsTitle">
-              <li class="add">短信随机码登录</li>
+              <li class="add active">短信随机码登录</li>
               <li>服务密码登录</li>
             </ul>
             <ul class="tabsContent">
+              <!-- 短信随机码登录 -->
               <li class="shortMessage">
                 <p>
                   <input type="text" placeholder="请输入手机号码" class="txt" />
@@ -35,7 +36,36 @@
                 </p>
                 <button class="login">登录</button>
               </li>
-              <!-- <li class="shortMessage"></li> -->
+
+              <!-- 服务密码登录 -->
+              <li class="servePassword">
+                <p>
+                  <input
+                    type="text"
+                    placeholder="请输入手机号码"
+                    class="txt3"
+                  />
+                  <span>请输入手机号码</span>
+                </p>
+                <p>
+                  <input
+                    type="text"
+                    placeholder="请输入服务密码"
+                    class="txt4"
+                  />
+                  <span>请输入服务密码</span>
+                </p>
+                <p>
+                  <input
+                    type="text"
+                    placeholder="请输入短信验证码"
+                    class="txt5"
+                  />
+                  <span>请输入验证码</span>
+                  <span class="line">|</span>
+                  <span class="getShortMes">获取短信验证码</span>
+                </p>
+              </li>
             </ul>
           </div>
         </div>
@@ -45,6 +75,8 @@
 </template>
 
 <script>
+const title = document.querySelector(".tabsTitle");
+const liNodes = document.querySelectorAll(".tabsTitle li");
 export default {
   name: "Login",
 };
@@ -131,6 +163,30 @@ export default {
             padding: 0 0 0 15px;
             margin-top: 10px;
           }
+        //   .tabsContent .shortMessage .txt3 {
+        //     width: 379px;
+        //     height: 54px;
+        //     border-radius: 4px;
+        //     border: 1px solid #ddd;
+        //     outline: none;
+        //     display: block;
+        //     font-size: 15px;
+        //     font-weight: 400;
+        //     padding: 0 0 0 15px;
+        //     margin-top: 30px;
+        //   }
+        //   .tabsContent .shortMessage .txt4 {
+        //     width: 379px;
+        //     height: 54px;
+        //     border-radius: 4px;
+        //     border: 1px solid #ddd;
+        //     outline: none;
+        //     display: block;
+        //     font-size: 15px;
+        //     font-weight: 400;
+        //     padding: 0 0 0 15px;
+        //     margin-top: 10px;
+        //   }
           .tabsContent .shortMessage .line {
             width: 1px;
             height: 11px;
@@ -170,10 +226,10 @@ export default {
             font-size: 12px;
             font-weight: 400;
             padding: 5px 15px 0;
-		  }
-		  li{
-			  cursor: pointer;
-		  }
+          }
+          li {
+            cursor: pointer;
+          }
         }
       }
     }
