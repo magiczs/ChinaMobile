@@ -2,10 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
-//引入element-ui
-import { Input } from 'element-ui'
-Vue.use(Input)
+import 'swiper/css/swiper.css'
 
 Vue.config.productionTip = false
 

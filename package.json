@@ -12,6 +12,7 @@
     "element-ui": "^2.13.2",
     "less": "^3.12.2",
     "less-loader": "^7.0.1",
+    "swiper": "^5.4.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -40,7 +41,15 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-irregular-whitespace": "off",
+      "vue/no-parsing-error": [
+        2,
+        {
+          "x-invalid-end-tag": false
+        }
+      ]
+    }
   },
   "browserslist": [
     "> 1%",
