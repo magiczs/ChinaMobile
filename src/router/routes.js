@@ -1,5 +1,6 @@
 const Home = () => import("../pages/Home");
 const Trade = () => import("../pages/Trade");
+const Pay = () => import("../pages/Pay");
 
 export default [
   {
@@ -9,6 +10,11 @@ export default [
   {
     path: "/trade",
     component: Trade,
+  },
+  {
+    path: "/pay",
+    component: Pay,
+    name: "pay",
   },
   {
     path: "/",
