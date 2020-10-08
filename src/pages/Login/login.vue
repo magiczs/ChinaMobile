@@ -5,7 +5,7 @@
         <div class="headerCenter">
           <div class="logo">
             <img src="./images/logo230x42.30b1340.png" alt="" />
-            <p class="back">返回</p>
+            <a class="back" href="javascript:;">返回</a>
           </div>
         </div>
       </div>
@@ -106,13 +106,12 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.active {
-  color: #e3007e;
-}
+
 * {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-decoration:none
 }
 .app {
   .headerCenter {
@@ -131,6 +130,7 @@ export default {
         position: absolute;
         right: 0;
         bottom: 30px;
+        color:#666
       }
     }
   }
@@ -166,7 +166,7 @@ export default {
             font-size: 20px;
 
             .active {
-              color: blue;
+              color: #e3007e;
             }
           }
           .tabsContent .shortMessage .txt {
