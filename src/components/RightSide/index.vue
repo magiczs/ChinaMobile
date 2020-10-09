@@ -17,8 +17,22 @@
           <span>更多></span>
         </div>
 
-        <p>关于关于关于</p>
-        <p>关于关于关于</p>
+        <div class="swiper-container" ref="a">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p>关于关于关于</p>
+            </div>
+            <div class="swiper-slide">
+              <p>sjsjsjsjsjsjsjsjsjsjsjss</p>
+            </div>
+            <div class="swiper-slide">
+              <p>njbbbbvytdfyguhdxfcvh</p>
+            </div>
+            <div class="swiper-slide">
+              <p>njbbbbvytdfyguhdxfcvh</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="t">
@@ -78,8 +92,20 @@
 </template>
 
 <script>
+import Swiper from 'swiper'
 export default {
   name: 'RightSide',
+  mounted() {
+    new Swiper(this.$refs.a, {
+      slidesPerView: 2, //显示几个
+      slidesPerGroup: 1, //一次走几个
+      // height: 100,
+      direction: 'vertical',
+      loop: true,
+      autoplay: true,
+      speed: 2000,
+    })
+  },
 }
 </script>
 
@@ -226,4 +252,11 @@ export default {
   transform: translateX(-50%);
   box-shadow: 2px 2px orangered;
 }
+.swiper-container {
+  height: 80px;
+}
+.swiper-container .swiper-slide {
+  margin: 0px;
+}
 </style>
+
