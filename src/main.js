@@ -3,7 +3,9 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import { Message } from "element-ui";
+import * as api from "./api";
 
+Vue.prototype.$API = api;
 Vue.config.productionTip = false;
 Vue.prototype.$message = Message;
 new Vue({

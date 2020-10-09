@@ -17,7 +17,7 @@
             <p class="orderNum">
               订单提交成功，请尽快支付！订单编号 92201007115741542218
             </p>
-            <p class="time">
+            <p class="timeout">
               <span>请您在提交订单30分钟内支付,</span>
               <span class="decsTime">剩余支付时间：7分40秒</span>
             </p>
@@ -27,10 +27,7 @@
             </p>
           </div>
         </div>
-        <img
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAAQCAYAAAAGcoYyAAAABGdBTUEAALGPC/xhBQAACW9JREFUeAHtnU9oHccdx2d29/2x/mA9XFXCtUFQUAtKyS2UpBSR+F5KsaEBF0eH9GCofUhLA6Wycuk1lx560aGh9NIUXEqPISklFINND5Ha6GBCZQlZwrxI1sv7uzP9fWc1b56dF0YSoc6D74PnnTc7u7/n336+u7Nfzc7TrVbrT5VK5UfqS351u92Ner3+x/989NHf//nhh1vY/XdffPEb337uue/XarUfl0ql+S8zJOMxnyfhibyQF/ISMkA9UA+BhniJvJCXOCWhBXkhL4GGeIm8kJc4JaEFeSEvgYZ4ibyMNi84wu12+129u7v72vT09Gr8kB+7Refhw4dvvXnz5u8P89yk7bYd3DKvVPREmia/efvtn8zMzPxa1pUH15+izHjM50mwIS/khbyEDFAP1EOgIV4iL+QlTkloQV7IS6AhXiIv5CVOSWhBXshLoCFeIi+jzUv/CO/t7S2l1trtS6+8clknyVR/zekLnY/X16/+8ubNvyhrjS6X85IxJk2S/luVy9Z2OvZvt2//6zvPP3/3a9PTP5Bw6SlDMh7zeRJ0yAt5IS8hA9QD9RBoiJfIC3mJUxJakBfyEmiIl8gLeYlTElqQF/ISaIiXyMto89I/wibPP1lZWflFOlerlb936dL2xMTED/trT1mQkVfLv3rjjdtWTKtuqZQnn33mjKtWlpmemFhiZlnTatmuJDHNc/WPDz7YfGlx8UBiv3yakIzHfJ6EG/JCXshLyAD1QD0EGuIl8kJe4pSEFuSFvAQa4iXyQl7ilIQW5IW8BBriJfIy2rwMHuGHu7s33l1d/be+fPnyWVmRrq6uviVG0vXBRicp93q9j3969erL3XZbij3Tq1bNeLdrGqWSLYthhX11Oh0tdVrqkqzVSrIsS0qVSva7d955T8rfYryQAeaTvAQa4iXyQl7ilIQW5IW8BBriJfJCXuKUhBbkhbwEGuIl8kJe4pSEFuSFvAQa4iXyMtq8DB7hw8PD3y4tLWH6qTyZbLed0fSzpaUVrBhseJLywcHBH2BeadmpNiZ3O/fLJMkTeQ/WoQ3aYhtse5JYaMt4zOdJmCEv5IW8hAxQD9RDoCFeIi/kJU5JaEFeyEugIV4iL+QlTkloQV7IS6AhXiIvo82LP8LwqOBVYXAUvKuke/as6Y6Pm3ap1Hv91VdvbW1uviZPAH7iNzju8v79++/BkEqszfXUlDOrMinL9nmapu6Nsq9DG9dW6rDtceP4doyXPpFj5tOTMXxJXsjLcDKG15IX8jKcjOG15IW8DCdjeC15IS/DyRheS17Iy3AyhteSF/IynIzhteSFvAwnY3jt/5sXeFLwpuBRwauCZwXvKjnz6acyp3rHyM9KGj05mf/8+vW/vnnjxksPHjx4vd1s/jnP8/sy0Xtj+H8j1N65c+e/MKQSGVnlR1t1zp0z0iJvNBoGb5R9Hdq4trLNvXv3NsOejldiPObzeKQUrcgLeSEvIQPUA/UQaIiXyAt5iVMSWpAX8hJoiJfIC3mJUxJakBfyEmiIl8jLaPECzwneEzwoeFHwpOBNwaOCVwXPCt6VvnbtWrX86FFSr1YTmasqKTUaiZujSuanwjxVvTzXvUpFV2TpMWmnqc3abSv1RtpYzHcl63IM6YIr1mq1zOzhodmZmLALCwtY13+tra0lsk7LuqQqMUv7+8njSiWRBqmLV61q2XcyGJPxmE/yEjRIPVAP1AP1wOutUuxPsL/E/me/e0098P6B92NBDtQD9UA9jJge8HX9PW4mXhOu7zKHmZvqCiOvYF7VxGPCYKjMjYw6d07VHj1SzWrVyqgoTLhu9cGBbY2NmTNKaZVluo3l0UsmXLelXs/2pF0lTQ2W6Exns7O57B3mlW1fvGgWzp+30sF0E7j7bWFobW9v69nNTfV4fNzKNnZyZ0eJiaWO9pWUZJ+DMRmP+SQvQYPUA/VAPVAPvN4qxf6EYn+J/U/fvaYeFPXA+7G+HKgH6oH+RJDDSOgBX9ff4zbhNYkXpcSLEm/KyJN7MK8szCt4Vxk6gGIyqcm5OVvf2UnOiKGk6nVbFRNJl8u6KcbVeLOptfx6oDorP1i4v6/K8suC/tcFExmJJfGszG3lnDHstHzxoj2/sWHXZD+y/ycMLMRa2NtT2/PzplGvO1OsbF0TmGf4bOVRRF1pNpWLKRWIJwu80AYjuhjPpcP9BZr5JC/UA/XA8yevD7zeynmA/Qn2l9j/ZP+a9w8dd5PH+zHeb/J+mv4EbpG+av6LPPVnYh5TRTymLjyf2VnzWDylqbk5I16Ve7ovwwgp/1dM+f9hPiw8zocbYt1NEhhKGsaSGFpKHR7Kg36ydB6SmElJgnbOwBJHzMK8qtVqhXk1Pe0608vLy958kl0ptbKyUiRxY0Op+XnxyupGyQgw1Wi4mPJYoZEJt7SM6CpiYiOJJyO0rKyzeGRRauDAMR7zqckL9YBThH/x/MLzp7DA68ORIKgH6oF68FcH9j/ZX2J/KaiBeqAeqAfq4dn5LyfymDodeD+mLYYWBkbBu0qvXLmi4cp9Ux7p6124oOTnJnE87dSFC1Ymy3LvTpaZcXlkUJwt994v5ryyFZkDa2xmxshPG2ISeGeETd69q9a+wLzCjhcXF9X6+rpaazRczK+/8ILd2tpyMVMZ4QVTDPsajIe4LfkOiJePjWE94yFj8mI+yQv1UGiBeuD5k9eHoAXqgXqgHqgH9q95/4AbvuWnBhPw+sDrA68PvD48q+vDaTym/gApGfCEc5q+desWRlxhVJR7nE8q3RLzVMnoKFfGeky8jqV/YYJ2lLFDLM8fzXeFneLzsJMl6v1L/jLs9oe4iIl4WOdjMl4xfxjzWRBDXqg/OO7UA/WADPD6wOtDoQTqgXpg/3NQCyizv8T+EvtLQRXUA/VAPYyeHvCNnWkl/hLKOIZY+vtALU8AOuPIC/yokauTuaq0DPFBlXt5kwlmla9T77/vRlzhs99pzLzy2/qY8qUYzyeF+fSZ+NySvBQmL/X35GPJnwPlqIK8kBegwOtRIQjqgXqgHgot4F/qgXqgHqgHnwHe3x5v8InPF8+fPH8+i/PnYMy+gfU0lP4zlt5gGqxD2RtWvv6LbhS01s7w8maZb++XXgj+M+MVmWA+C3PVc+GX5KXIBPVX5IHnl2I0q9cHz59FJnj+5PkTJFAP1AMywP5nwQH1QD1QDwUD+Jd6KHLB/hL7S19lPeC7Pc3o/wDBvMysa7HrBwAAAABJRU5ErkJggg=="
-          alt=""
-        />
+        <img src="./images/footer.png" alt="" />
       </div>
       <section class="content bgf">
         <div class="conTitle">
@@ -40,9 +37,6 @@
           <div class="secondBox add">
             <p class="second">
               <span>车萝卜停车牌6个月体验</span> <span>×1</span> <span></span>
-              <!---->
-              <!---->
-              <!---->
               <span>直接兑换</span>
             </p>
           </div>
@@ -60,9 +54,15 @@
                 class="txt"
               />
               <span class="line"></span>
-              <span class="getShortMes" style="">获取短信验证码</span>
-              <span class="getShortMes_time" style="display: none"
-                >12s后重新获取</span
+              <span
+                class="getShortMes"
+                style=""
+                @click="getShortMes"
+                v-show="!isSendCode"
+                >获取短信验证码</span
+              >
+              <span class="getShortMes_time" style="" v-show="isSendCode"
+                >{{ timeout }}s后重新获取</span
               >
             </p>
             <p class="checkLog">
@@ -84,10 +84,11 @@
               <span class="forget">忘记密码，请咨询10086</span>
             </p>
           </div>
-          <div class="immediately"><button class="btn">立即支付</button></div>
+          <div class="immediately">
+            <button class="btn" @click="pay">立即支付</button>
+          </div>
         </div>
       </section>
-      <!---->
     </div>
   </div>
 </template>
@@ -95,6 +96,33 @@
 <script>
 export default {
   name: "Pay",
+  data() {
+    return {
+      //重新获取验证码时间
+      timeout: 5,
+      //验证码发送状态
+      isSendCode: false,
+    };
+  },
+  methods: {
+    //发送验证码
+    getShortMes() {
+      this.isSendCode = true;
+      const timer = setInterval(() => {
+        this.timeout--;
+        if (this.timeout < 0) {
+          this.isSendCode = false;
+          this.timeout = 5;
+          clearInterval(timer);
+          return;
+        }
+      }, 1000);
+    },
+    //支付
+    pay() {
+      this.$router.push("/paysuccess");
+    },
+  },
 };
 </script>
 
@@ -187,7 +215,7 @@ export default {
           line-height: 22px;
           padding: 0 0 14px 64px;
         }
-        .time {
+        .timeout {
           height: 22px;
           font-size: 16px;
           font-family: PingFangSC-Regular, PingFang SC;
@@ -357,6 +385,21 @@ export default {
             right: 0;
             cursor: pointer;
             color: #e3007e;
+          }
+          .getShortMes_time {
+            width: 99px;
+            height: 20px;
+            font-size: 14px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            line-height: 20px;
+            display: block;
+            padding: 18px 21px 18px 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+            color: #666;
           }
           .forget {
             font-size: 12px;

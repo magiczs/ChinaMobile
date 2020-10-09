@@ -1,7 +1,7 @@
 <template>
   <div class="tradeContainer">
     <!-- 收货地址选择区域 -->
-    <div>
+    <div v-if="tradeInfo.gsmTag">
       <div class="between pt20 pb20">
         <span class="textTitle">选择收货地址</span>
         <span class="blueBtn">管理收货地址</span>
@@ -10,28 +10,37 @@
         <div class="addrList">
           <div
             class="addrItem"
-            :class="isActive === 0 ? 'defaultArr' : 'notDefault'"
+            :class="isActive === 0 ? 'isActive' : 'notActive'"
             @click="isActive = 0"
           >
             <p class="userName">广东省 深圳市 宝安区 (尚硅谷 收)</p>
             <p class="pt10 cl666 break2">
               深圳市宝安区西部硅谷大厦B座C区一层 18888888888
             </p>
-            <div class="relative">
-              <span>默认地址</span>
+            <!-- defaultArr notDefault -->
+            <div
+              class="relative"
+              :class="isDefault === 1 ? 'isDefault' : 'notDefault'"
+              @click="isDefault = 1"
+            >
+              <span>{{ isDefault === 1 ? "默认地址" : "设为默认" }}</span>
             </div>
           </div>
           <div
             class="addrItem"
-            :class="isActive === 1 ? 'defaultArr' : 'notDefault'"
+            :class="isActive === 1 ? 'isActive' : 'notActive'"
             @click="isActive = 1"
           >
             <p class="userName">北京市 昌平区 (尚硅谷 收)</p>
             <p class="pt10 cl666 break2">
               北京市昌平区宏福科技园综合楼6层 18888888888
             </p>
-            <div class="relative">
-              <span></span>
+            <div
+              class="relative"
+              :class="isDefault === 0 ? 'isDefault' : 'notDefault'"
+              @click="isDefault = 0"
+            >
+              <span>{{ isDefault === 0 ? "默认地址" : "设为默认" }}</span>
             </div>
           </div>
         </div>
@@ -40,9 +49,11 @@
     <!-- 商品清单头部文字 -->
     <div class="between">
       <span class="textTitle">商品清单</span>
-      <span class="blueBtn">返回修改订单</span>
+      <router-link class="blueBtn" to="" @click.native="$router.go(-1)"
+        >返回修改订单</router-link
+      >
     </div>
-    <!-- 中间商品信息区域 -->
+    <!-- 中间商品价格区域 -->
     <div class="orderList">
       <div class="order-header">
         <table
@@ -107,13 +118,10 @@
               <td rowspan="1" colspan="1" class="el-table_3_column_9">
                 <div class="cell">
                   <div class="fx pf10 fontR">
-                    <img
-                      src="https://jf-asset1.10086.cn/pic/ware/5eb8c7/e/5eb8c7e2d5f19b2f93aca8d8.jpg"
-                      class="gdImg"
-                    />
+                    <img :src="tradeInfo.defaultImg" class="gdImg" />
                     <div class="gdInfo">
                       <p class="cl03 beyond_ellipsis2 w400">
-                        常青藤爸爸会员月卡体验券
+                        {{ tradeInfo.productName }}
                       </p>
 
                       <p class="cl666 font12">直接兑换</p>
@@ -130,7 +138,7 @@
                   <div class="fx productsNum">
                     <span
                       class="operBtn-minus"
-                      :class="{ 'no-drop': skuNum === 1 }"
+                      :class="{ 'no-drop': tradeInfo.count === 1 }"
                       @click="updateCartNum(-1)"
                       >-</span
                     >
@@ -139,16 +147,18 @@
                         type="text"
                         autocomplete="off"
                         class="el-input__inner"
-                        :value="skuNum"
+                        :value="tradeInfo.count"
                         @change="
-                          updateCartNum($event.target.value * 1 - skuNum)
+                          updateCartNum(
+                            $event.target.value * 1 - tradeInfo.count
+                          )
                         "
                         oninput="value = value.replace(/[^\d]/g, '')"
                       />
                     </div>
                     <span
                       class="operBtn-plus"
-                      :class="{ 'no-drop': skuNum === 99 }"
+                      :class="{ 'no-drop': tradeInfo.count === 99 }"
                       @click="updateCartNum(1)"
                       >+</span
                     >
@@ -161,7 +171,7 @@
                 class="el-table_3_column_11 is-center"
               >
                 <div class="cell">
-                  <span class="fontF">{{ skuPrice }}积分</span>
+                  <span class="fontF">{{ tradeInfo.productPrice }}积分</span>
                 </div>
               </td>
               <td
@@ -170,7 +180,9 @@
                 class="el-table_3_column_12 is-center"
               >
                 <div class="cell">
-                  <span class="fontF">{{ skuPrice * skuNum }}积分</span>
+                  <span class="fontF"
+                    >{{ tradeInfo.productPrice * tradeInfo.count }}积分</span
+                  >
                 </div>
               </td>
             </tr>
@@ -189,14 +201,14 @@
       <p class="text-center">
         <span class="cl666">订单总计:</span>
         <span class="clRed fw font14 valItem"
-          >{{ skuPrice * skuNum }}积分 + 0元</span
+          >{{ tradeInfo.productPrice * tradeInfo.count }}积分 + 0元</span
         >
       </p>
       <div class="text-bottom">
         <p>
           <span class="font14 mr10">实际支付</span>
           <span class="clRed font22 fw">
-            {{ skuPrice * skuNum }}
+            {{ tradeInfo.productPrice * tradeInfo.count }}
             <span class="font14 normal">积分 +</span>
             0
             <span class="font14 normal">元</span></span
@@ -219,30 +231,40 @@ export default {
   name: "Trade",
   data() {
     return {
+      spuInfo: {
+        spuId: 100001,
+        count: 3,
+      },
+      tradeInfo: {},
       isActive: 0,
+      isDefault: 0,
       //用户可用积分
       userCanuseIntegral: 103,
-      //商品数量
-      skuNum: 2,
-      //商品单价
-      skuPrice: 2,
     };
   },
+  mounted() {
+    this.getTradeInfo();
+  },
   methods: {
+    async getTradeInfo() {
+      const result = await this.$API.pay.reqTradeInfo(this.spuInfo);
+      if (result.code === 2000) {
+        this.tradeInfo = result.data;
+      }
+    },
     updateCartNum(disNum) {
-      this.skuNum = this.skuNum + disNum;
-      if (this.skuNum < 1) {
-        this.skuNum = 1;
+      this.tradeInfo.count += disNum;
+      if (this.tradeInfo.count < 1) {
+        this.tradeInfo.count = 1;
         return;
       }
-      if (this.skuNum > 99) {
-        this.skuNum = 99;
+      if (this.tradeInfo.count > 99) {
+        this.tradeInfo.count = 99;
         return;
       }
     },
     handleSubmit() {
-      let totalPrice = this.skuNum * this.skuPrice;
-      if (this.userCanuseIntegral < totalPrice) {
+      if (this.userCanuseIntegral < this.totalPrice) {
         this.$message.error("可用积分不足");
         return;
       }
@@ -250,6 +272,11 @@ export default {
         name: "pay",
       };
       this.$router.push(location);
+    },
+  },
+  computed: {
+    totalPrice() {
+      return this.tradeInfo.productPrice * this.tradeInfo.count;
     },
   },
 };
@@ -341,21 +368,32 @@ export default {
         position: relative;
         >span{
           cursor: pointer;
-          color: #030303;
+          // color: #030303;
           position: absolute;
           right: 0;
           top: 15px;
         }
+      }
+      .isDefault{
+        color: black;
+        font-weight: 600;
+      }
+      .notDefault{
+        display: none;
+      }
+      &:hover .notDefault{
+        display:block;
+        color: #666;
       }
     }
     .addrItem:hover{
     box-shadow: 0 0 5px #ccc;
     cursor: default;
     }
-    .notDefault{
+    .notActive{
       background-image: url(./images/border01.png);
     }
-    .defaultArr{
+    .isActive{
       background-image: url(./images/border02.png);
     }
   }

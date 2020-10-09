@@ -129,8 +129,8 @@ html {
 }
 
 a:hover {
-  color: rgba(238, 28, 28) !important;
-  text-decoration: underline;
+  /* color: rgba(238, 28, 28) !important; */
+  /* text-decoration: underline; */
 }
 
 /* 清除浮动 */
