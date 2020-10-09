@@ -305,6 +305,316 @@
               小米有品贝医生牙刷青春版
             </span>
           </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
+        </div>
+        <div class="gdItem curPoint">
+          <div class="imgCont">
+            <img src="./img/yashua.jpg" />
+          </div>
+          <div class="smallImg">
+            <div>
+              <img src="./img/xyashua1.jpg" />
+            </div>
+            <div>
+              <img src="./img/xyashua2.jpg" />
+            </div>
+          </div>
+          <div class="payParams fx">
+            <span class="font24 clRed">
+              1690
+            </span>
+            <span class="lText clRed font12">
+              积分
+            </span>
+          </div>
+          <div class="listTags">
+            <i class="iconfont icon-ChinaMobile"></i>
+          </div>
+          <div class="fx mb5 mt5">
+            <span class="beyond_ellipsis2 title">
+              <img src="./img/qqt.png" class="param discount" />
+              小米有品贝医生牙刷青春版
+            </span>
+          </div>
+          <div class="commont">
+            <span>9999评价</span>
+            <span> 100%好评</span>
+          </div>
         </div>
       </div>
     </div>
@@ -703,10 +1013,20 @@ button {
   padding: 0;
   line-height: 22px;
 }
-.ml10 {
-  margin-left: 10px;
+.mb5 {
+  margin-bottom: 5px;
 }
-.mr10 {
-  margin-left: 10px;
+.mt5 {
+  margin-top: 5px;
+}
+.discount {
+  margin: 0 6px 0 0;
+}
+.param {
+  height: 15px;
+  vertical-align: text-bottom;
+}
+.commont {
+  color: #8e8585;
 }
 </style>
