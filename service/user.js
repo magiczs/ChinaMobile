@@ -57,12 +57,10 @@ async function register(user) {
  * @returns {Promise<*>}
  */
 async function getUserInfo(username) {
-  console.log(username);
   let res = await User.findOne(
     { username: username },
     { _id: 0, __v: 0, role: 0, created: 0, password: 0 }
   );
-  console.log(res);
   if (!res || res.n === 0) {
     throw Error(`用户名${username}不存在`);
   }

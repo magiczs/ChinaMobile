@@ -30,7 +30,7 @@ async function deleteById(id) {
  */
 async function updateProduct(id, product) {
   await isIdExist(id);
-  let res = await Product.updateOne({ _id: id }, product);
+  let res = await Product.updateOne({ spuId: id }, product);
   if (!res || res.n === 0) {
     throw Error("商品更新失败");
   }
@@ -42,6 +42,7 @@ async function updateProduct(id, product) {
  * @returns {Promise<*>}
  */
 async function findById(spuId) {
+  console.log(spuId);
   await isIdExist(spuId);
   let res = await Product.findOne(
     { spuId },
@@ -73,6 +74,7 @@ async function getProductsByPage(page = 1) {
  * @returns {Promise<void>}
  */
 async function isIdExist(spuId) {
+  console.log(1, spuId);
   let p = await Product.findOne({ spuId });
   if (!p || p.n === 0) {
     throw Error(`spuId为${spuId}的商品不存在`);

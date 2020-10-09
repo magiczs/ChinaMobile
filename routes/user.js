@@ -28,7 +28,6 @@ router.post("/register", async (req, res) => {
 router.post("/login", async (req, res) => {
   let token = await userService.login(req.body);
   let userInfo = await userService.getUserInfo(req.body.username);
-  console.log("66", userInfo);
   res.json({
     code: 200,
     data: {

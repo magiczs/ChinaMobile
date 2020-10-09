@@ -1,14 +1,14 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const schema = new mongoose.Schema({
-    name: {
-        type: String,
-        require: [true, "分类名称不能少"],
-        unique: true
-    },
-    created: {
-        type: Date,
-        default: Date.now()
-    }
+  categoryType: Number,
+  categoryLevel: Number,
+  categories: Array,
+  categoryName: String,
+  categoryId: Number,
 });
 
-module.exports = mongoose.model('category', schema);
+module.exports = mongoose.model("category", schema);
+// mongoose
+//   .model("category", schema)
+//   .create().then()
+//   .catch();

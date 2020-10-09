@@ -1,7 +1,7 @@
 {
   "wareName": "卡斐乐Cafele 苹果11手机壳透明硅胶镜头保护壳闪镀系列",
   "wareAlias": "舒适手感 全包设计",
-  "spuId": 100000,
+
   "spuImgUrl": [
     "https://jf-asset1.10086.cn/pic/ware/5ec880/3/5ec88033d5f19b2f93adc8b5.jpg",
     "https://jf-asset1.10086.cn/pic/ware/5ec880/3/5ec88035d5f19b2f93adc8b6.jpg",
@@ -78,8 +78,11 @@
   "partnerName": "上海拉众电子商务有限公司",
   "skuWareCode": "11014480",
   "wareBigKindName": "手机数码",
+  "spuId": 100000,
   "category": {
-    "categoryName": "手机数码",
-    "categoryId": 1000
-  }
+    "categoryName": "智能设备",
+    "categoryId": 1066
+  },
+  "stock": 32,
+  "isOnsale": true
 }

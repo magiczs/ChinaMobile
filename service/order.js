@@ -1,44 +1,54 @@
-const Order = require('../model/order');
-const productService = require('../service/product');
-const Big = require('big.js')
+const Order = require("../model/order");
+const productService = require("../service/product");
 
 /**
  * 添加订单
  * @param order
  * @returns {Promise<void>}
  */
-async function addOrder(order) {
-    //1.根据商品的id查询商品
-    let product = await productService.findById(order.productId);
-    if (!product) {
-        throw Error("商品不存在");
-    }
-    //判断库存是否足够
-    if (product.stock < order.count) {
-        throw Error("商品库存不够");
-    }
+async function addOrder(order, username) {
+  //1.根据商品的id查询商品 spuId
+  let product = await productService.findById(order.spuId);
+  if (!product) {
+    throw Error("商品不存在");
+  }
+  //判断库存是否足够
+  if (product.stock < order.count) {
+    throw Error("商品库存不够");
+  }
 
-    order.productName = product.name;
-    order.productPrice = product.price;
-    order.total = Big(order.productPrice).times(order.count);
-    order.created = Date.now();
-    await order.create(order);
+  order.productName = product.wareName;
+  order.productPrice = product.marketPrice;
+  order.username = username;
+  order.total = order.productPrice * order.count;
+  order.created = Date.now();
+  order.orderId = (+order.spuId + Date.now()).toString(16);
+  await Order.create(order);
 
-    //2.减去库存
-    let update = {
-        stock: product.stock - order.count
-    };
-    await productService.updateProduct(order.productId, update);
+  //2.减去库存
+  let update = {
+    stock: product.stock - order.count,
+  };
+  await productService.updateProduct(order.spuId, update);
 }
 
 /**
- * 查询订单
+ * 查询单个订单
  * @param id
  * @returns {Promise<*>}
  */
-async function getOrderById(id) {
-    let order = await Order.findOne({_id: id});
-    return order;
+async function getOrderById(id, username) {
+  let order = await Order.findOne({ orderId: id, username });
+  console.log(order);
+  return order;
+}
+
+/**
+ * 查询全部订单
+ */
+async function getOrders(username) {
+  let order = await Order.find({ username });
+  return order;
 }
 
 /**
@@ -47,11 +57,11 @@ async function getOrderById(id) {
  * @param order
  * @returns {Promise<void>}
  */
-function update(id, order) {
-    let res = Order.updateOne({_id: id}, order)
-    if (!res || res.n === 0) {
-        throw Error("订单更新失败");
-    }
+function update(productId, username, order) {
+  let res = Order.updateOne({ orderId: productId, username }, order);
+  if (!res || res.n === 0) {
+    throw Error("订单更新失败");
+  }
 }
 
 /**
@@ -59,11 +69,11 @@ function update(id, order) {
  * @param id
  * @returns {Promise<void>}
  */
-async function setOrderCancel(id) {
-    let order = await getOrderById(id);
-    order.status = 2;
-    order.cancelTime = Date.now();
-    await update(id, order);
+async function setOrderCancel(id, username) {
+  let order = await getOrderById(id, username);
+  order.status = 2;
+  order.cancelTime = Date.now();
+  await update(id, order);
 }
 
 /**
@@ -71,13 +81,17 @@ async function setOrderCancel(id) {
  * @param id
  * @returns {Promise<void>}
  */
-async function setOrderSuccess(id) {
-    let order = await getOrderById(id);
-    order.status = 1;
-    order.payTime = Date.now();
-    await update(id, order);
+async function setOrderSuccess(id, username) {
+  let order = await getOrderById(id, username);
+  order.status = 1;
+  order.payTime = Date.now();
+  await update(id, username, order);
 }
 
 module.exports = {
-    addOrder, setOrderCancel, setOrderSuccess, getOrderById
+  addOrder,
+  setOrderCancel,
+  setOrderSuccess,
+  getOrderById,
+  getOrders,
 };

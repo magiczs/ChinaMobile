@@ -1,0 +1,4851 @@
+{
+  "resultJson": [
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categoryName": "话费流量",
+              "categoryId": 2000000000000824,
+              "wareKindList": [
+                {
+                  "kindCode": 100061,
+                  "kindLevel": 3,
+                  "kindName": "话费直充"
+                },
+                {
+                  "kindCode": 120061,
+                  "kindLevel": 3,
+                  "kindName": "流量包"
+                },
+                {
+                  "kindCode": 920062,
+                  "kindLevel": 3,
+                  "kindName": "流量加油包"
+                },
+                {
+                  "kindCode": 980803,
+                  "kindLevel": 3,
+                  "kindName": "本地通话"
+                },
+                {
+                  "kindCode": 980804,
+                  "kindLevel": 3,
+                  "kindName": "短信包"
+                },
+                {
+                  "kindCode": 980805,
+                  "kindLevel": 3,
+                  "kindName": "彩信包"
+                },
+                {
+                  "kindCode": 980806,
+                  "kindLevel": 3,
+                  "kindName": "国内长途"
+                },
+                {
+                  "kindCode": 982604,
+                  "kindLevel": 3,
+                  "kindName": "国漫流量包"
+                },
+                {
+                  "kindCode": 982624,
+                  "kindLevel": 3,
+                  "kindName": "任我看流量包"
+                },
+                {
+                  "kindCode": 983464,
+                  "kindLevel": 3,
+                  "kindName": "灵活话费"
+                }
+              ]
+            }
+          ],
+          "categoryName": "话费流量",
+          "categoryId": 2000000000000133,
+          "wareKindList": [
+            {
+              "kindCode": 100061,
+              "kindLevel": 3,
+              "kindName": "话费直充"
+            },
+            {
+              "kindCode": 120061,
+              "kindLevel": 3,
+              "kindName": "流量包"
+            },
+            {
+              "kindCode": 920062,
+              "kindLevel": 3,
+              "kindName": "流量加油包"
+            },
+            {
+              "kindCode": 980803,
+              "kindLevel": 3,
+              "kindName": "本地通话"
+            },
+            {
+              "kindCode": 980804,
+              "kindLevel": 3,
+              "kindName": "短信包"
+            },
+            {
+              "kindCode": 980805,
+              "kindLevel": 3,
+              "kindName": "彩信包"
+            },
+            {
+              "kindCode": 980806,
+              "kindLevel": 3,
+              "kindName": "国内长途"
+            },
+            {
+              "kindCode": 982604,
+              "kindLevel": 3,
+              "kindName": "国漫流量包"
+            },
+            {
+              "kindCode": 982624,
+              "kindLevel": 3,
+              "kindName": "任我看流量包"
+            },
+            {
+              "kindCode": 983464,
+              "kindLevel": 3,
+              "kindName": "灵活话费"
+            }
+          ]
+        }
+      ],
+      "categoryName": "话费流量",
+      "categoryId": 2000000000000132
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "咪咕阅读",
+                  "categoryId": 2000000000000145,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981485,
+                      "kindLevel": 3,
+                      "kindName": "咪咕阅读"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "咪咕动漫",
+                  "categoryId": 2000000000000147,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981484,
+                      "kindLevel": 3,
+                      "kindName": "咪咕动漫"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "咪咕视频",
+                  "categoryId": 2000000000000148,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981488,
+                      "kindLevel": 3,
+                      "kindName": "咪咕视频"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "咪咕音乐",
+                  "categoryId": 2000000000000149,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981487,
+                      "kindLevel": 3,
+                      "kindName": "咪咕音乐"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "咪咕娱乐",
+              "categoryId": 2000000000000144,
+              "wareKindList": [
+                {
+                  "kindCode": 981484,
+                  "kindLevel": 3,
+                  "kindName": "咪咕动漫"
+                },
+                {
+                  "kindCode": 981485,
+                  "kindLevel": 3,
+                  "kindName": "咪咕阅读"
+                },
+                {
+                  "kindCode": 981486,
+                  "kindLevel": 3,
+                  "kindName": "咪咕游戏"
+                },
+                {
+                  "kindCode": 981487,
+                  "kindLevel": 3,
+                  "kindName": "咪咕音乐"
+                },
+                {
+                  "kindCode": 981488,
+                  "kindLevel": 3,
+                  "kindName": "咪咕视频"
+                },
+                {
+                  "kindCode": 982844,
+                  "kindLevel": 3,
+                  "kindName": "互联网"
+                },
+                {
+                  "kindCode": 982884,
+                  "kindLevel": 3,
+                  "kindName": "物联网"
+                }
+              ]
+            }
+          ],
+          "categoryName": "咪咕娱乐",
+          "categoryId": 2000000000000142,
+          "wareKindList": [
+            {
+              "kindCode": 981484,
+              "kindLevel": 3,
+              "kindName": "咪咕动漫"
+            },
+            {
+              "kindCode": 981485,
+              "kindLevel": 3,
+              "kindName": "咪咕阅读"
+            },
+            {
+              "kindCode": 981486,
+              "kindLevel": 3,
+              "kindName": "咪咕游戏"
+            },
+            {
+              "kindCode": 981487,
+              "kindLevel": 3,
+              "kindName": "咪咕音乐"
+            },
+            {
+              "kindCode": 981488,
+              "kindLevel": 3,
+              "kindName": "咪咕视频"
+            },
+            {
+              "kindCode": 982844,
+              "kindLevel": 3,
+              "kindName": "互联网"
+            },
+            {
+              "kindCode": 982884,
+              "kindLevel": 3,
+              "kindName": "物联网"
+            }
+          ]
+        }
+      ],
+      "categoryName": "咪咕娱乐",
+      "categoryId": 2000000000000141
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "智能语音益智早教",
+                  "categoryId": 2000000000000155,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981504,
+                      "kindLevel": 3,
+                      "kindName": "智能语音益智早教"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "智能语音数码电子",
+                  "categoryId": 2000000000000156,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981506,
+                      "kindLevel": 3,
+                      "kindName": "智能语音数码电子"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "智能语音家居",
+                  "categoryId": 2000000000000157,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981505,
+                      "kindLevel": 3,
+                      "kindName": "智能语音家居"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "智能语音",
+              "categoryId": 2000000000000154,
+              "wareKindList": [
+                {
+                  "kindCode": 940042,
+                  "kindLevel": 2,
+                  "kindName": "智能语音"
+                }
+              ]
+            },
+            {
+              "categoryType": 2,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 2,
+                  "categoryLevel": 4,
+                  "categoryName": "智能设备",
+                  "targetUrl": "/filterPages?firstKeyword=智能生活",
+                  "categoryId": 2000000000000159
+                }
+              ],
+              "categoryName": "智能生活",
+              "targetUrl": "/filterPages?firstKeyword=智能生活",
+              "categoryId": 2000000000000158
+            }
+          ],
+          "categoryName": "智能语音、智能生活",
+          "categoryId": 2000000000000153,
+          "wareKindList": [
+            {
+              "kindCode": 100152,
+              "kindLevel": 1,
+              "kindName": "智能家居"
+            }
+          ]
+        }
+      ],
+      "categoryName": "智能语音、智能生活",
+      "categoryId": 2000000000000152
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "视听",
+                  "categoryId": 2000000000000163,
+                  "wareKindList": [
+                    {
+                      "kindCode": 640061,
+                      "kindLevel": 3,
+                      "kindName": "视听"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "游戏",
+                  "categoryId": 2000000000000164,
+                  "wareKindList": [
+                    {
+                      "kindCode": 5057,
+                      "kindLevel": 3,
+                      "kindName": "游戏"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "软件",
+                  "categoryId": 2000000000000165,
+                  "wareKindList": [
+                    {
+                      "kindCode": 5058,
+                      "kindLevel": 3,
+                      "kindName": "软件"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电子书",
+                  "categoryId": 2000000000000166,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981644,
+                      "kindLevel": 3,
+                      "kindName": "电子书"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "数字礼品",
+              "categoryId": 2000000000000162,
+              "wareKindList": [
+                {
+                  "kindCode": 100114,
+                  "kindLevel": 1,
+                  "kindName": "数字礼品"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "会员权益",
+                  "categoryId": 2000000000000168,
+                  "wareKindList": [
+                    {
+                      "kindCode": 100085,
+                      "kindLevel": 1,
+                      "kindName": "权益"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "移动社交",
+              "categoryId": 2000000000000167,
+              "wareKindList": [
+                {
+                  "kindCode": 940083,
+                  "kindLevel": 2,
+                  "kindName": "移动社交"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电影票",
+                  "categoryId": 2000000000000170,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982404,
+                      "kindLevel": 3,
+                      "kindName": "电影票"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "票务",
+              "categoryId": 2000000000000169,
+              "wareKindList": [
+                {
+                  "kindCode": 940122,
+                  "kindLevel": 2,
+                  "kindName": "票务"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "在线约车",
+                  "categoryId": 2000000000000172,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981804,
+                      "kindLevel": 3,
+                      "kindName": "在线约车"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "公共交通",
+                  "categoryId": 2000000000000175,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982524,
+                      "kindLevel": 3,
+                      "kindName": "公共交通"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "酒店服务",
+                  "categoryId": 2000000000000176,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982424,
+                      "kindLevel": 3,
+                      "kindName": "酒店服务"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "旅游平台",
+                  "categoryId": 2000000000000177,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982724,
+                      "kindLevel": 3,
+                      "kindName": "旅游平台"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "贵宾厅服务",
+                  "categoryId": 2000000000000804,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982204,
+                      "kindLevel": 3,
+                      "kindName": "贵宾厅服务"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "出行",
+              "categoryId": 2000000000000171,
+              "wareKindList": [
+                {
+                  "kindCode": 100017,
+                  "kindLevel": 1,
+                  "kindName": "出行"
+                }
+              ]
+            }
+          ],
+          "categoryName": "数字生活、出行、票务",
+          "categoryId": 2000000000000161,
+          "wareKindList": [
+            {
+              "kindCode": 100114,
+              "kindLevel": 1,
+              "kindName": "数字礼品"
+            }
+          ]
+        }
+      ],
+      "categoryName": "数字生活、票务、出行",
+      "categoryId": 2000000000000160
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "咖啡饮品",
+                  "categoryId": 2000000000000181,
+                  "wareKindList": [
+                    {
+                      "kindCode": 100056,
+                      "kindLevel": 3,
+                      "kindName": "咖啡饮品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "休闲零食",
+                  "categoryId": 2000000000000182,
+                  "wareKindList": [
+                    {
+                      "kindCode": 460061,
+                      "kindLevel": 3,
+                      "kindName": "休闲零食"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "面包甜点",
+                  "categoryId": 2000000000000183,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980303,
+                      "kindLevel": 3,
+                      "kindName": "面包甜点"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "快餐",
+                  "categoryId": 2000000000000184,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980304,
+                      "kindLevel": 3,
+                      "kindName": "快餐"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "粮油副食",
+                  "categoryId": 2000000000000185,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982704,
+                      "kindLevel": 3,
+                      "kindName": "粮油副食"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "餐饮",
+              "categoryId": 2000000000000180,
+              "wareKindList": [
+                {
+                  "kindCode": 100011,
+                  "kindLevel": 1,
+                  "kindName": "餐饮"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "商超",
+                  "categoryId": 2000000000000187,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981323,
+                      "kindLevel": 3,
+                      "kindName": "商超"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "便利店",
+                  "categoryId": 2000000000000188,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981464,
+                      "kindLevel": 3,
+                      "kindName": "便利店"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "行业卖场",
+                  "categoryId": 2000000000000189,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982244,
+                      "kindLevel": 3,
+                      "kindName": "行业卖场"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "商超卖场",
+              "categoryId": 2000000000000186,
+              "wareKindList": [
+                {
+                  "kindCode": 100092,
+                  "kindLevel": 1,
+                  "kindName": "商超卖场"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "自助售货终端",
+                  "categoryId": 2000000000000785,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981263,
+                      "kindLevel": 3,
+                      "kindName": "自助售货终端"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "自助服务终端",
+                  "categoryId": 2000000000000786,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982425,
+                      "kindLevel": 3,
+                      "kindName": "自助服务终端"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "自助终端",
+              "categoryId": 2000000000000784,
+              "wareKindList": [
+                {
+                  "kindCode": 860032,
+                  "kindLevel": 2,
+                  "kindName": "自助终端"
+                }
+              ]
+            }
+          ],
+          "categoryName": "餐饮、商超、自助终端",
+          "categoryId": 2000000000000179,
+          "wareKindList": [
+            {
+              "kindCode": 100011,
+              "kindLevel": 1,
+              "kindName": "餐饮"
+            }
+          ]
+        }
+      ],
+      "categoryName": "餐饮、商超",
+      "categoryId": 2000000000000178
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "洗车保养",
+                  "categoryId": 2000000000000193,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981664,
+                      "kindLevel": 3,
+                      "kindName": "洗车保养"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "违章代缴",
+                  "categoryId": 2000000000000194,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981925,
+                      "kindLevel": 3,
+                      "kindName": "违章代缴"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "车主服务",
+                  "categoryId": 2000000000000195,
+                  "wareKindList": [
+                    {
+                      "kindCode": 860062,
+                      "kindLevel": 3,
+                      "kindName": "车主服务"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "汽车服务",
+              "categoryId": 2000000000000192,
+              "wareKindList": [
+                {
+                  "kindCode": 100083,
+                  "kindLevel": 1,
+                  "kindName": "汽车服务"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "社区便民",
+                  "categoryId": 2000000000000197,
+                  "wareKindList": [
+                    {
+                      "kindCode": 940162,
+                      "kindLevel": 2,
+                      "kindName": "便民服务"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "公用事业缴费",
+                  "categoryId": 2000000000000802,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981964,
+                      "kindLevel": 3,
+                      "kindName": "公用事业缴费"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "便民服务",
+              "categoryId": 2000000000000196,
+              "wareKindList": [
+                {
+                  "kindCode": 100009,
+                  "kindLevel": 1,
+                  "kindName": "便民服务"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "洗护服务",
+                  "categoryId": 2000000000000199,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982285,
+                      "kindLevel": 3,
+                      "kindName": "洗护服务"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "洗护服务",
+              "categoryId": 2000000000000198,
+              "wareKindList": [
+                {
+                  "kindCode": 100129,
+                  "kindLevel": 1,
+                  "kindName": "洗护服务"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "语言培训",
+                  "categoryId": 2000000000000201,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982164,
+                      "kindLevel": 3,
+                      "kindName": "语言培训"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "兴趣爱好",
+                  "categoryId": 2000000000000202,
+                  "wareKindList": [
+                    {
+                      "kindCode": 560061,
+                      "kindLevel": 3,
+                      "kindName": "兴趣爱好"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "综合培训",
+                  "categoryId": 2000000000000203,
+                  "wareKindList": [
+                    {
+                      "kindCode": 280032,
+                      "kindLevel": 2,
+                      "kindName": "教育培训"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "教育咨讯",
+                  "categoryId": 2000000000000204,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982544,
+                      "kindLevel": 3,
+                      "kindName": "教育资讯"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "早教幼教",
+                  "categoryId": 2000000000000205,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982466,
+                      "kindLevel": 3,
+                      "kindName": "早教幼教"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "职业管理",
+                  "categoryId": 2000000000000206,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982467,
+                      "kindLevel": 3,
+                      "kindName": "职业管理"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "学校教育",
+                  "categoryId": 2000000000000779,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982469,
+                      "kindLevel": 3,
+                      "kindName": "学校教育"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "教育培训",
+              "categoryId": 2000000000000200,
+              "wareKindList": [
+                {
+                  "kindCode": 100059,
+                  "kindLevel": 1,
+                  "kindName": "教育培训"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "口腔个护",
+                  "categoryId": 2000000000000209,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983427,
+                      "kindLevel": 3,
+                      "kindName": "口腔个护（新）"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "运动场馆",
+                  "categoryId": 2000000000000211,
+                  "wareKindList": [
+                    {
+                      "kindCode": 5056,
+                      "kindLevel": 3,
+                      "kindName": "运动场馆"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "休闲娱乐",
+                  "categoryId": 2000000000000212,
+                  "wareKindList": [
+                    {
+                      "kindCode": 100140,
+                      "kindLevel": 1,
+                      "kindName": "休闲娱乐"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "体育资讯",
+                  "categoryId": 2000000000000801,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982664,
+                      "kindLevel": 3,
+                      "kindName": "体育资讯"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "运动健康",
+              "categoryId": 2000000000000207,
+              "wareKindList": [
+                {
+                  "kindCode": 100147,
+                  "kindLevel": 1,
+                  "kindName": "运动健康"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "美容保健",
+                  "categoryId": 2000000000000216,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982784,
+                      "kindLevel": 3,
+                      "kindName": "美容保健"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "花卉服务",
+                  "categoryId": 2000000000000797,
+                  "wareKindList": [
+                    {
+                      "kindCode": 940182,
+                      "kindLevel": 2,
+                      "kindName": "花卉服务"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "休闲娱乐",
+              "categoryId": 2000000000000213,
+              "wareKindList": [
+                {
+                  "kindCode": 100140,
+                  "kindLevel": 1,
+                  "kindName": "休闲娱乐"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "快递配送",
+                  "categoryId": 2000000000000219,
+                  "wareKindList": [
+                    {
+                      "kindCode": 940242,
+                      "kindLevel": 2,
+                      "kindName": "快递配送"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "快递配送",
+              "categoryId": 2000000000000218,
+              "wareKindList": [
+                {
+                  "kindCode": 982486,
+                  "kindLevel": 3,
+                  "kindName": "快递配送"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "手机保障",
+                  "categoryId": 2000000000000222,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981904,
+                      "kindLevel": 3,
+                      "kindName": "手机保障"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "手机保障",
+              "categoryId": 2000000000000220,
+              "wareKindList": [
+                {
+                  "kindCode": 981904,
+                  "kindLevel": 3,
+                  "kindName": "手机保障"
+                }
+              ]
+            }
+          ],
+          "categoryName": "汽车服务、生活服务",
+          "categoryId": 2000000000000191,
+          "wareKindList": [
+            {
+              "kindCode": 100083,
+              "kindLevel": 1,
+              "kindName": "汽车服务"
+            }
+          ]
+        }
+      ],
+      "categoryName": "汽车服务、生活服务",
+      "categoryId": 2000000000000190
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "综合电商",
+                  "categoryId": 2000000000000235,
+                  "wareKindList": [
+                    {
+                      "kindCode": 940102,
+                      "kindLevel": 2,
+                      "kindName": "综合电商"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "生鲜果蔬",
+                  "categoryId": 2000000000000237,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981825,
+                      "kindLevel": 3,
+                      "kindName": "生鲜果蔬"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "珠宝饰品",
+                  "categoryId": 2000000000000242,
+                  "wareKindList": [
+                    {
+                      "kindCode": 840044,
+                      "kindLevel": 2,
+                      "kindName": "珠宝钻石"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家居清洁",
+                  "categoryId": 2000000000000244,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982124,
+                      "kindLevel": 3,
+                      "kindName": "家居清洁"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "茶酒",
+                  "categoryId": 2000000000000245,
+                  "wareKindList": [
+                    {
+                      "kindCode": 100013,
+                      "kindLevel": 1,
+                      "kindName": "茶酒"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "食品饮料",
+                  "categoryId": 2000000000000255,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982564,
+                      "kindLevel": 3,
+                      "kindName": "食品饮料"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "电商平台",
+              "categoryId": 2000000000000233,
+              "wareKindList": [
+                {
+                  "kindCode": 100024,
+                  "kindLevel": 1,
+                  "kindName": "电商平台"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "数码电子",
+                  "categoryId": 2000000000000257,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983524,
+                      "kindLevel": 3,
+                      "kindName": "集优汇数码电子"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "生活电器",
+                  "categoryId": 2000000000000258,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983527,
+                      "kindLevel": 3,
+                      "kindName": "集优汇生活电器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "个护电器",
+                  "categoryId": 2000000000000260,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983528,
+                      "kindLevel": 3,
+                      "kindName": "集优汇个护电器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家纺",
+                  "categoryId": 2000000000000261,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983529,
+                      "kindLevel": 3,
+                      "kindName": "集优汇家纺"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "厨房用品",
+                  "categoryId": 2000000000000263,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983526,
+                      "kindLevel": 3,
+                      "kindName": "集优汇厨房电器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "厨房电器",
+                  "categoryId": 2000000000000763,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983526,
+                      "kindLevel": 3,
+                      "kindName": "集优汇厨房电器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家居日用",
+                  "categoryId": 2000000000000764,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983530,
+                      "kindLevel": 3,
+                      "kindName": "集优汇家居日用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "水杯/茶具",
+                  "categoryId": 2000000000000765,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983531,
+                      "kindLevel": 3,
+                      "kindName": "集优汇水杯/茶具"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家具灯具",
+                  "categoryId": 2000000000000766,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983545,
+                      "kindLevel": 3,
+                      "kindName": "集优汇家具灯具"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "皮具箱包",
+                  "categoryId": 2000000000000767,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983533,
+                      "kindLevel": 3,
+                      "kindName": "集优汇皮具箱包"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "集优汇",
+              "categoryId": 2000000000000256,
+              "wareKindList": [
+                {
+                  "kindCode": 100161,
+                  "kindLevel": 1,
+                  "kindName": "集优汇"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "手机数码",
+                  "categoryId": 2000000000000265,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983019,
+                      "kindLevel": 3,
+                      "kindName": "小米有品手机数码"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "居家生活用品",
+                  "categoryId": 2000000000000266,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983024,
+                      "kindLevel": 3,
+                      "kindName": "小米有品居家生活用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家电",
+                  "categoryId": 2000000000000267,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983018,
+                      "kindLevel": 3,
+                      "kindName": "小米有品家电"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "健康保健",
+                  "categoryId": 2000000000000268,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983025,
+                      "kindLevel": 3,
+                      "kindName": "小米有品健康保健"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "小米有品",
+              "categoryId": 2000000000000264,
+              "wareKindList": [
+                {
+                  "kindCode": 100135,
+                  "kindLevel": 1,
+                  "kindName": "小米有品"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "服饰",
+                  "categoryId": 2000000000000270,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982904,
+                      "kindLevel": 3,
+                      "kindName": "服装配饰"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "汽车用品",
+                  "categoryId": 2000000000000271,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982910,
+                      "kindLevel": 3,
+                      "kindName": "汽车用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "美食",
+                  "categoryId": 2000000000000272,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982929,
+                      "kindLevel": 3,
+                      "kindName": "零食"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "茶冲饮品",
+                  "categoryId": 2000000000000273,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982930,
+                      "kindLevel": 3,
+                      "kindName": "茶冲饮品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "酒水",
+                  "categoryId": 2000000000000275,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982931,
+                      "kindLevel": 3,
+                      "kindName": "其它酒品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家电",
+                  "categoryId": 2000000000000277,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982937,
+                      "kindLevel": 3,
+                      "kindName": "家电"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "数码",
+                  "categoryId": 2000000000000278,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982911,
+                      "kindLevel": 3,
+                      "kindName": "手机数码"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "南北干货",
+                  "categoryId": 2000000000000811,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982907,
+                      "kindLevel": 3,
+                      "kindName": "干货品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "居家",
+                  "categoryId": 2000000000000812,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982927,
+                      "kindLevel": 3,
+                      "kindName": "居家生活用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "母婴",
+                  "categoryId": 2000000000000813,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982908,
+                      "kindLevel": 3,
+                      "kindName": "婴童用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "营养品",
+                  "categoryId": 2000000000000814,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982936,
+                      "kindLevel": 3,
+                      "kindName": "营养品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "个护",
+                  "categoryId": 2000000000000815,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982906,
+                      "kindLevel": 3,
+                      "kindName": "清洁护理用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "箱包",
+                  "categoryId": 2000000000000816,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982925,
+                      "kindLevel": 3,
+                      "kindName": "箱包"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "网易严选",
+              "categoryId": 2000000000000269,
+              "wareKindList": [
+                {
+                  "kindCode": 100125,
+                  "kindLevel": 1,
+                  "kindName": "网易严选"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "居家生活用品",
+                  "categoryId": 2000000000000282,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983521,
+                      "kindLevel": 3,
+                      "kindName": "苏宁极物居家生活用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家电",
+                  "categoryId": 2000000000000285,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983515,
+                      "kindLevel": 3,
+                      "kindName": "苏宁极物家电"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "清洁用品",
+                  "categoryId": 2000000000000286,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983520,
+                      "kindLevel": 3,
+                      "kindName": "苏宁极物清洁用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "手机数码",
+                  "categoryId": 2000000000000287,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983516,
+                      "kindLevel": 3,
+                      "kindName": "苏宁极物手机数码"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "运动户外",
+                  "categoryId": 2000000000000288,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983517,
+                      "kindLevel": 3,
+                      "kindName": "苏宁极物运动户外"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "苏宁极物",
+              "categoryId": 2000000000000280,
+              "wareKindList": [
+                {
+                  "kindCode": 100115,
+                  "kindLevel": 1,
+                  "kindName": "苏宁极物"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "手机配件",
+                  "categoryId": 2000000000000776,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983566,
+                      "kindLevel": 3,
+                      "kindName": "京东精品手机数码"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "个护化妆",
+                  "categoryId": 2000000000000777,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983568,
+                      "kindLevel": 3,
+                      "kindName": "京东精品个护化妆"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "手机配件",
+                  "categoryId": 2000000000000778,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983566,
+                      "kindLevel": 3,
+                      "kindName": "京东精品手机数码"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "京东精选",
+              "categoryId": 2000000000000775,
+              "wareKindList": [
+                {
+                  "kindCode": 940372,
+                  "kindLevel": 2,
+                  "kindName": "京东精品"
+                }
+              ]
+            }
+          ],
+          "categoryName": "电商、集优汇、小米有品",
+          "categoryId": 2000000000000230,
+          "wareKindList": [
+            {
+              "kindCode": 100160,
+              "kindLevel": 1,
+              "kindName": "综合电商"
+            }
+          ]
+        }
+      ],
+      "categoryName": "电商、集优惠、小米有品",
+      "categoryId": 2000000000000228
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "压力锅",
+                  "categoryId": 2000000000000299,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980942,
+                      "kindLevel": 3,
+                      "kindName": "压力锅"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "面包机",
+                  "categoryId": 2000000000000300,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980944,
+                      "kindLevel": 3,
+                      "kindName": "面包机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电饼铛 煎烤机",
+                  "categoryId": 2000000000000302,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980945,
+                      "kindLevel": 3,
+                      "kindName": "电饼铛/煎烤机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电烤箱",
+                  "categoryId": 2000000000000304,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980947,
+                      "kindLevel": 3,
+                      "kindName": "电烤箱"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "多用途锅",
+                  "categoryId": 2000000000000306,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980950,
+                      "kindLevel": 3,
+                      "kindName": "多用途锅"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电炖锅 电火锅",
+                  "categoryId": 2000000000000308,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980948,
+                      "kindLevel": 3,
+                      "kindName": "电炖锅/电火锅"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "豆浆机",
+                  "categoryId": 2000000000000309,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980953,
+                      "kindLevel": 3,
+                      "kindName": "豆浆机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "咖啡机",
+                  "categoryId": 2000000000000311,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980956,
+                      "kindLevel": 3,
+                      "kindName": "咖啡机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "果蔬解毒剂",
+                  "categoryId": 2000000000000313,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980957,
+                      "kindLevel": 3,
+                      "kindName": "果蔬解毒机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "微波炉",
+                  "categoryId": 2000000000000314,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980946,
+                      "kindLevel": 3,
+                      "kindName": "微波炉"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "煮蛋器",
+                  "categoryId": 2000000000000315,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980949,
+                      "kindLevel": 3,
+                      "kindName": "煮蛋器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电饭煲",
+                  "categoryId": 2000000000000316,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980941,
+                      "kindLevel": 3,
+                      "kindName": "电饭煲"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电磁炉",
+                  "categoryId": 2000000000000317,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980943,
+                      "kindLevel": 3,
+                      "kindName": "电磁炉"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电热饭盒",
+                  "categoryId": 2000000000000318,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980951,
+                      "kindLevel": 3,
+                      "kindName": "电热饭盒"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "酸奶机",
+                  "categoryId": 2000000000000319,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980955,
+                      "kindLevel": 3,
+                      "kindName": "酸奶机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "研磨机",
+                  "categoryId": 2000000000000320,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980958,
+                      "kindLevel": 3,
+                      "kindName": "研磨机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "榨汁机 料理机",
+                  "categoryId": 2000000000000321,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980954,
+                      "kindLevel": 3,
+                      "kindName": "榨汁机/料理机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "厨房电器其它",
+                  "categoryId": 2000000000000323,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980952,
+                      "kindLevel": 3,
+                      "kindName": "厨房电器其他"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "厨房电器",
+              "categoryId": 2000000000000296,
+              "wareKindList": [
+                {
+                  "kindCode": 840034,
+                  "kindLevel": 2,
+                  "kindName": "厨房电器"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "剃须刀",
+                  "categoryId": 2000000000000325,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980938,
+                      "kindLevel": 3,
+                      "kindName": "剃须刀"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "理发器",
+                  "categoryId": 2000000000000327,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980939,
+                      "kindLevel": 3,
+                      "kindName": "理发器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "口腔护理",
+                  "categoryId": 2000000000000329,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980934,
+                      "kindLevel": 3,
+                      "kindName": "口腔护理器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电吹风",
+                  "categoryId": 2000000000000331,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980936,
+                      "kindLevel": 3,
+                      "kindName": "电吹风"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "美容美发",
+                  "categoryId": 2000000000000332,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980935,
+                      "kindLevel": 3,
+                      "kindName": "美容美发器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "剃\\脱毛器",
+                  "categoryId": 2000000000000333,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980937,
+                      "kindLevel": 3,
+                      "kindName": "剃/脱毛器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "个人护理其它",
+                  "categoryId": 2000000000000334,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980940,
+                      "kindLevel": 3,
+                      "kindName": "个护电器其他"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "个人护理",
+              "categoryId": 2000000000000324,
+              "wareKindList": [
+                {
+                  "kindCode": 840033,
+                  "kindLevel": 2,
+                  "kindName": "个护电器"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "挂烫机 烫斗",
+                  "categoryId": 2000000000000336,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980928,
+                      "kindLevel": 3,
+                      "kindName": "挂烫机/熨斗"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "加湿器",
+                  "categoryId": 2000000000000337,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980924,
+                      "kindLevel": 3,
+                      "kindName": "加湿器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "除湿/干衣机",
+                  "categoryId": 2000000000000338,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980926,
+                      "kindLevel": 3,
+                      "kindName": "除湿/干衣机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电话机",
+                  "categoryId": 2000000000000339,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980927,
+                      "kindLevel": 3,
+                      "kindName": "电话机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "取暖制冷",
+                  "categoryId": 2000000000000340,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980923,
+                      "kindLevel": 3,
+                      "kindName": "取暖制冷"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "清洁净化",
+                  "categoryId": 2000000000000341,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980925,
+                      "kindLevel": 3,
+                      "kindName": "清洁净化"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "收音/录音机",
+                  "categoryId": 2000000000000342,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980929,
+                      "kindLevel": 3,
+                      "kindName": "收音/录音机"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "大家电",
+                  "categoryId": 2000000000000343,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980932,
+                      "kindLevel": 3,
+                      "kindName": "大家电"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "毛球修剪器",
+                  "categoryId": 2000000000000344,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980930,
+                      "kindLevel": 3,
+                      "kindName": "毛球修剪器"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "饮水净水",
+                  "categoryId": 2000000000000345,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980931,
+                      "kindLevel": 3,
+                      "kindName": "饮水净水"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电水壶",
+                  "categoryId": 2000000000000346,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980933,
+                      "kindLevel": 3,
+                      "kindName": "电水壶"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "生活电器其它",
+                  "categoryId": 2000000000000347,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981223,
+                      "kindLevel": 3,
+                      "kindName": "生活电器其他"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "生活电器",
+              "categoryId": 2000000000000335,
+              "wareKindList": [
+                {
+                  "kindCode": 100051,
+                  "kindLevel": 1,
+                  "kindName": "家用电器"
+                }
+              ]
+            }
+          ],
+          "categoryName": "厨房电器、生活电器",
+          "categoryId": 2000000000000295,
+          "wareKindList": [
+            {
+              "kindCode": 840034,
+              "kindLevel": 2,
+              "kindName": "厨房电器"
+            }
+          ]
+        }
+      ],
+      "categoryName": "厨房电器、生活电器",
+      "categoryId": 2000000000000294
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "口罩/耳塞/眼罩",
+                  "categoryId": 2000000000000352,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980986,
+                      "kindLevel": 3,
+                      "kindName": "口罩/耳塞/眼罩"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "劳保防护",
+                  "categoryId": 2000000000000353,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980987,
+                      "kindLevel": 3,
+                      "kindName": "劳保防护"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "整理收纳",
+                  "categoryId": 2000000000000354,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980982,
+                      "kindLevel": 3,
+                      "kindName": "整理收纳"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "整理收纳",
+                  "categoryId": 2000000000000355,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980982,
+                      "kindLevel": 3,
+                      "kindName": "整理收纳"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "清洁护理",
+                  "categoryId": 2000000000000356,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980983,
+                      "kindLevel": 3,
+                      "kindName": "清洁护理"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "婚庆/ 节庆用品",
+                  "categoryId": 2000000000000358,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980985,
+                      "kindLevel": 3,
+                      "kindName": "婚庆/节庆用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "取暖/降温",
+                  "categoryId": 2000000000000359,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980988,
+                      "kindLevel": 3,
+                      "kindName": "取暖/降温"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "洗晒/熨烫",
+                  "categoryId": 2000000000000360,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980989,
+                      "kindLevel": 3,
+                      "kindName": "洗晒/熨烫"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家居日用其他",
+                  "categoryId": 2000000000000361,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980991,
+                      "kindLevel": 3,
+                      "kindName": "家居日用其他"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "家居日用",
+              "categoryId": 2000000000000350,
+              "wareKindList": [
+                {
+                  "kindCode": 840037,
+                  "kindLevel": 2,
+                  "kindName": "家居日用"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "雨伞雨衣",
+                  "categoryId": 2000000000000357,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980990,
+                      "kindLevel": 3,
+                      "kindName": "雨伞雨衣"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "保温杯",
+                  "categoryId": 2000000000000362,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980995,
+                      "kindLevel": 3,
+                      "kindName": "保温杯"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "保温壶/保温桶",
+                  "categoryId": 2000000000000363,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980996,
+                      "kindLevel": 3,
+                      "kindName": "保温壶/保温桶"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "咖啡具",
+                  "categoryId": 2000000000000364,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980999,
+                      "kindLevel": 3,
+                      "kindName": "咖啡具"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "水杯",
+                  "categoryId": 2000000000000365,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981000,
+                      "kindLevel": 3,
+                      "kindName": "水杯"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "茶具",
+                  "categoryId": 2000000000000366,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980997,
+                      "kindLevel": 3,
+                      "kindName": "茶具"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "水杯茶具酒具其他",
+                  "categoryId": 2000000000000367,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981001,
+                      "kindLevel": 3,
+                      "kindName": "水杯茶具酒具其他"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "水杯/茶具/酒具",
+              "categoryId": 2000000000000351,
+              "wareKindList": [
+                {
+                  "kindCode": 840039,
+                  "kindLevel": 2,
+                  "kindName": "水杯/茶具/酒具"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "凉席/蚊帐",
+                  "categoryId": 2000000000000380,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981011,
+                      "kindLevel": 3,
+                      "kindName": "凉席/蚊帐"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "香薰蜡烛",
+                  "categoryId": 2000000000000381,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981009,
+                      "kindLevel": 3,
+                      "kindName": "香薰蜡烛"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "浴帘",
+                  "categoryId": 2000000000000383,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981010,
+                      "kindLevel": 3,
+                      "kindName": "浴帘"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "地毯地垫",
+                  "categoryId": 2000000000000384,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981283,
+                      "kindLevel": 3,
+                      "kindName": "地毯地垫"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "居家布艺",
+                  "categoryId": 2000000000000386,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981008,
+                      "kindLevel": 3,
+                      "kindName": "居家布艺"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家居软饰其他",
+                  "categoryId": 2000000000000388,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981012,
+                      "kindLevel": 3,
+                      "kindName": "家居软饰其他"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "挂件/装饰",
+                  "categoryId": 2000000000000389,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981005,
+                      "kindLevel": 3,
+                      "kindName": "挂件/装饰"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "挂钟/闹钟",
+                  "categoryId": 2000000000000391,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981006,
+                      "kindLevel": 3,
+                      "kindName": "挂钟/闹钟"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "家居软饰",
+              "categoryId": 2000000000000379,
+              "wareKindList": [
+                {
+                  "kindCode": 840041,
+                  "kindLevel": 2,
+                  "kindName": "家居软饰"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "床上用品",
+                  "categoryId": 2000000000000394,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981002,
+                      "kindLevel": 3,
+                      "kindName": "床上用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "毛巾浴巾",
+                  "categoryId": 2000000000000395,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981003,
+                      "kindLevel": 3,
+                      "kindName": "毛巾浴巾"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "家纺其它",
+                  "categoryId": 2000000000000396,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981004,
+                      "kindLevel": 3,
+                      "kindName": "家纺其它"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "家纺",
+              "categoryId": 2000000000000392,
+              "wareKindList": [
+                {
+                  "kindCode": 100045,
+                  "kindLevel": 1,
+                  "kindName": "家纺"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "灯饰照明",
+                  "categoryId": 2000000000000398,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981014,
+                      "kindLevel": 3,
+                      "kindName": "灯饰照明"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "生活小家具",
+                  "categoryId": 2000000000000399,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981013,
+                      "kindLevel": 3,
+                      "kindName": "生活小家具"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "家具灯具",
+              "categoryId": 2000000000000397,
+              "wareKindList": [
+                {
+                  "kindCode": 840042,
+                  "kindLevel": 2,
+                  "kindName": "家具灯具"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "五金电工",
+                  "categoryId": 2000000000000402,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981016,
+                      "kindLevel": 3,
+                      "kindName": "五金电工"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "五金家装",
+              "categoryId": 2000000000000400,
+              "wareKindList": [
+                {
+                  "kindCode": 840043,
+                  "kindLevel": 2,
+                  "kindName": "五金家装"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "烹饪锅具",
+                  "categoryId": 2000000000000404,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980992,
+                      "kindLevel": 3,
+                      "kindName": "烹饪锅具"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "烹饪厨具",
+                  "categoryId": 2000000000000405,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980994,
+                      "kindLevel": 3,
+                      "kindName": "烹饪厨具"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "保鲜/收纳",
+                  "categoryId": 2000000000000406,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980993,
+                      "kindLevel": 3,
+                      "kindName": "保鲜/收纳"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "厨房用品",
+              "categoryId": 2000000000000403,
+              "wareKindList": [
+                {
+                  "kindCode": 840038,
+                  "kindLevel": 2,
+                  "kindName": "厨房用品"
+                }
+              ]
+            }
+          ],
+          "categoryName": "家居、家纺、家装、厨具",
+          "categoryId": 2000000000000349,
+          "wareKindList": [
+            {
+              "kindCode": 100046,
+              "kindLevel": 1,
+              "kindName": "家居"
+            }
+          ]
+        }
+      ],
+      "categoryName": "家居家纺家装厨具",
+      "categoryId": 2000000000000348
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "充电器/数据线",
+                  "categoryId": 2000000000000410,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980963,
+                      "kindLevel": 3,
+                      "kindName": "充电器/数据线"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "手机配件",
+                  "categoryId": 2000000000000411,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980964,
+                      "kindLevel": 3,
+                      "kindName": "手机配件"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "数码配件",
+                  "categoryId": 2000000000000412,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980965,
+                      "kindLevel": 3,
+                      "kindName": "数码配件"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "摄影摄像",
+                  "categoryId": 2000000000000413,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980968,
+                      "kindLevel": 3,
+                      "kindName": "摄影摄像"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "耳机/耳麦",
+                  "categoryId": 2000000000000414,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980960,
+                      "kindLevel": 3,
+                      "kindName": "耳机/耳麦"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "移动电源",
+                  "categoryId": 2000000000000415,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980966,
+                      "kindLevel": 3,
+                      "kindName": "移动电源"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "时尚影音",
+                  "categoryId": 2000000000000416,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980961,
+                      "kindLevel": 3,
+                      "kindName": "时尚影音"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电子教育",
+                  "categoryId": 2000000000000417,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980959,
+                      "kindLevel": 3,
+                      "kindName": "电子教育"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "数码电子其它",
+                  "categoryId": 2000000000000418,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980962,
+                      "kindLevel": 3,
+                      "kindName": "数码电子其他"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "手机",
+                  "categoryId": 2000000000000795,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980967,
+                      "kindLevel": 3,
+                      "kindName": "手机"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "数码电子",
+              "categoryId": 2000000000000409,
+              "wareKindList": [
+                {
+                  "kindCode": 840035,
+                  "kindLevel": 2,
+                  "kindName": "数码电子"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "平板电脑",
+                  "categoryId": 2000000000000420,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980971,
+                      "kindLevel": 3,
+                      "kindName": "平板电脑"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电脑配件",
+                  "categoryId": 2000000000000421,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980977,
+                      "kindLevel": 3,
+                      "kindName": "电脑配件"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "移动硬盘",
+                  "categoryId": 2000000000000422,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980975,
+                      "kindLevel": 3,
+                      "kindName": "移动硬盘"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "文具/耗材",
+                  "categoryId": 2000000000000423,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980980,
+                      "kindLevel": 3,
+                      "kindName": "文具/耗材"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "外设产品",
+                  "categoryId": 2000000000000424,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980978,
+                      "kindLevel": 3,
+                      "kindName": "外设产品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "U盘",
+                  "categoryId": 2000000000000425,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980972,
+                      "kindLevel": 3,
+                      "kindName": "U盘"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "网络设备",
+                  "categoryId": 2000000000000426,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980970,
+                      "kindLevel": 3,
+                      "kindName": "网络设备"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电脑办公其他",
+                  "categoryId": 2000000000000427,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980979,
+                      "kindLevel": 3,
+                      "kindName": "电脑办公其他"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "办公设备其他",
+                  "categoryId": 2000000000000428,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980981,
+                      "kindLevel": 3,
+                      "kindName": "办公设备"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "电脑/办公",
+              "categoryId": 2000000000000419,
+              "wareKindList": [
+                {
+                  "kindCode": 840036,
+                  "kindLevel": 2,
+                  "kindName": "电脑办公"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "智能语音",
+                  "categoryId": 2000000000000430,
+                  "wareKindList": [
+                    {
+                      "kindCode": 940042,
+                      "kindLevel": 2,
+                      "kindName": "智能语音"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "智能设备",
+                  "categoryId": 2000000000000431,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980969,
+                      "kindLevel": 3,
+                      "kindName": "智能设备"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "智能设备",
+              "categoryId": 2000000000000429,
+              "wareKindList": [
+                {
+                  "kindCode": 980969,
+                  "kindLevel": 3,
+                  "kindName": "智能设备"
+                }
+              ]
+            }
+          ],
+          "categoryName": "手机数码、电脑办公",
+          "categoryId": 2000000000000408,
+          "wareKindList": [
+            {
+              "kindCode": 100112,
+              "kindLevel": 1,
+              "kindName": "手机数码"
+            }
+          ]
+        }
+      ],
+      "categoryName": "手机数码、电脑办公",
+      "categoryId": 2000000000000407
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "户外装备",
+                  "categoryId": 2000000000000435,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981043,
+                      "kindLevel": 3,
+                      "kindName": "户外装备"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "垂钓用品",
+                  "categoryId": 2000000000000436,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981042,
+                      "kindLevel": 3,
+                      "kindName": "垂钓用品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "骑行运动",
+                  "categoryId": 2000000000000437,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981044,
+                      "kindLevel": 3,
+                      "kindName": "骑行运动"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "户外运动",
+              "categoryId": 2000000000000434,
+              "wareKindList": [
+                {
+                  "kindCode": 840048,
+                  "kindLevel": 2,
+                  "kindName": "户外运动"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "健身训练",
+                  "categoryId": 2000000000000439,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981050,
+                      "kindLevel": 3,
+                      "kindName": "健身训练"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "体育用品",
+                  "categoryId": 2000000000000440,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981049,
+                      "kindLevel": 3,
+                      "kindName": "体育用品"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "体育健身",
+              "categoryId": 2000000000000438,
+              "wareKindList": [
+                {
+                  "kindCode": 840049,
+                  "kindLevel": 2,
+                  "kindName": "体育健身"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "汽车装饰",
+                  "categoryId": 2000000000000442,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981051,
+                      "kindLevel": 3,
+                      "kindName": "汽车装饰"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "汽车安全",
+                  "categoryId": 2000000000000443,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981054,
+                      "kindLevel": 3,
+                      "kindName": "汽车安全"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "汽车养护",
+                  "categoryId": 2000000000000444,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981052,
+                      "kindLevel": 3,
+                      "kindName": "汽车养护"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "汽车电子",
+                  "categoryId": 2000000000000445,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981053,
+                      "kindLevel": 3,
+                      "kindName": "汽车电子"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "汽车用品",
+              "categoryId": 2000000000000441,
+              "wareKindList": [
+                {
+                  "kindCode": 840050,
+                  "kindLevel": 2,
+                  "kindName": "汽车用品"
+                }
+              ]
+            }
+          ],
+          "categoryName": "户外运动、汽车用品",
+          "categoryId": 2000000000000433,
+          "wareKindList": [
+            {
+              "kindCode": 840048,
+              "kindLevel": 2,
+              "kindName": "户外运动"
+            }
+          ]
+        }
+      ],
+      "categoryName": "户外运动、汽车用品",
+      "categoryId": 2000000000000432
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "皮带/腰带",
+                  "categoryId": 2000000000000450,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981064,
+                      "kindLevel": 3,
+                      "kindName": "皮带/腰带"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "眼镜",
+                  "categoryId": 2000000000000451,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981067,
+                      "kindLevel": 3,
+                      "kindName": "眼镜"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "围巾/帽子/手套",
+                  "categoryId": 2000000000000452,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981065,
+                      "kindLevel": 3,
+                      "kindName": "围巾/帽子/手套"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "服装配饰",
+              "categoryId": 2000000000000449,
+              "wareKindList": [
+                {
+                  "kindCode": 840053,
+                  "kindLevel": 2,
+                  "kindName": "服装配饰"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "女士内衣",
+                  "categoryId": 2000000000000454,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981057,
+                      "kindLevel": 3,
+                      "kindName": "女士内衣"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "睡衣/家居服",
+                  "categoryId": 2000000000000455,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981059,
+                      "kindLevel": 3,
+                      "kindName": "睡衣/家居服"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "男士内衣",
+                  "categoryId": 2000000000000456,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981058,
+                      "kindLevel": 3,
+                      "kindName": "男士内衣"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "精品内衣",
+              "categoryId": 2000000000000453,
+              "wareKindList": [
+                {
+                  "kindCode": 840052,
+                  "kindLevel": 2,
+                  "kindName": "精品内衣"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "童装",
+                  "categoryId": 2000000000000787,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982378,
+                      "kindLevel": 3,
+                      "kindName": "童装"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "男装/女装/童装",
+              "categoryId": 2000000000000457,
+              "wareKindList": [
+                {
+                  "kindCode": 840051,
+                  "kindLevel": 2,
+                  "kindName": "男装/女装/童装"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "时尚女鞋",
+                  "categoryId": 2000000000000461,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981068,
+                      "kindLevel": 3,
+                      "kindName": "时尚女鞋"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "潮流女包",
+                  "categoryId": 2000000000000462,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981069,
+                      "kindLevel": 3,
+                      "kindName": "潮流女包"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "功能箱包",
+                  "categoryId": 2000000000000463,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981072,
+                      "kindLevel": 3,
+                      "kindName": "功能箱包"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "精品男包",
+                  "categoryId": 2000000000000464,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981071,
+                      "kindLevel": 3,
+                      "kindName": "精品男包"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "鞋靴箱包",
+              "categoryId": 2000000000000460,
+              "wareKindList": [
+                {
+                  "kindCode": 840054,
+                  "kindLevel": 2,
+                  "kindName": "鞋靴箱包"
+                }
+              ]
+            }
+          ],
+          "categoryName": "服装配饰、鞋靴箱包",
+          "categoryId": 2000000000000447,
+          "wareKindList": [
+            {
+              "kindCode": 840053,
+              "kindLevel": 2,
+              "kindName": "服装配饰"
+            }
+          ]
+        }
+      ],
+      "categoryName": "服装配饰、鞋靴箱包",
+      "categoryId": 2000000000000446
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "日常护理",
+                  "categoryId": 2000000000000468,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981077,
+                      "kindLevel": 3,
+                      "kindName": "日常护理"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "宝宝洗护",
+                  "categoryId": 2000000000000469,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981080,
+                      "kindLevel": 3,
+                      "kindName": "宝宝洗护"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "喂养用品",
+                  "categoryId": 2000000000000470,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981076,
+                      "kindLevel": 3,
+                      "kindName": "喂养用品"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "孕婴用品",
+              "categoryId": 2000000000000467,
+              "wareKindList": [
+                {
+                  "kindCode": 840055,
+                  "kindLevel": 2,
+                  "kindName": "孕婴用品"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "车床出行",
+                  "categoryId": 2000000000000473,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981087,
+                      "kindLevel": 3,
+                      "kindName": "车床出行"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "儿童户外",
+                  "categoryId": 2000000000000474,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981086,
+                      "kindLevel": 3,
+                      "kindName": "儿童户外"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "婴幼玩具",
+                  "categoryId": 2000000000000475,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981088,
+                      "kindLevel": 3,
+                      "kindName": "婴幼玩具"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "益智早教",
+                  "categoryId": 2000000000000476,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981504,
+                      "kindLevel": 3,
+                      "kindName": "智能语音益智早教"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "户外运动车床玩具",
+              "categoryId": 2000000000000472,
+              "wareKindList": [
+                {
+                  "kindCode": 840057,
+                  "kindLevel": 2,
+                  "kindName": "户外运动车床玩具"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "洗发护发",
+                  "categoryId": 2000000000000478,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981089,
+                      "kindLevel": 3,
+                      "kindName": "洗发护发"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "男士护肤",
+                  "categoryId": 2000000000000479,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981092,
+                      "kindLevel": 3,
+                      "kindName": "男士护肤"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "面部护肤",
+                  "categoryId": 2000000000000480,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981093,
+                      "kindLevel": 3,
+                      "kindName": "面部护肤"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "口腔清洁",
+                  "categoryId": 2000000000000481,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981094,
+                      "kindLevel": 3,
+                      "kindName": "口腔清洁"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "彩妆香水",
+                  "categoryId": 2000000000000482,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981095,
+                      "kindLevel": 3,
+                      "kindName": "彩妆香水"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "身体护肤",
+                  "categoryId": 2000000000000483,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981091,
+                      "kindLevel": 3,
+                      "kindName": "身体护肤"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "卫生护理",
+                  "categoryId": 2000000000000484,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981090,
+                      "kindLevel": 3,
+                      "kindName": "卫生护理"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "个护化妆",
+              "categoryId": 2000000000000477,
+              "wareKindList": [
+                {
+                  "kindCode": 100030,
+                  "kindLevel": 1,
+                  "kindName": "个护化妆"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "生活保健",
+                  "categoryId": 2000000000000488,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981096,
+                      "kindLevel": 3,
+                      "kindName": "生活保健"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "健康保健",
+              "categoryId": 2000000000000485,
+              "wareKindList": [
+                {
+                  "kindCode": 100054,
+                  "kindLevel": 1,
+                  "kindName": "健康保健"
+                }
+              ]
+            }
+          ],
+          "categoryName": "母婴、玩具、洗护、保健",
+          "categoryId": 2000000000000466,
+          "wareKindList": [
+            {
+              "kindCode": 982352,
+              "kindLevel": 3,
+              "kindName": "母婴营养品"
+            }
+          ]
+        }
+      ],
+      "categoryName": "母婴、玩具、洗护、保健",
+      "categoryId": 2000000000000465
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "天然玉石",
+                  "categoryId": 2000000000000492,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981021,
+                      "kindLevel": 3,
+                      "kindName": "天然玉石饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "宝石首饰",
+                  "categoryId": 2000000000000493,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981018,
+                      "kindLevel": 3,
+                      "kindName": "宝石首饰"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "玉器饰品",
+                  "categoryId": 2000000000000494,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981022,
+                      "kindLevel": 3,
+                      "kindName": "玉器饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "翡翠饰品",
+                  "categoryId": 2000000000000495,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981024,
+                      "kindLevel": 3,
+                      "kindName": "翡翠饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "黄金饰品",
+                  "categoryId": 2000000000000496,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981023,
+                      "kindLevel": 3,
+                      "kindName": "黄金饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "珍珠饰品",
+                  "categoryId": 2000000000000497,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981023,
+                      "kindLevel": 3,
+                      "kindName": "黄金饰品"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "珠宝钻石",
+              "categoryId": 2000000000000491,
+              "wareKindList": [
+                {
+                  "kindCode": 840044,
+                  "kindLevel": 2,
+                  "kindName": "珠宝钻石"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "戒指",
+                  "categoryId": 2000000000000499,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981027,
+                      "kindLevel": 3,
+                      "kindName": "戒指-银饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "耳饰",
+                  "categoryId": 2000000000000500,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981026,
+                      "kindLevel": 3,
+                      "kindName": "耳饰-银饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "手链/手镯/脚链",
+                  "categoryId": 2000000000000501,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981029,
+                      "kindLevel": 3,
+                      "kindName": "手链/手镯/脚链-银饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "儿童饰品",
+                  "categoryId": 2000000000000502,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981025,
+                      "kindLevel": 3,
+                      "kindName": "儿童饰品-银饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "套装",
+                  "categoryId": 2000000000000503,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981030,
+                      "kindLevel": 3,
+                      "kindName": "套装-银饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "项链/吊坠",
+                  "categoryId": 2000000000000504,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981031,
+                      "kindLevel": 3,
+                      "kindName": "项链/吊坠-银饰品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "银饰品其他",
+                  "categoryId": 2000000000000505,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981028,
+                      "kindLevel": 3,
+                      "kindName": "银饰品其他"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "银饰品",
+              "categoryId": 2000000000000498,
+              "wareKindList": [
+                {
+                  "kindCode": 840045,
+                  "kindLevel": 2,
+                  "kindName": "银饰品"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "天然木饰",
+                  "categoryId": 2000000000000507,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981032,
+                      "kindLevel": 3,
+                      "kindName": "天然木饰"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "水晶玛瑙",
+                  "categoryId": 2000000000000509,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981033,
+                      "kindLevel": 3,
+                      "kindName": "水晶玛瑙"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "合金饰品",
+                  "categoryId": 2000000000000510,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981035,
+                      "kindLevel": 3,
+                      "kindName": "合金饰品"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "流行饰品",
+              "categoryId": 2000000000000506,
+              "wareKindList": [
+                {
+                  "kindCode": 840046,
+                  "kindLevel": 2,
+                  "kindName": "流行饰品"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "男士手表",
+                  "categoryId": 2000000000000512,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981040,
+                      "kindLevel": 3,
+                      "kindName": "男士手表"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "女士手表",
+                  "categoryId": 2000000000000513,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981039,
+                      "kindLevel": 3,
+                      "kindName": "女士手表"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "儿童手表",
+                  "categoryId": 2000000000000514,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981041,
+                      "kindLevel": 3,
+                      "kindName": "儿童手表"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "情侣表",
+                  "categoryId": 2000000000000515,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981038,
+                      "kindLevel": 3,
+                      "kindName": "情侣表"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "手表",
+              "categoryId": 2000000000000511,
+              "wareKindList": [
+                {
+                  "kindCode": 100108,
+                  "kindLevel": 1,
+                  "kindName": "手表"
+                }
+              ]
+            }
+          ],
+          "categoryName": "珠宝首饰、手表、藏品",
+          "categoryId": 2000000000000490,
+          "wareKindList": [
+            {
+              "kindCode": 100155,
+              "kindLevel": 1,
+              "kindName": "珠宝首饰"
+            }
+          ]
+        }
+      ],
+      "categoryName": "珠宝首饰、手表、藏品",
+      "categoryId": 2000000000000489
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "坚果",
+                  "categoryId": 2000000000000522,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982333,
+                      "kindLevel": 3,
+                      "kindName": "坚果-"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "枣",
+                  "categoryId": 2000000000000523,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982334,
+                      "kindLevel": 3,
+                      "kindName": "枣"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "巧克力",
+                  "categoryId": 2000000000000524,
+                  "wareKindList": [
+                    {
+                      "kindCode": 980448,
+                      "kindLevel": 3,
+                      "kindName": "巧克力"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "糖果",
+                  "categoryId": 2000000000000525,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982336,
+                      "kindLevel": 3,
+                      "kindName": "糖果"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "蜜饯果铺",
+                  "categoryId": 2000000000000526,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982337,
+                      "kindLevel": 3,
+                      "kindName": "蜜饯果脯"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "肉松",
+                  "categoryId": 2000000000000527,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982338,
+                      "kindLevel": 3,
+                      "kindName": "肉松"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "肉干",
+                  "categoryId": 2000000000000528,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982346,
+                      "kindLevel": 3,
+                      "kindName": "肉干"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "饼干",
+                  "categoryId": 2000000000000529,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982344,
+                      "kindLevel": 3,
+                      "kindName": "饼干"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "糕点",
+                  "categoryId": 2000000000000530,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982345,
+                      "kindLevel": 3,
+                      "kindName": "糕点"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "休闲零食",
+              "categoryId": 2000000000000521,
+              "wareKindList": [
+                {
+                  "kindCode": 940203,
+                  "kindLevel": 2,
+                  "kindName": "休闲零食"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "干货",
+                  "categoryId": 2000000000000532,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982339,
+                      "kindLevel": 3,
+                      "kindName": "干货"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "食用油",
+                  "categoryId": 2000000000000533,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982340,
+                      "kindLevel": 3,
+                      "kindName": "食用油-"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "米面杂粮",
+                  "categoryId": 2000000000000534,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982341,
+                      "kindLevel": 3,
+                      "kindName": "米面杂粮-"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "烘焙原料",
+                  "categoryId": 2000000000000535,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982342,
+                      "kindLevel": 3,
+                      "kindName": "烘焙原料"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "调味品",
+                  "categoryId": 2000000000000536,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982347,
+                      "kindLevel": 3,
+                      "kindName": "调味品-"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "方便食品",
+                  "categoryId": 2000000000000537,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982348,
+                      "kindLevel": 3,
+                      "kindName": "方便食品"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "蛋类",
+                  "categoryId": 2000000000000773,
+                  "wareKindList": [
+                    {
+                      "kindCode": 141095,
+                      "kindLevel": 3,
+                      "kindName": "蛋类"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "粮油干货",
+              "categoryId": 2000000000000531,
+              "wareKindList": [
+                {
+                  "kindCode": 940212,
+                  "kindLevel": 2,
+                  "kindName": "粮油/干货"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "米面杂粮-进口",
+                  "categoryId": 2000000000000539,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982366,
+                      "kindLevel": 3,
+                      "kindName": "米面杂粮-进口"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "进口食品",
+              "categoryId": 2000000000000538,
+              "wareKindList": [
+                {
+                  "kindCode": 940204,
+                  "kindLevel": 2,
+                  "kindName": "进口食品"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "白酒",
+                  "categoryId": 2000000000000541,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982368,
+                      "kindLevel": 3,
+                      "kindName": "白酒"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "葡萄酒",
+                  "categoryId": 2000000000000542,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982384,
+                      "kindLevel": 3,
+                      "kindName": "葡萄酒"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "红茶",
+                  "categoryId": 2000000000000543,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982373,
+                      "kindLevel": 3,
+                      "kindName": "红茶"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "红茶",
+                  "categoryId": 2000000000000544,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982373,
+                      "kindLevel": 3,
+                      "kindName": "红茶"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "绿茶",
+                  "categoryId": 2000000000000545,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982386,
+                      "kindLevel": 3,
+                      "kindName": "绿茶"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "花茶",
+                  "categoryId": 2000000000000546,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982374,
+                      "kindLevel": 3,
+                      "kindName": "花果茶"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "酒品茶饮",
+              "categoryId": 2000000000000540,
+              "wareKindList": [
+                {
+                  "kindCode": 940232,
+                  "kindLevel": 2,
+                  "kindName": "酒品"
+                }
+              ]
+            },
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "时尚生活",
+                  "categoryId": 2000000000000548,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981584,
+                      "kindLevel": 3,
+                      "kindName": "期刊-时尚生活"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "童书",
+                  "categoryId": 2000000000000549,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982326,
+                      "kindLevel": 3,
+                      "kindName": "印刷品-童书"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "人文社科",
+                  "categoryId": 2000000000000550,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982328,
+                      "kindLevel": 3,
+                      "kindName": "印刷品-人文社科"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "图书/期刊",
+              "categoryId": 2000000000000547,
+              "wareKindList": [
+                {
+                  "kindCode": 100016,
+                  "kindLevel": 1,
+                  "kindName": "出版物"
+                }
+              ]
+            }
+          ],
+          "categoryName": "食品、茶酒、图书/期刊",
+          "categoryId": 2000000000000520,
+          "wareKindList": [
+            {
+              "kindCode": 100100,
+              "kindLevel": 1,
+              "kindName": "食品"
+            }
+          ]
+        }
+      ],
+      "categoryName": "食品、茶酒、图书/期刊",
+      "categoryId": 2000000000000519
+    },
+    {
+      "categoryType": 0,
+      "categoryLevel": 1,
+      "categories": [
+        {
+          "categoryType": 1,
+          "categoryLevel": 2,
+          "categories": [
+            {
+              "categoryType": 1,
+              "categoryLevel": 3,
+              "categories": [
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "电商积分",
+                  "categoryId": 2000000000000554,
+                  "wareKindList": [
+                    {
+                      "kindCode": 982824,
+                      "kindLevel": 3,
+                      "kindName": "电商积分"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "金融积分",
+                  "categoryId": 2000000000000555,
+                  "wareKindList": [
+                    {
+                      "kindCode": 981463,
+                      "kindLevel": 3,
+                      "kindName": "金融积分"
+                    }
+                  ]
+                },
+                {
+                  "categoryType": 1,
+                  "categoryLevel": 4,
+                  "categoryName": "酒店积分",
+                  "categoryId": 2000000000000556,
+                  "wareKindList": [
+                    {
+                      "kindCode": 983124,
+                      "kindLevel": 3,
+                      "kindName": "酒店积分"
+                    }
+                  ]
+                }
+              ],
+              "categoryName": "积分互换",
+              "categoryId": 2000000000000553,
+              "wareKindList": [
+                {
+                  "kindCode": 100117,
+                  "kindLevel": 1,
+                  "kindName": "通用积分"
+                }
+              ]
+            }
+          ],
+          "categoryName": "积分互换",
+          "categoryId": 2000000000000552,
+          "wareKindList": [
+            {
+              "kindCode": 100117,
+              "kindLevel": 1,
+              "kindName": "通用积分"
+            }
+          ]
+        }
+      ],
+      "categoryName": "积分互换",
+      "categoryId": 2000000000000551
+    }
+  ]
+}

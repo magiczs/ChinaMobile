@@ -35,6 +35,7 @@ const schema = new mongoose.Schema({
     type: Array,
     require: [true, "基础销售属性"],
   },
+
   partnerName: String,
   skuWareCode: String,
   wareBigKindName: String,
@@ -58,3 +59,7 @@ const schema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("product", schema);
+// mongoose
+//   .model("product", schema)
+//   .create().then()
+//   .catch();
