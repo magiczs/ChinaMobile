@@ -5,7 +5,8 @@
         <div class="headerCenter">
           <div class="logo">
             <img src="./images/logo230x42.30b1340.png" alt="" />
-            <a class="back" href="javascript:;">返回</a>
+            <!-- <a class="back" href="javascript:;">返回</a> -->
+            <router-link class="back" to="/Home">返回</router-link>
           </div>
         </div>
       </div>
@@ -63,7 +64,7 @@
                   <span class="line">|</span>
                   <span class="getShortMes1">获取短信验证码</span>
                 </p>
-                <button class="login">登录</button>
+                <button class="login" @click="codeLogin">登录</button>
               </li>
             </ul>
             <ul v-else-if="isShow == 1" class="tabsContent2">
@@ -118,7 +119,7 @@
                   <span class="error-msg">{{ errors.first("code") }}</span>
                   <span class="line2">|</span>
                   <span class="getShortMes">获取短信验证码</span>
-                  <button class="login2">登录</button>
+                  <button class="login2" @click="passwordLogin()">登录</button>
                 </p>
               </li>
             </ul>
@@ -130,6 +131,7 @@
 </template>
 
 <script>
+import { reqLogin } from "@/api";
 export default {
   name: "Login",
   data() {
@@ -144,6 +146,26 @@ export default {
     changeTab(flag) {
       // console.log(111);
       this.isShow = flag;
+    },
+    codeLogin() {
+      console.log(111);
+    },
+    async passwordLogin() {
+      // console.log(222);
+      let username = this.mobile;
+
+      try {
+        const result = await reqLogin({ username, password: this.password });
+        if (result.code === 200) {
+          let token = result.data.token;
+          // console.log(token);
+          localStorage.setItem("token", token);
+          alert("恭喜登录成功");
+          this.$router.push("/home");
+        }
+      } catch (error) {
+        console.log(error.message);
+      }
     },
   },
 };
