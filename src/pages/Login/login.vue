@@ -32,16 +32,34 @@
               <!-- 短信随机码登录 -->
               <li class="shortMessage">
                 <p>
-                  <input type="text" placeholder="请输入手机号码" class="txt" />
-                  <span>请输入手机号码</span>
+                  <input
+                    class="txt"
+                    placeholder="请输入手机号码"
+                    v-model="mobile"
+                    name="phone"
+                    v-validate="{ required: true, regex: /^1\d{10}$/ }"
+                    :class="{ invalid: errors.has('phone') }"
+                  />
+                  <span class="error-msg">{{ errors.first("phone") }}</span>
+                  <!-- <input type="text" placeholder="请输入手机号码" class="txt" />
+                  <span>请输入手机号码</span> -->
                 </p>
                 <p>
                   <input
+                    placeholder="请输入短信验证码"
+                    class="txt2"
+                    v-model="code"
+                    name="code"
+                    v-validate="{ required: true, regex: /^\d{6}$/ }"
+                    :class="{ invalid: errors.has('code') }"
+                  />
+                  <span class="error-msg">{{ errors.first("code") }}</span>
+                  <!-- <input
                     type="text"
                     placeholder="请输入短信验证码"
                     class="txt2"
                   />
-                  <span>请输入验证码</span>
+                  <span>请输入验证码</span> -->
                   <span class="line">|</span>
                   <span class="getShortMes1">获取短信验证码</span>
                 </p>
@@ -53,28 +71,51 @@
               <li class="servePassword">
                 <p>
                   <input
+                    class="txt3"
+                    placeholder="请输入手机号码"
+                    v-model="mobile"
+                    name="phone"
+                    v-validate="{ required: true, regex: /^1\d{10}$/ }"
+                    :class="{ invalid: errors.has('phone') }"
+                  />
+                  <span class="error-msg">{{ errors.first("phone") }}</span>
+                  <!-- <input
                     type="text"
                     placeholder="请输入手机号码"
                     class="txt3"
+                    
                   />
-                  <span>请输入手机号码</span>
+                  <span>请输入手机号码</span> -->
                 </p>
                 <p>
                   <input
+                    type="password"
+                    placeholder="请输入服务密码"
+                    class="txt4"
+                    v-model="password"
+                    name="password"
+                    v-validate="{ required: true, regex: /^\w{6,20}$/ }"
+                    :class="{ invalid: errors.has('password') }"
+                  />
+                  <span class="error-msg">{{ errors.first("password") }}</span>
+                  <!-- <input
                     type="text"
                     placeholder="请输入服务密码"
                     class="txt4"
                   />
-                  <span>请输入服务密码</span>
+                  <span>请输入服务密码</span> -->
                   <i>忘记密码，请咨询10086</i>
                 </p>
                 <p>
                   <input
-                    type="text"
                     placeholder="请输入短信验证码"
                     class="txt5"
+                    v-model="code"
+                    name="code"
+                    v-validate="{ required: true, regex: /^\d{6}$/ }"
+                    :class="{ invalid: errors.has('code') }"
                   />
-                  <span>请输入验证码</span>
+                  <span class="error-msg">{{ errors.first("code") }}</span>
                   <span class="line2">|</span>
                   <span class="getShortMes">获取短信验证码</span>
                   <button class="login2">登录</button>
@@ -94,6 +135,9 @@ export default {
   data() {
     return {
       isShow: 0,
+      mobile: "",
+      password: "",
+      code: "",
     };
   },
   methods: {
@@ -106,12 +150,11 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
 * {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-decoration:none
+  text-decoration: none;
 }
 .app {
   .headerCenter {
@@ -130,7 +173,7 @@ export default {
         position: absolute;
         right: 0;
         bottom: 30px;
-        color:#666
+        color: #666;
       }
     }
   }
