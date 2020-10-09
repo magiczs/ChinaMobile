@@ -19,6 +19,8 @@ async function addOrder(order, username) {
 
   order.productName = product.wareName;
   order.productPrice = product.marketPrice;
+  order.gsmTag = product.gsmTag;
+  order.defaultImg = product.spuImgUrl[0];
   order.username = username;
   order.total = order.productPrice * order.count;
   order.created = Date.now();
@@ -30,6 +32,7 @@ async function addOrder(order, username) {
     stock: product.stock - order.count,
   };
   await productService.updateProduct(order.spuId, update);
+  return order;
 }
 
 /**
@@ -39,7 +42,6 @@ async function addOrder(order, username) {
  */
 async function getOrderById(id, username) {
   let order = await Order.findOne({ orderId: id, username });
-  console.log(order);
   return order;
 }
 

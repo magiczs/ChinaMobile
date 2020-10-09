@@ -59,13 +59,28 @@ async function findById(spuId) {
  * @param page
  * @returns {Promise<void>}
  */
-async function getProductsByPage(page = 1) {
-  let pageCount = require("../config").PageCount;
-  return await Product.find()
+async function getProductsByPage(page = 1, pageCount = 5, sort = 1, body = {}) {
+  // let pageCount = require("../config").PageCount;
+  let sorts = +sort;
+  let searchInfo = { ...body };
+  if (!searchInfo.wareBrandName) {
+    delete searchInfo.wareBrandName;
+  } else if (searchInfo.categoryId) {
+    delete searchInfo.categoryId;
+  }
+
+  let products = await Product.find(searchInfo)
     .skip((page - 1) * pageCount)
-    .limit(pageCount)
-    .sort("created")
+    .limit(+pageCount)
+    .sort({ marketPrice: sorts })
     .select("-__v");
+  let trademaSet = new Set();
+  let total = await Product.find(searchInfo).count();
+  products.forEach((item) => {
+    trademaSet.add(item.wareBrandName);
+  });
+  let trademark = Array.from(trademaSet);
+  return { products, total, trademark };
 }
 
 /**

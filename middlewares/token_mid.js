@@ -19,6 +19,7 @@ function isExcludeUrl(url) {
     /.*\/product/,
     /.*\/category/,
     /.*\/recommend/,
+    // /.*\/order/,
   ];
 
   //遍历数组，看当前的url是否存在其中

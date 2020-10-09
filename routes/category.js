@@ -39,7 +39,6 @@ router.get("/:id", async (req, res) => {
 router.get("/", async (req, res) => {
   //查询参数使用req.query来取值
   let categorys = await categoryService.getCategoryByPage();
-  console.log(categorys);
   res.success(categorys);
 });
 

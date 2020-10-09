@@ -1,0 +1,239 @@
+[
+  {
+    "wareFirstKind": "02",
+    "wareSmallKindCode": "982947",
+    "supportUserstarLevel": "05,13,12,11,10,09,08,07,06",
+    "wareName": "三只松鼠满399减280优惠券",
+    "deliverType": "12",
+    "stockAmount": 995708,
+    "goodCommentRate": 61,
+    "payType": "01",
+    "gsmTag": false,
+    "showMarketPrice": false,
+    "serviceScore": 3.9,
+    "wareAlias": "满减专区",
+    "dynamicPrice": false,
+    "sendCodeType": "02",
+    "newTag": false,
+    "wareBrandId": 13236,
+    "oriIntegralValue": 1,
+    "wareMediumKindCode": "940272",
+    "commentCount": 18,
+    "taxRate": "0.00",
+    "logisticsScore": 3.8,
+    "spuImgUrl": [
+      "https://jf-asset1.10086.cn/pic/ware/9/9/1_1583303819711.jpg"
+    ],
+    "showExgLimit": false,
+    "wareSmallKindName": "专享权益",
+    "wareVersion": 4,
+    "allowGeneralPoints": "1",
+    "wareBrandName": "三只松鼠",
+    "oriCashValue": 1,
+    "saleTag": false,
+    "marketPrice": 28000,
+    "importantNotice": "此兑换码新老用户均可使用；每个用户不限使用次数，每个订单限用1张。",
+    "wareNormalAttr": [
+      {
+        "normalAttrDefinitionName": "使用说明",
+        "normalAttrValue": "1.打开微信搜索并进入“三只松鼠会员”公众号；2.进入底部菜单栏的【满减专区】；3.选择满减专区内的零食商品，添加进【购物车】；4.点击【结算】-【优惠】-【请输入优惠码】栏内粘贴优惠码-【兑换】；5.选中优惠码返回订单详情页面-【提交订单】即可立减280元。 "
+      },
+      {
+        "normalAttrDefinitionName": "售后服务热线",
+        "normalAttrValue": "400-688-1612，工作时间：周一至周日 9：30-17：30"
+      },
+      {
+        "normalAttrDefinitionName": "有效期",
+        "normalAttrValue": "2021年1月31日"
+      },
+      {
+        "normalAttrDefinitionName": "礼品概述",
+        "normalAttrValue": "本优惠权益适用于“三只松鼠会员”微信公众号中的满减专区的所有商品。包括坚果炒货、肉类卤味、饼干膨化、果干蜜饯、豆干小食、糖巧布丁、鱿鱼海味等超过六十种产品可供选择。使用本优惠，购买满减专区商品满399元即可立减280元。"
+      },
+      {
+        "normalAttrDefinitionName": "适用范围",
+        "normalAttrValue": "本商品在“三只松鼠会员”微信公众号商城的“满减专区”使用。"
+      }
+    ],
+    "wareBigKindCode": "100085",
+    "qualityScore": 3.4,
+    "wareState": "03",
+    "partnerName": "霏洛（天津）数据科技有限公司",
+    "skuWareCode": "106631",
+    "integralUnitPrice": 0.01,
+    "smsExgCode": "DH106631",
+    "wareMediumKindName": "权益",
+    "imgUrl": ["https://jf-asset1.10086.cn/pic/ware/9/9/1_1583303819711.jpg"],
+    "wareBigKindName": "权益",
+    "bundleTag": false,
+    "partnerId": 14225541,
+    "spuWareCode": "10003687",
+    "spuId": 100010,
+    "category": {
+      "categoryName": "智能设备",
+      "categoryId": 2000000000000168
+    },
+    "stock": 32,
+    "isOnsale": true
+  },
+  {
+    "wareFirstKind": "02",
+    "wareSmallKindCode": "982947",
+    "supportUserstarLevel": "13,12,11,10,09,08,07,06,05",
+    "wareName": "常青藤爸爸会员月卡体验券",
+    "deliverType": "12",
+    "stockAmount": 100000,
+    "goodCommentRate": 100,
+    "payType": "01",
+    "gsmTag": true,
+    "showMarketPrice": false,
+    "serviceScore": 5,
+    "wareAlias": "会员月卡+英语语感启蒙课",
+    "dynamicPrice": false,
+    "sendCodeType": "02",
+    "newTag": false,
+    "wareBrandId": 12053,
+    "oriIntegralValue": 1,
+    "wareMediumKindCode": "940272",
+    "commentCount": 3,
+    "taxRate": "0.06",
+    "logisticsScore": 5,
+    "spuImgUrl": [
+      "https://jf-asset2.10086.cn/pic/ware/5eb8c7/8/5eb8c787d5f19b2f93aca8c4.jpg"
+    ],
+    "showExgLimit": false,
+    "wareSmallKindName": "专享权益",
+    "wareVersion": 1,
+    "allowGeneralPoints": "1",
+    "wareBrandName": "常青藤爸爸",
+    "oriCashValue": 1,
+    "saleTag": false,
+    "marketPrice": 16748,
+    "importantNotice": "本权益新老用户通用，每位用户仅限使用一次，老用户兑换后，会员资格顺延30天。",
+    "wareNormalAttr": [
+      {
+        "normalAttrDefinitionName": "礼品概述",
+        "normalAttrValue": "本权益可享常青藤爸爸儿童启蒙教育英语语感启蒙课以及APP会员月卡权益，畅听价值1600元的儿童启蒙线上教育资源。"
+      },
+      {
+        "normalAttrDefinitionName": "售后服务热线",
+        "normalAttrValue": "4006881612"
+      },
+      {
+        "normalAttrDefinitionName": "有效期",
+        "normalAttrValue": "2020年12月31日"
+      },
+      {
+        "normalAttrDefinitionName": "使用说明",
+        "normalAttrValue": "1.下载常青藤爸爸APP，注册并登录；2.选择“我的”→“使用兑换码”进入兑换页面；3.输入框输入兑换码，即兑换成功。常青藤爸爸客服微信：ivydadcs7"
+      },
+      {
+        "normalAttrDefinitionName": "适用范围",
+        "normalAttrValue": "常青藤爸爸APP"
+      }
+    ],
+    "wareBigKindCode": "100085",
+    "qualityScore": 5,
+    "wareState": "03",
+    "partnerName": "霏洛（天津）数据科技有限公司",
+    "skuWareCode": "11005331",
+    "supportGsmLevel": "1,2,3,4",
+    "integralUnitPrice": 0.01,
+    "smsExgCode": "DH11005331",
+    "wareMediumKindName": "权益",
+    "imgUrl": [
+      "https://jf-asset2.10086.cn/pic/ware/5eb8c7/e/5eb8c7e2d5f19b2f93aca8d8.jpg"
+    ],
+    "wareBigKindName": "权益",
+    "bundleTag": false,
+    "partnerId": 14225541,
+    "spuWareCode": "11005330",
+    "spuId": 100010,
+    "category": {
+      "categoryName": "智能设备",
+      "categoryId": 2000000000000168
+    },
+    "stock": 32,
+    "isOnsale": true
+  },
+  {
+    "wareFirstKind": "02",
+    "wareSmallKindCode": "982947",
+    "supportUserstarLevel": "13,12,11,10,09,08,07,06,05",
+    "wareName": "吴晓波频道女性成长必修课礼包",
+    "deliverType": "12",
+    "stockAmount": 100000,
+    "goodCommentRate": 100,
+    "payType": "01",
+    "gsmTag": true,
+    "showMarketPrice": false,
+    "serviceScore": 5,
+    "wareAlias": "20堂女性成长必修课",
+    "dynamicPrice": false,
+    "sendCodeType": "02",
+    "newTag": false,
+    "wareBrandId": 13358,
+    "oriIntegralValue": 1,
+    "wareMediumKindCode": "940272",
+    "commentCount": 1,
+    "taxRate": "0.06",
+    "logisticsScore": 5,
+    "spuImgUrl": [
+      "https://jf-asset1.10086.cn/pic/ware/5eb8c9/7/5eb8c97ed5f19b2f93aca928.jpg"
+    ],
+    "showExgLimit": false,
+    "wareSmallKindName": "专享权益",
+    "wareVersion": 1,
+    "allowGeneralPoints": "1",
+    "wareBrandName": "吴晓波频道",
+    "oriCashValue": 1,
+    "saleTag": false,
+    "marketPrice": 18974,
+    "importantNotice": "此兑换码新老客户均可使用，每个客户限用1次。",
+    "wareNormalAttr": [
+      {
+        "normalAttrDefinitionName": "礼品概述",
+        "normalAttrValue": "本优惠权益适用于“890新商学”App。使用此券，可在“890新商学”APP中兑换价值179元的女性成长必修课礼包。\n890新商学APP女性成长必修课礼包，内含价值99元《20堂女性成长必修课》及价值80元的《我的幸福家庭计划》优惠券，总价值179元。《20堂女性成长必修课》课程包括以下内容：5大极简亲子沟通法，教你培养“听话”的孩子；3个亲密关系工具包，解决90%爱的难题；9种女性职场必备技能，提升你的职场竞争力。"
+      },
+      {
+        "normalAttrDefinitionName": "售后服务热线",
+        "normalAttrValue": "4006881612"
+      },
+      {
+        "normalAttrDefinitionName": "有效期",
+        "normalAttrValue": "2020年12月31日"
+      },
+      {
+        "normalAttrDefinitionName": "使用说明",
+        "normalAttrValue": "1. 下载890新商学APP并登录，进入【我的】页面后点击【兑换码】选项，输入兑换码即可兑换；2. 兑换成功后进入【已购】页面查看所兑换课程，进入【我的】-【优惠券】页面查看所兑换优惠券。"
+      },
+      {
+        "normalAttrDefinitionName": "适用范围",
+        "normalAttrValue": "890新商学APP"
+      }
+    ],
+    "wareBigKindCode": "100085",
+    "qualityScore": 5,
+    "wareState": "03",
+    "partnerName": "霏洛（天津）数据科技有限公司",
+    "skuWareCode": "11005338",
+    "supportGsmLevel": "1,2,3,4",
+    "integralUnitPrice": 0.01,
+    "smsExgCode": "DH11005338",
+    "wareMediumKindName": "权益",
+    "imgUrl": [
+      "https://jf-asset2.10086.cn/pic/ware/5eb8ca/1/5eb8ca1dd5f19b2f93aca941.jpg"
+    ],
+    "wareBigKindName": "权益",
+    "bundleTag": false,
+    "partnerId": 14225541,
+    "spuWareCode": "11005337",
+    "spuId": 100010,
+    "category": {
+      "categoryName": "智能设备",
+      "categoryId": 2000000000000168
+    },
+    "stock": 32,
+    "isOnsale": true
+  }
+]

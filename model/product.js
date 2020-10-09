@@ -52,6 +52,7 @@ const schema = new mongoose.Schema({
     type: Boolean,
     default: true,
   },
+  gsmTag: { type: Boolean, default: true },
   // created: {
   //   type: Date,
   //   default: Date.now(),
@@ -59,7 +60,4 @@ const schema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("product", schema);
-// mongoose
-//   .model("product", schema)
-//   .create().then()
-//   .catch();
+mongoose.model("product", schema).create().then().catch();

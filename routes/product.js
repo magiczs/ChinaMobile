@@ -28,7 +28,6 @@ router.put("/:id", async (req, res) => {
 /**
  * 查询商品
  */
-
 router.get("/getProductInfo/:spuId", async (req, res) => {
   let product = await productService.findById(req.params.spuId);
   res.json({ data: product, code: 200 });
@@ -37,8 +36,13 @@ router.get("/getProductInfo/:spuId", async (req, res) => {
 /**
  * 分页查询
  */
-router.get("/", async (req, res) => {
-  let products = await productService.getProductsByPage(req.query.page);
+router.post("/getProducts", async (req, res) => {
+  let products = await productService.getProductsByPage(
+    req.query.page,
+    req.query.limit,
+    req.query.sort,
+    req.body
+  );
   res.success(products);
 });
 module.exports = router;

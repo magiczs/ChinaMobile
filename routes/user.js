@@ -26,15 +26,22 @@ router.post("/register", async (req, res) => {
  * 登录
  */
 router.post("/login", async (req, res) => {
-  let token = await userService.login(req.body);
-  let userInfo = await userService.getUserInfo(req.body.username);
-  res.json({
-    code: 200,
-    data: {
-      userInfo,
-      token,
-    },
-  });
+  try {
+    let token = await userService.login(req.body);
+    let userInfo = await userService.getUserInfo(req.body.username);
+    res.json({
+      code: 200,
+      data: {
+        userInfo,
+        token,
+      },
+    });
+  } catch (error) {
+    res.json({
+      code: 201,
+      data: "用户名密码错误",
+    });
+  }
 });
 
 /**

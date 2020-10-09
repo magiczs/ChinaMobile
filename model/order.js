@@ -8,6 +8,14 @@ const schema = new mongoose.Schema({
     type: String,
     require: [true, "商品id不能缺少"],
   },
+  defaultImg: {
+    type: String,
+    require: [true, "商品图片不能缺少"],
+  },
+  gsmTag: {
+    type: Boolean,
+    require: [true, "商品是否实物"],
+  },
   productName: {
     type: String,
     require: [true, "商品名称不能缺少"],
