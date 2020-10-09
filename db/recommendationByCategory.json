@@ -1,0 +1,90 @@
+{
+  "resultCode": 200,
+  "resultJson": {
+    "diffKindRecWareList": [
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11062857",
+        "imageUrl": "https://jf-asset2.10086.cn/pic/ware/5f2295/f/5f2295f23c98ae50c3466b1e.jpg",
+        "name": "卡斐乐Cafele 苹果6 6splus透明硅胶防摔套薄纱系列手机壳送钢化膜",
+        "integralValue": 2200
+      },
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11059052",
+        "imageUrl": "https://jf-asset2.10086.cn/pic/ware/5f1e8f/7/5f1e8f783c98ae50c345d7e1.jpg",
+        "name": "图拉斯",
+        "integralValue": 4500
+      },
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11003216",
+        "imageUrl": "https://jf-asset2.10086.cn/pic/ware/5eb516/9/5eb51695d5f19b2f93ac69f6.jpg",
+        "name": "卡斐乐Cafele 桌面手机支架折叠式升降多功能支架素雅系列",
+        "integralValue": 4200
+      },
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11066310",
+        "imageUrl": "https://jf-asset1.10086.cn/pic/ware/5f2918/a/5f2918acb76c582afcd09321.jpg",
+        "name": "TOTU 苹果快充线数据线闪充充电线器iphone11pro手机xsmax8plus专用se7p 1.2m BL-001",
+        "integralValue": 1990
+      },
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11062465",
+        "imageUrl": "https://jf-asset1.10086.cn/pic/ware/5f227a/5/5f227a563c98ae50c3465e3a.jpg",
+        "name": "卡斐乐Cafele 苹果安卓三合一数据线强磁力吸头充电线万磁系列",
+        "integralValue": 2800
+      }
+    ],
+    "sameKindRecWareList": [
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11062857",
+        "imageUrl": "https://jf-asset1.10086.cn/pic/ware/5f2295/f/5f2295f23c98ae50c3466b1e.jpg",
+        "name": "卡斐乐Cafele 苹果6 6splus透明硅胶防摔套薄纱系列手机壳送钢化膜",
+        "integralValue": 2200
+      },
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11003216",
+        "imageUrl": "https://jf-asset2.10086.cn/pic/ware/5eb516/9/5eb51695d5f19b2f93ac69f6.jpg",
+        "name": "卡斐乐Cafele 桌面手机支架折叠式升降多功能支架素雅系列",
+        "integralValue": 4200
+      },
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11003275",
+        "imageUrl": "https://jf-asset2.10086.cn/pic/ware/5eb51c/e/5eb51ce6d5f19b2f93ac6cda.jpg",
+        "name": "卡斐乐Cafele 支架套餐车载支架磁吸旋转支架臻旅系列",
+        "integralValue": 5000
+      },
+      {
+        "saleTag": false,
+        "gsmTag": false,
+        "itemCode": "161024",
+        "imageUrl": "https://jf-asset1.10086.cn/pic/ware/63/63/161024_1585149615487.jpg",
+        "name": "绿联 手机车载支架LP130",
+        "integralValue": 4500
+      },
+      {
+        "saleTag": false,
+        "gsmTag": true,
+        "itemCode": "11093037",
+        "imageUrl": "https://jf-asset2.10086.cn/pic/ware/202009/5f571f5745af596d7c472fef.jpg",
+        "name": "智际 手机支架屏幕高清视觉3D放大器",
+        "integralValue": 1270
+      }
+    ]
+  },
+  "resultMessage": "操作成功"
+}

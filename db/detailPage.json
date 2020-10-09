@@ -1,0 +1,85 @@
+{
+  "wareName": "卡斐乐Cafele 苹果11手机壳透明硅胶镜头保护壳闪镀系列",
+  "wareAlias": "舒适手感 全包设计",
+  "spuId": 100000,
+  "spuImgUrl": [
+    "https://jf-asset1.10086.cn/pic/ware/5ec880/3/5ec88033d5f19b2f93adc8b5.jpg",
+    "https://jf-asset1.10086.cn/pic/ware/5ec880/3/5ec88035d5f19b2f93adc8b6.jpg",
+    "https://jf-asset2.10086.cn/pic/ware/5ec880/3/5ec88037d5f19b2f93adc8b7.jpg",
+    "https://jf-asset1.10086.cn/pic/ware/5ec880/3/5ec88039d5f19b2f93adc8b8.jpg"
+  ],
+  "wareBrandName": "卡斐乐（Cafele）",
+  "marketPrice": 3000,
+  "importantNotice": "产品如有质量问题或使用咨询，请拨打售后服务热线：18862801300",
+  "wareNormalAttr": [
+    {
+      "normalAttrDefinitionName": "礼品概述",
+      "normalAttrValue": "保护套质地: 硅胶 风格: 简约 款式: 保护壳"
+    },
+    {
+      "normalAttrDefinitionName": "礼品保修",
+      "normalAttrValue": "产品如有质量问题或使用咨询，请拨打售后服务热线：18862801300 15天无理由退换：质量问题产生的退换货，免运费；非质量问题产生的退换货，运费由买家承担，且须保证商品及外包装说明书等无破损无缺失，不影响二次销售，否则不予退换。"
+    },
+    {
+      "normalAttrDefinitionName": "售后服务热线",
+      "normalAttrValue": "产品如有质量问题或使用咨询，请拨打售后服务热线：18862801300"
+    },
+    {
+      "normalAttrDefinitionName": "产地",
+      "normalAttrValue": "公司 : 深圳市艾科能电子科技有限公司 地址 : 广东省深圳市龙华区和平东路182号"
+    },
+    { "normalAttrDefinitionName": "包装清单", "normalAttrValue": "手机壳x1" },
+    { "normalAttrDefinitionName": "毛重" },
+    { "normalAttrDefinitionName": "使用方法" },
+    { "normalAttrDefinitionName": "其他说明" }
+  ],
+  "wareSaleAttr": [
+    {
+      "saleAttrDefinitionName": "选择样式",
+      "saleAttrDefinitionCode": 1001,
+      "saleAttrValueList": [
+        {
+          "saleAttrValue": "炫亮黑",
+          "saleAttrDefinitionName": "选择样式"
+        },
+        {
+          "saleAttrValue": "暗夜绿",
+          "saleAttrDefinitionName": "选择样式"
+        },
+        {
+          "saleAttrValue": "仲夏紫",
+          "saleAttrDefinitionName": "选择样式"
+        },
+        {
+          "saleAttrValue": "中国红",
+          "saleAttrDefinitionName": "选择样式"
+        }
+      ]
+    },
+    {
+      "saleAttrDefinitionName": "选择规格",
+      "saleAttrDefinitionCode": 1002,
+      "saleAttrValueList": [
+        {
+          "saleAttrValue": "苹果11 6.1寸",
+          "saleAttrDefinitionName": "选择规格"
+        },
+        {
+          "saleAttrValue": "苹果11Pro 5.8寸",
+          "saleAttrDefinitionName": "选择规格"
+        },
+        {
+          "saleAttrValue": "苹果11ProMAX 6.5寸",
+          "saleAttrDefinitionName": "选择规格"
+        }
+      ]
+    }
+  ],
+  "partnerName": "上海拉众电子商务有限公司",
+  "skuWareCode": "11014480",
+  "wareBigKindName": "手机数码",
+  "category": {
+    "categoryName": "手机数码",
+    "categoryId": 1000
+  }
+}

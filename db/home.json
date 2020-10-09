@@ -1,0 +1,765 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "sequenceNum": 1,
+      "contents": [
+        {
+          "picType": 0,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/202009/5f71a4a145af596d7c48c7ed.jpg",
+          "name": "品牌旗舰店",
+          "position": 2,
+          "targetUrl": "https://jf.10086.cn/topics/pc_meiling_2020sh/"
+        },
+        {
+          "picType": 0,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ee1a0/0/5ee1a0043c98ae50c3409668.jpg",
+          "name": "爱心助农",
+          "position": 4,
+          "targetUrl": "https://jf.10086.cn/#/intrights?contentId=2000000000000249"
+        },
+        {
+          "picType": 0,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/202009/5f6f582145af596d7c48a201.png",
+          "name": "光大",
+          "position": 6,
+          "targetUrl": "https://jf.10086.cn/topics/cebbank_pc/?WT.ac_id=cebbank_pc_JFpc_code1"
+        },
+        {
+          "picType": 0,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ed5fb/d/5ed5fbd7d5f19b2f93ae5d87.jpg",
+          "name": "集优汇",
+          "position": 7,
+          "targetUrl": "https://jf.10086.cn/#/intrights?contentId=2000000000001816"
+        }
+      ],
+      "moduleName": "轮播图",
+      "templateCode": "M101",
+      "moduleId": 1000000000000001,
+      "title": "轮播图"
+    },
+    {
+      "sequenceNum": 3,
+      "contents": [
+        {
+          "name": "首页",
+          "position": 1,
+          "targetUrl": "https://jf.10086.cn"
+        },
+        {
+          "name": "我能兑换",
+          "position": 2,
+          "targetUrl": "https://jf.10086.cn/#/filterPages"
+        },
+        {
+          "name": "品牌专区",
+          "position": 3,
+          "targetUrl": "https://jf.10086.cn/#/brandArea"
+        },
+        {
+          "name": "积分权益",
+          "position": 4,
+          "targetUrl": "https://jf.10086.cn/topics/jfspe_2019quanyi_pc/"
+        },
+        {
+          "name": "乐享生活",
+          "position": 5,
+          "targetUrl": "https://jf.10086.cn/#/EnjoyLife"
+        },
+        {
+          "name": "积分互换",
+          "position": 6,
+          "targetUrl": "https://jf.10086.cn/#/interChange"
+        }
+      ],
+      "moduleName": "导航按钮区",
+      "templateCode": "M102",
+      "moduleId": 1000000000000002,
+      "title": "导航按钮区"
+    },
+    {
+      "sequenceNum": 4,
+      "contents": [
+        {
+          "buttonName": "商超",
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea25f/6/5ea25f64347439236be423fc.png",
+          "position": 1,
+          "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E5%95%86%E8%B6%85&wareKindList=%5B%7B%22kindName%22%3A%22%E5%95%86%E8%B6%85%22,%22kindLevel%22%3A%22small%22%7D%5D"
+        },
+        {
+          "buttonName": "便利店",
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea25f/5/5ea25f57347439236be423fb.png",
+          "position": 2,
+          "targetUrl": "https://jf.10086.cn/filterPages?firstKeyword=%E4%BE%BF%E5%88%A9%E5%BA%97#/filterPages?firstKeyword=%E4%BE%BF%E5%88%A9%E5%BA%97"
+        },
+        {
+          "buttonName": "电子书",
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea2e4/9/5ea2e499347439236be4277f.png",
+          "position": 3,
+          "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E7%94%B5%E5%AD%90%E4%B9%A6&wareKindList=%5B%7B%22kindName%22%3A%22%E7%94%B5%E5%AD%90%E4%B9%A6%22,%22kindLevel%22%3A%22small%22%7D%5D"
+        },
+        {
+          "buttonName": "综合",
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea924/1/5ea92414ac88be0799f7868c.png",
+          "position": 4,
+          "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E7%BB%BC%E5%90%88&wareKindList=%5B%7B%22kindName%22%3A%22%E7%BB%BC%E5%90%88%E7%94%B5%E5%95%86%22,%22kindLevel%22%3A%22medium%22%7D%5D"
+        },
+        {
+          "buttonName": "快餐",
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea924/4/5ea9244fac88be0799f7868d.png",
+          "position": 5,
+          "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E5%BF%AB%E9%A4%90&wareKindList=%5B%7B%22kindName%22%3A%22%E5%BF%AB%E9%A4%90%22,%22kindLevel%22%3A%22small%22%7D%5D"
+        },
+        {
+          "buttonName": "视听",
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea924/e/5ea924eaac88be0799f7868f.png",
+          "position": 6,
+          "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E8%A7%86%E5%90%AC&wareKindList=%5B%7B%22kindName%22%3A%22%E8%A7%86%E5%90%AC%22,%22kindLevel%22%3A%22small%22%7D%5D"
+        }
+      ],
+      "moduleName": "类目入口",
+      "templateCode": "M103",
+      "moduleId": 1000000000000003,
+      "title": "类目入口"
+    },
+    {
+      "sequenceNum": 5,
+      "contents": [
+        {
+          "sequenceNum": 1,
+          "contentId": 2000000000000067,
+          "title": "关于重庆移动系统优化的公告"
+        },
+        {
+          "sequenceNum": 2,
+          "contentId": 2000000000000068,
+          "title": "关于暂停上海移动客户积分转赠业务的公告"
+        },
+        {
+          "sequenceNum": 3,
+          "contentId": 2000000000000069,
+          "title": "关于暂停湖北移动客户积分转赠业务的公告"
+        },
+        {
+          "sequenceNum": 4,
+          "contentId": 2000000000000070,
+          "title": "关于积分商城暂停积分转赠功能的通知"
+        },
+        {
+          "sequenceNum": 5,
+          "contentId": 2000000000000810,
+          "title": "关于侵害用户权益行为的APP通报（2020年第一批）"
+        },
+        {
+          "sequenceNum": 6,
+          "contentId": 2000000000000811,
+          "title": "关于侵害用户权益行为的APP（第二批）通报"
+        },
+        {
+          "sequenceNum": 9,
+          "contentId": 2000000000000928,
+          "title": "中国移动积分商城招商公告"
+        }
+      ],
+      "moduleName": "公告",
+      "templateCode": "M301",
+      "moduleId": 1000000000000004,
+      "title": "公告"
+    },
+    {
+      "sequenceNum": 6,
+      "contents": [
+        {
+          "labelValue": 5,
+          "position": 1,
+          "labelName": "5元"
+        },
+        {
+          "labelValue": 10,
+          "position": 2,
+          "labelName": "10元"
+        },
+        {
+          "labelValue": 20,
+          "position": 3,
+          "labelName": "20元"
+        },
+        {
+          "labelValue": 50,
+          "position": 4,
+          "labelName": "50元"
+        }
+      ],
+      "moduleName": "话费直充",
+      "templateCode": "M302",
+      "moduleId": 1000000000000005,
+      "title": "话费直充",
+      "flexibleChargeType": "01"
+    },
+    {
+      "sequenceNum": 7,
+      "contents": [
+        {
+          "sequenceNum": 1,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea2e7/6/5ea2e76c347439236be42785.jpg",
+          "targetUrl": "https://jf.10086.cn/filterPages?firstKeyword=%E5%92%AA%E5%92%95#/filterPages?kindName=%E5%92%AA%E5%92%95%E5%A8%B1%E4%B9%90&wareKindList=%5B%7B%22kindName%22%3A%22%E5%A2%9E%E5%80%BC%E4%B8%9A%E5%8A%A1%22,%22kindLevel%22%3A%22medium%22%7D%5D"
+        },
+        {
+          "sequenceNum": 2,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea292/d/5ea292d3347439236be42677.jpg",
+          "targetUrl": "http://club.10086.cn/front/web/rights/rights_index.html"
+        },
+        {
+          "sequenceNum": 3,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea293/f/5ea293fd347439236be4267e.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/iot_pc/"
+        },
+        {
+          "sequenceNum": 4,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea294/0/5ea29407347439236be4267f.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/aiEcos_pc/"
+        },
+        {
+          "sequenceNum": 5,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/202008/5f43724ecbef72208f3e0abc.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/5GGame_h5/"
+        }
+      ],
+      "moduleName": "精品推荐",
+      "templateCode": "M202",
+      "moduleId": 2000000000000018,
+      "title": "精品推荐"
+    },
+    {
+      "sequenceNum": 9,
+      "contents": [
+        {
+          "sequenceNum": 1,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf6/c/5efbf6ce3c98ae50c3425ea9.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_midea_2020sh/"
+        },
+        {
+          "sequenceNum": 2,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5efbf6/e/5efbf6e93c98ae50c3425eaa.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_supor_2020sh/"
+        },
+        {
+          "sequenceNum": 3,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf6/f/5efbf6fb3c98ae50c3425eac.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_mi_2020sh/"
+        },
+        {
+          "sequenceNum": 4,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf7/0/5efbf7093c98ae50c3425eb1.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_joyoung_2020sh/"
+        },
+        {
+          "sequenceNum": 5,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5efbf7/2/5efbf7213c98ae50c3425eb7.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_zwilling_2020sh/"
+        },
+        {
+          "sequenceNum": 6,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf7/3/5efbf73f3c98ae50c3425eba.jpg",
+          "targetUrl": "https://jf.10086.cn//topics/pc_aomiao_2020sh/"
+        },
+        {
+          "sequenceNum": 7,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5efbf7/5/5efbf7543c98ae50c3425ebe.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_flyco_2020sh/"
+        },
+        {
+          "sequenceNum": 8,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5efbf7/6/5efbf7613c98ae50c3425ebf.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_bear_2020sh/"
+        },
+        {
+          "sequenceNum": 9,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf7/8/5efbf78c3c98ae50c3425ec1.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_locklock_2020sh/"
+        },
+        {
+          "sequenceNum": 10,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf7/9/5efbf79b3c98ae50c3425ec4.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_beiwowo_2020sh/"
+        },
+        {
+          "sequenceNum": 11,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf7/a/5efbf7ad3c98ae50c3425ec6.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_saiao_2020sh/"
+        },
+        {
+          "sequenceNum": 12,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5efbf7/b/5efbf7bd3c98ae50c3425ecc.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_meiling_2020sh/"
+        },
+        {
+          "sequenceNum": 13,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5efbf7/c/5efbf7ca3c98ae50c3425ece.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_luyifeisi_2020sh/"
+        },
+        {
+          "sequenceNum": 14,
+          "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5efbf7/d/5efbf7d83c98ae50c3425ed3.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_asd_2020sh/"
+        },
+        {
+          "sequenceNum": 15,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf7/e/5efbf7ea3c98ae50c3425ed8.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_relee_2020sh/"
+        },
+        {
+          "sequenceNum": 16,
+          "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5efbf7/f/5efbf7f73c98ae50c3425ede.jpg",
+          "targetUrl": "https://jf.10086.cn/topics/pc_dezhi_2020sh/"
+        }
+      ],
+      "moduleName": "品牌旗舰店",
+      "templateCode": "M201",
+      "moduleId": 2000000000000017,
+      "title": "品牌旗舰店"
+    },
+    {
+      "sequenceNum": 12,
+      "contents": [
+        {
+          "floorInfo": [
+            {
+              "sequenceNum": 1,
+              "subtitle": "流量加油包",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea8e3/c/5ea8e3c4ac88be0799f78670.png",
+              "title": "流量加油包",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=流量加油包&wareKindList=%5B%7B%22kindName%22%3A%22流量加油包%22,%22kindLevel%22%3A%22small%22%7D%5D"
+            },
+            {
+              "sequenceNum": 2,
+              "subtitle": "任我看定向流量包",
+              "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea8e3/d/5ea8e3dfac88be0799f78671.png",
+              "title": "任我看定向流量包",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=任我看流量包&wareKindList=%5B%7B%22kindName%22%3A%22任我看流量包%22,%22kindLevel%22%3A%22small%22%7D%5D"
+            },
+            {
+              "sequenceNum": 3,
+              "subtitle": "咪咕娱乐",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea8e3/e/5ea8e3e9ac88be0799f78672.png",
+              "title": "咪咕娱乐",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=咪咕娱乐&wareKindList=%5B%7B%22kindName%22%3A%22增值业务%22,%22kindLevel%22%3A%22medium%22%7D%5D"
+            },
+            {
+              "sequenceNum": 4,
+              "subtitle": "短信包",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea8e3/f/5ea8e3f3ac88be0799f78673.png",
+              "title": "短信包",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=短信包&wareKindList=%5B%7B%22kindName%22%3A%22短信包%22,%22kindLevel%22%3A%22small%22%7D%5D"
+            },
+            {
+              "sequenceNum": 5,
+              "subtitle": "彩信包",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea8e4/0/5ea8e401ac88be0799f78674.png",
+              "title": "彩信包",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=彩信包&wareKindList=%5B%7B%22kindName%22%3A%22彩信包%22,%22kindLevel%22%3A%22small%22%7D%5D"
+            },
+            {
+              "sequenceNum": 6,
+              "subtitle": "咪咕视频",
+              "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea947/7/5ea94778ac88be0799f786b2.png",
+              "title": "咪咕视频",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=咪咕视频&wareKindList=%5B%7B%22kindName%22%3A%22咪咕视频%22,%22kindLevel%22%3A%22small%22%7D%5D"
+            }
+          ],
+          "sideImageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea925/4/5ea9254bac88be0799f78691.png",
+          "sideImageTitle": "。",
+          "sideImageSubtitle": "。",
+          "sideTargetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E5%9B%BD%E6%BC%AB%E6%B5%81%E9%87%8F%E5%8C%85&wareKindList=%5B%7B%22kindName%22%3A%22%E5%9B%BD%E6%BC%AB%E6%B5%81%E9%87%8F%E5%8C%85%22,%22kindLevel%22%3A%22small%22%7D%5D",
+          "mainImageSubtitle": "。",
+          "mainImageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea925/4/5ea92545ac88be0799f78690.png",
+          "mainImageTitle": "。",
+          "mainTargetUrl": "https://jf.10086.cn/topics/flowrate_pc/"
+        }
+      ],
+      "moduleName": "移动自有",
+      "templateCode": "M205",
+      "moduleId": 2000000000000021,
+      "title": "移动自有"
+    },
+    {
+      "sequenceNum": 13,
+      "contents": [
+        {
+          "floorInfo": [
+            {
+              "sequenceNum": 1,
+              "subtitle": "。",
+              "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea944/3/5ea94434ac88be0799f786aa.png",
+              "title": "数字礼品",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E6%95%B0%E5%AD%97%E7%A4%BC%E5%93%81&wareKindList=%5B%7B%22kindName%22%3A%22%E6%95%B0%E5%AD%97%E7%A4%BC%E5%93%81%22,%22kindLevel%22%3A%22big%22%7D%5D"
+            },
+            {
+              "sequenceNum": 2,
+              "subtitle": "。",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea944/5/5ea9445bac88be0799f786ab.png",
+              "title": "票务",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=票务&wareKindList=%5B%7B%22kindName%22%3A%22票务%22,%22kindLevel%22%3A%22medium%22%7D%5D"
+            },
+            {
+              "sequenceNum": 3,
+              "subtitle": "。",
+              "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea944/6/5ea9446eac88be0799f786ac.png",
+              "title": "餐饮",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=餐饮&wareKindList=%5B%7B%22kindName%22%3A%22餐饮%22,%22kindLevel%22%3A%22big%22%7D%5D"
+            },
+            {
+              "sequenceNum": 4,
+              "subtitle": "。",
+              "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea944/8/5ea94483ac88be0799f786ad.png",
+              "title": "商超卖场",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E5%95%86%E8%B6%85%E5%8D%96%E5%9C%BA&wareKindList=%5B%7B%22kindName%22%3A%22%E5%95%86%E8%B6%85%E5%8D%96%E5%9C%BA%22,%22kindLevel%22%3A%22big%22%7D%5D"
+            },
+            {
+              "sequenceNum": 5,
+              "subtitle": "。",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea944/9/5ea94492ac88be0799f786ae.png",
+              "title": "洗护服务",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E6%B4%97%E6%8A%A4%E6%9C%8D%E5%8A%A1&wareKindList=%5B%7B%22kindName%22%3A%22%E6%B4%97%E6%8A%A4%E6%9C%8D%E5%8A%A1%22,%22kindLevel%22%3A%22small%22%7D%5D"
+            },
+            {
+              "sequenceNum": 6,
+              "subtitle": "。",
+              "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea944/a/5ea944a5ac88be0799f786af.png",
+              "title": "汽车服务",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=汽车服务&wareKindList=%5B%7B%22kindName%22%3A%22汽车服务%22,%22kindLevel%22%3A%22small%22%7D%5D"
+            },
+            {
+              "sequenceNum": 7,
+              "subtitle": "。",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea944/b/5ea944b5ac88be0799f786b0.png",
+              "title": "教育培训",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=教育培训&wareKindList=%5B%7B%22kindName%22%3A%22教育培训%22,%22kindLevel%22%3A%22big%22%7D%5D"
+            },
+            {
+              "sequenceNum": 8,
+              "subtitle": "。",
+              "imageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea944/c/5ea944c5ac88be0799f786b1.png",
+              "title": "便民服务",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?kindName=便民服务&wareKindList=%5B%7B%22kindName%22%3A%22便民服务%22,%22kindLevel%22%3A%22big%22%7D%5D"
+            }
+          ],
+          "mainImageSubtitle": " 有券叠加更减价",
+          "mainImageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea94a/9/5ea94a9aac88be0799f786b6.jpg",
+          "mainImageTitle": "购物趴",
+          "mainTargetUrl": "https://jf.10086.cn/#/filterPages?firstKeyword=%E4%BE%BF%E5%88%A9%E5%BA%97#/filterPages?kindName=%E5%95%86%E8%B6%85%E5%8D%96%E5%9C%BA&wareKindList=%5B%7B%22kindName%22%3A%22%E5%95%86%E8%B6%85%E5%8D%96%E5%9C%BA%22,%22kindLevel%22%3A%22big%22%7D%5D"
+        }
+      ],
+      "moduleName": "聚便利",
+      "templateCode": "M204",
+      "moduleId": 2000000000000020,
+      "title": "聚便利"
+    },
+    {
+      "sequenceNum": 14,
+      "contents": [
+        {
+          "floorInfo": [
+            {
+              "sequenceNum": 1,
+              "subtitle": "1",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ec641/3/5ec6413cd5f19b2f93adac76.jpg",
+              "title": "1",
+              "targetUrl": "https://jf.10086.cn/#/filterPages?firstKeyword=优酷"
+            }
+          ]
+        }
+      ],
+      "moduleName": "2F通栏",
+      "templateCode": "M203",
+      "moduleId": 2000000000000028,
+      "title": "2F通栏"
+    },
+    {
+      "sequenceNum": 15,
+      "contents": [
+        {
+          "sideImageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea25e/7/5ea25e72347439236be423f7.jpg",
+          "sideImageTitle": "。",
+          "floorWareInfo": [
+            {
+              "sequenceNum": 1,
+              "wareIntegralValue": 4000,
+              "subtitle": "深圳市红土地",
+              "wareCode": "11054919",
+              "title": "品佳 磁力导入仪面部嫩肤精华眼霜面膜离子美容仪脸部按摩仪PJ-117（PJ-117，磁力导入仪）",
+              "wareName": "品佳  磁力导入仪面部嫩肤精华眼霜面膜离子美容仪脸部按摩仪PJ-117",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/5f17e1/1/5f17e1103c98ae50c345247a.jpg"
+            },
+            {
+              "sequenceNum": 2,
+              "wareIntegralValue": 6900,
+              "subtitle": "南京太初",
+              "wareCode": "11043016",
+              "title": "永日(Yours) 网红锤子沙龙1800W电吹风机 8919 低防辐射大功率专业发廊理发店家用冷热风恒温护发吹风筒（智能恒温，星空灰）",
+              "wareName": "永日(Yours) 网红锤子沙龙1800W电吹风机 8919 低防辐射大功率专业发廊理发店家用冷热风恒温护发吹风筒",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/5f0701/2/5f07012b3c98ae50c343569e.jpg"
+            },
+            {
+              "sequenceNum": 3,
+              "wareIntegralValue": 5000,
+              "subtitle": "南京变色龙",
+              "wareCode": "951980",
+              "title": "铂瑞BR-Z2电动牙刷成人自动牙刷 充电式（黑色，电动牙刷BR-Z2）",
+              "wareName": "铂瑞BR-Z2电动牙刷成人自动牙刷 充电式",
+              "wareImageUrl": "https://jf-asset1.10086.cn/pic/ware/5/5/951979_1577325188033.jpg"
+            },
+            {
+              "sequenceNum": 4,
+              "wareIntegralValue": 10900,
+              "subtitle": "苏州百尚",
+              "wareCode": "171677",
+              "title": "金正(NINTAUS)空气炸锅JZZG-14K1家用新款多功能全自动电脑控制无油电炸锅大容量气炸薯条机（JZZG-14K1电脑版）",
+              "wareName": "金正(NINTAUS)绞肉机JZR-R339家用电动碎肉机多功能料理机",
+              "wareImageUrl": "https://jf-asset1.10086.cn/pic/ware/45/45/171676_1586256900929.jpg"
+            },
+            {
+              "sequenceNum": 5,
+              "wareIntegralValue": 5400,
+              "subtitle": "成都锦泰方正",
+              "wareCode": "131974",
+              "title": "SAOYH 单筒高清高倍望远镜微光夜视16X52单筒FMC多层宽带绿膜望远镜（望远镜，16X25）",
+              "wareName": "SAOYH 单筒高清高倍望远镜微光夜视16X52单筒FMC多层宽带绿膜望远镜",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/44/44/131973_1584092441759.jpg"
+            },
+            {
+              "sequenceNum": 6,
+              "wareIntegralValue": 12900,
+              "subtitle": "深圳市广聚元",
+              "wareCode": "11074208",
+              "title": "HERPUSI 1.8L多功能自动绞肉机切菜机大容量智能熔断HC-207GJSP（绞肉机，1.8L）",
+              "wareName": "格兰仕（GALANZ）迷你多功能10L烧烤电烤箱家用电烤炉烘焙蛋糕披萨KS10Y",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/202008/5f34a1c2cbef72208f3d1f87.jpg"
+            }
+          ],
+          "sideImageSubtitle": "。",
+          "sideTargetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E7%B2%AE%E6%B2%B9%E5%B9%B2%E8%B4%A7&wareKindList=%5B%7B%22kindName%22%3A%22%E7%B2%AE%E6%B2%B9%2F%E5%B9%B2%E8%B4%A7%22,%22kindLevel%22%3A%22medium%22%7D%5D",
+          "mainImageSubtitle": "。",
+          "mainImageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea25e/6/5ea25e65347439236be423f6.jpg",
+          "mainImageTitle": "。",
+          "mainTargetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E5%AE%B6%E5%B1%85%E6%97%A5%E7%94%A8&wareKindList=%5B%7B%22kindName%22%3A%22%E5%AE%B6%E5%B1%85%E6%97%A5%E7%94%A8%22,%22kindLevel%22%3A%22medium%22%7D%5D"
+        }
+      ],
+      "moduleName": "爱生活",
+      "templateCode": "M208",
+      "moduleId": 2000000000000015,
+      "title": "爱生活"
+    },
+    {
+      "sequenceNum": 16,
+      "contents": [
+        {
+          "floorInfo": [
+            {
+              "sequenceNum": 1,
+              "subtitle": ".",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5ebe06/b/5ebe06bed5f19b2f93ad21c1.jpg",
+              "title": ".",
+              "targetUrl": "https://jf.10086.cn/#/intrights?contentId=2000000000000631"
+            }
+          ]
+        }
+      ],
+      "moduleName": "3F通栏",
+      "templateCode": "M203",
+      "moduleId": 2000000000000029,
+      "title": "3F通栏"
+    },
+    {
+      "sequenceNum": 17,
+      "contents": [
+        {
+          "sideImageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea25d/d/5ea25ddf347439236be423f2.jpg",
+          "sideImageTitle": ".",
+          "floorWareInfo": [
+            {
+              "sequenceNum": 1,
+              "wareIntegralValue": 5000,
+              "subtitle": "南京坚卓",
+              "wareCode": "11015218",
+              "title": "福到（fudao）3层加厚100抽原木纸抽纸餐巾纸 整箱30包家庭装（30包整箱装，抽纸）",
+              "wareName": "福到（fudao）3层加厚100抽原木纸抽纸餐巾纸  整箱30包家庭装",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/5ecb69/8/5ecb6989d5f19b2f93added7.jpg"
+            },
+            {
+              "sequenceNum": 2,
+              "wareIntegralValue": 2900,
+              "subtitle": "南京艾弋莫",
+              "wareCode": "11074895",
+              "title": "TU QIANG 2条装纯棉割绒毛巾 加厚日式柔软吸水洗脸面巾m6362（2条毛巾m6362，蓝色+咖色）",
+              "wareName": "TU QIANG 2条装纯棉割绒毛巾 加厚日式柔软吸水洗脸面巾m6362",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/202008/5f3502edcbef72208f3d3119.jpg"
+            },
+            {
+              "sequenceNum": 3,
+              "wareIntegralValue": 3000,
+              "subtitle": "永康市合光德",
+              "wareCode": "157693",
+              "title": "依膳食 平底煎锅不粘锅炒锅燃气灶专用（26cm，红色）",
+              "wareName": "依膳食 平底煎锅不粘锅炒锅燃气灶专用",
+              "wareImageUrl": "https://jf-asset1.10086.cn/pic/ware/77/77/157692_1584978343400.jpg"
+            },
+            {
+              "sequenceNum": 4,
+              "wareIntegralValue": 6300,
+              "subtitle": "成都安泰盛世",
+              "wareCode": "11055425",
+              "title": "双英 三层加厚不锈钢多功能蒸锅蒸笼汤锅蒸大米 蒸煮炖汤锅电磁炉通用（三层，28cm）",
+              "wareName": "双英 三层加厚不锈钢多功能蒸锅蒸笼汤锅蒸大米 蒸煮炖汤锅电磁炉通用",
+              "wareImageUrl": "https://jf-asset1.10086.cn/pic/ware/5f1804/7/5f1804743c98ae50c3453dff.jpg"
+            },
+            {
+              "sequenceNum": 5,
+              "wareIntegralValue": 4080,
+              "subtitle": "成都陆拾分",
+              "wareCode": "998053",
+              "title": "路易菲斯 刀具八件套切片刀砍骨刀水果刀面包刀磨刀棒厨房剪 821（刀具八件套，黑胶座）",
+              "wareName": "路易菲斯 刀具八件套切片刀砍骨刀水果刀面包刀磨刀棒厨房剪 821",
+              "wareImageUrl": "https://jf-asset1.10086.cn/pic/ware/26/26/998052_1582714266076.jpg"
+            },
+            {
+              "sequenceNum": 6,
+              "wareIntegralValue": 3600,
+              "subtitle": "上海文语",
+              "wareCode": "11060994",
+              "title": "米塔尔MITTAL 通用炫彩大容量不粘炒锅 YH-MT01532（红色，32cm）",
+              "wareName": "米塔尔MITTAL 通用炫彩大容量不粘炒锅 YH-MT01532",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/5f2118/9/5f21189f3c98ae50c3462504.png"
+            }
+          ],
+          "sideImageSubtitle": ".",
+          "sideTargetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E7%94%9F%E6%B4%BB%E7%94%B5%E5%99%A8&wareKindList=%5B%7B%22kindName%22%3A%22%E5%AE%B6%E7%94%A8%E7%94%B5%E5%99%A8%22,%22kindLevel%22%3A%22big%22%7D%5D",
+          "mainImageSubtitle": "。",
+          "mainImageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea25d/b/5ea25db5347439236be423f1.jpg",
+          "mainImageTitle": "。",
+          "mainTargetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E5%8E%A8%E6%88%BF%E7%94%B5%E5%99%A8&wareKindList=%5B%7B%22kindName%22%3A%22%E5%8E%A8%E6%88%BF%E7%94%B5%E5%99%A8%22,%22kindLevel%22%3A%22medium%22%7D%5D"
+        }
+      ],
+      "moduleName": "享品质",
+      "templateCode": "M208",
+      "moduleId": 2000000000000014,
+      "title": "享品质"
+    },
+    {
+      "sequenceNum": 18,
+      "contents": [
+        {
+          "floorInfo": [
+            {
+              "sequenceNum": 1,
+              "subtitle": ".",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5f02d4/6/5f02d46e3c98ae50c342d950.png",
+              "title": ".",
+              "targetUrl": "https://jf.10086.cn/#/intrights?contentId=2000000000001094"
+            }
+          ]
+        }
+      ],
+      "moduleName": "4F通栏",
+      "templateCode": "M203",
+      "moduleId": 2000000000000030,
+      "title": "4F通栏"
+    },
+    {
+      "sequenceNum": 19,
+      "contents": [
+        {
+          "sideImageUrl": "https://jf-asset1.10086.cn/pic/topic/5ea267/9/5ea26796347439236be42447.jpg",
+          "sideImageTitle": ".",
+          "floorWareInfo": [
+            {
+              "sequenceNum": 1,
+              "wareIntegralValue": 5000,
+              "subtitle": "上海槿沅",
+              "wareCode": "11072544",
+              "title": "KEEP IN TOUCH 经典女士魅力石英表 防水女士手表K-8058（金色，女士手表）",
+              "wareName": "英特斯KEEP IN TOUCH 夜光指针防水日历休闲商务男士手表石英表K8196",
+              "wareImageUrl": "https://jf-asset1.10086.cn/pic/ware/202008/5f323a66cbef72208f3cf824.jpg"
+            },
+            {
+              "sequenceNum": 2,
+              "wareIntegralValue": 5000,
+              "subtitle": "深圳市信富诺",
+              "wareCode": "989384",
+              "title": "星迪威克 防泼水面料青春炫彩轻便时尚便携双肩包背包旅行包户外包男包女包学生书包登山包LZ01（双肩包，黑色）",
+              "wareName": "星迪威克 时尚大容量休闲背包旅行包双肩包电脑包男女学生书包户外",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/83/83/989383_1581904700252.jpg"
+            },
+            {
+              "sequenceNum": 3,
+              "wareIntegralValue": 3450,
+              "subtitle": "成都观脂",
+              "wareCode": "11065584",
+              "title": "伊斯登Ysd 百搭男士休闲商务正装自动扣皮带腰带裤带 YSD-01（黑色，自动扣）",
+              "wareName": "伊斯登Ysd 百搭男士休闲商务正装自动扣皮带腰带裤带 YSD-01",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/5f28b6/9/5f28b69db76c582afcd07e6f.jpg"
+            },
+            {
+              "sequenceNum": 4,
+              "wareIntegralValue": 2900,
+              "subtitle": "四川博昊",
+              "wareCode": "11072962",
+              "title": "浪漫一族（LANGMANYIZU）铝合金车杆炫酷闪光轮高度调节可升降三轮车儿童滑板车学步车TQ121（滑板车，闪光轮）",
+              "wareName": "怀乐（HUAILE）儿童工程车吊车挖掘车挖掘机运输车铲土车搅拌车男孩仿真惯性模型宝宝玩具",
+              "wareImageUrl": "https://jf-asset1.10086.cn/pic/ware/202008/5f3260b0cbef72208f3d04a5.jpg"
+            },
+            {
+              "sequenceNum": 5,
+              "wareIntegralValue": 5000,
+              "subtitle": "上海睿节",
+              "wareCode": "822581",
+              "title": "途涯客(TOYAXER)商务双肩背包电脑包户外旅行旅游包书包RJSP（黑色，背包）",
+              "wareName": "途涯客(TOYAXER)商务双肩背包电脑包户外旅行旅游包书包RJSP",
+              "wareImageUrl": "https://jf-asset1.10086.cn/pic/ware/68/68/822580_1568599201651.jpg"
+            },
+            {
+              "sequenceNum": 6,
+              "wareIntegralValue": 880,
+              "subtitle": "自选上周兑换量top1，投诉率0",
+              "wareCode": "11047386",
+              "title": "蓝漂 洗衣液袋装 薰衣草洗衣剂清洁内衣洗衣液500gX2袋",
+              "wareName": "蓝漂 洗衣液袋装 薰衣草洗衣剂清洁内衣洗衣液500gX2袋",
+              "wareImageUrl": "https://jf-asset2.10086.cn/pic/ware/5f0d77/7/5f0d77763c98ae50c343fa3b.jpg"
+            }
+          ],
+          "sideImageSubtitle": ".",
+          "sideTargetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E6%88%B7%E5%A4%96%E8%BF%90%E5%8A%A8%E8%BD%A6%E5%BA%8A%E7%8E%A9%E5%85%B7&wareKindList=%5B%7B%22kindName%22%3A%22%E6%88%B7%E5%A4%96%E8%BF%90%E5%8A%A8%E8%BD%A6%E5%BA%8A%E7%8E%A9%E5%85%B7%22,%22kindLevel%22%3A%22medium%22%7D%5D",
+          "mainImageSubtitle": ".",
+          "mainImageUrl": "https://jf-asset2.10086.cn/pic/topic/5ea267/8/5ea26787347439236be42445.jpg",
+          "mainImageTitle": ".",
+          "mainTargetUrl": "https://jf.10086.cn/#/filterPages?kindName=%E9%9E%8B%E9%9D%B4%E7%AE%B1%E5%8C%85&wareKindList=%5B%7B%22kindName%22%3A%22%E9%9E%8B%E9%9D%B4%E7%AE%B1%E5%8C%85%22,%22kindLevel%22%3A%22medium%22%7D%5D"
+        }
+      ],
+      "moduleName": "品时尚",
+      "templateCode": "M208",
+      "moduleId": 2000000000000016,
+      "title": "品时尚"
+    },
+    {
+      "sequenceNum": 20,
+      "contents": [
+        {
+          "floorInfo": [
+            {
+              "sequenceNum": 1,
+              "subtitle": ".",
+              "imageUrl": "https://jf-asset1.10086.cn/pic/topic/5eaa17/f/5eaa17f144d47f6f6913ee18.jpg",
+              "title": ".",
+              "targetUrl": "https://jf.10086.cn/topics/jfspe_2019gongyi_pc/"
+            }
+          ]
+        }
+      ],
+      "moduleName": "5F通栏",
+      "templateCode": "M203",
+      "moduleId": 2000000000000031,
+      "title": "5F通栏"
+    }
+  ],
+  "resultMessage": "操作成功"
+}
