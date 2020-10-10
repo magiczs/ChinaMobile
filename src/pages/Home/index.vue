@@ -1,56 +1,49 @@
 <template>
-  <div class="wm">
-    <!-- 头部 -->
-    <Header></Header>
-    <!-- 三级列表 轮播图 右侧栏 -->
+  <div class="wm" v-if="private.contents">
+    <Header :navBar="navBar"></Header>
     <div class="second">
-      <!-- 三级列表左侧导航栏 -->
-      <ListContainer></ListContainer>
-      <!-- 轮播图 -->
-      <SliderLoop></SliderLoop>
-      <!-- 右边栏 -->
-      <RightSide></RightSide>
+      <!-- <ListContainer :cateGoryList="cateGoryList"></ListContainer> -->
+      <SliderLoop :swiperData="swiperData" class="bbbb"></SliderLoop>
+      <RightSide :rightSideTitle="rightSideTitle" :rightSidePrice="rightSidePrice" :small="small"></RightSide>
     </div>
-
-    <!-- 长条盒子 -->
-    <div class="box"></div>
-
-    <!-- 精品推荐 原网页都是image-->
-    <Recommend></Recommend>
-    <!-- 品牌旗舰店 原网页都是image-->
-    <Brand></Brand>
-    <!-- 移动私有 原网页 image  image和p标签 -->
-    <Private></Private>
-
-    <!-- 聚便利  原网页 image  image和p标签-->
-    <Convenient></Convenient>
-
-    <!-- 爱生活  image p p-->
-    <Same></Same>
-    <Same></Same>
-    <Same></Same>
+    <img
+      v-if="floor.contents"
+      class="box"
+      :src="floor.contents[0].floorInfo[0].imageUrl"
+      :floor="floor"
+    />
+    <Recommend :recommend="recommend"></Recommend>
+    <Brand :brand="brand"></Brand>
+    <Private :private="private"></Private>
+    <Convenient :convenient="convenient" :cImage="cImage"></Convenient>
+    <Same :same="same" :lImage="lImage"></Same>
+    <Same :same="same1" :lImage="xImage"></Same>
+    <Same :same="same2" :lImage="pImage"></Same>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Footer from '../../components/Footer/index.vue'
-import SliderLoop from '../../components/SliderLoop/index.vue'
 import Header from '../../components/Header/index.vue'
-import ListContainer from '../../components/ListContainer/index.vue'
-import RightSide from '../../components/RightSide/index.vue'
-import Recommend from '../../components/Recommend/index.vue'
-import Brand from '../../components/Brand/index.vue'
-import Private from '../../components/Private/index.vue'
-import Convenient from '../../components/Convenient/index.vue'
-import Same from '../../components/Same/index.vue'
+import Footer from '../../components/Footer/index.vue'
+import SliderLoop from './components/SliderLoop'
+// import ListContainer from './components/ListContainer/index.vue'
+import RightSide from './components/RightSide/index.vue'
+import Recommend from './components/Recommend/index.vue'
+import Brand from './components/Brand/index.vue'
+import Private from './components/Private/index.vue'
+import Convenient from './components/Convenient/index.vue'
+import Same from './components/Same/index.vue'
+
+import { home } from '../../api/index.js'
+
 export default {
   name: 'Home',
   components: {
     Footer,
     SliderLoop,
     Header,
-    ListContainer,
+    // ListContainer,
     RightSide,
     Recommend,
     Brand,
@@ -58,10 +51,90 @@ export default {
     Convenient,
     Same,
   },
+  props: ['navBar'],
+  data() {
+    return {
+      resData: [],
+    }
+  },
+  mounted() {
+    this.getHome()
+    // this.getCateGoryList()
+  },
+  methods: {
+    async getHome() {
+      const result = await this.$API.home.home()
+      this.resData = result.data
+    },
+  },
+  computed: {
+    small() {
+      return this.resData[2] || []
+    },
+    swiperData() {
+      return this.resData[0] || []
+    },
+    // navBar() {
+    //   return this.resData[1] || []
+    // },
+    rightSideTitle() {
+      return this.resData[3] || []
+    },
+    rightSidePrice() {
+      return this.resData[4] || []
+    },
+    recommend() {
+      return this.resData[5] || []
+    },
+    brand() {
+      return this.resData[6] || []
+    },
+    private() {
+      return this.resData[7] || []
+    },
+    convenient() {
+      return this.resData[8] || []
+    },
+    same() {
+      return this.resData[10] || []
+    },
+    same1() {
+      return this.resData[12] || []
+    },
+    same2() {
+      return this.resData[14] || []
+    },
+    floor() {
+      return this.resData[9] || []
+    },
+    cImage() {
+      // console.log(this.resData[11])
+      return this.resData[11] || []
+    },
+
+    lImage() {
+      return this.resData[11] || []
+    },
+    xImage() {
+      return this.resData[13] || []
+    },
+    pImage() {
+      return this.resData[15] || []
+    },
+  },
 }
 </script>
 
 <style lang="less" scoped>
+.bbbb {
+  margin-left: 210px;
+}
+img.box {
+  width: 1200px;
+  margin: 30px auto;
+  height: 100%;
+  display: block;
+}
 .wm {
   background-color: #f6f6f6;
 }

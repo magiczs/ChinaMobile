@@ -19,47 +19,26 @@
 
         <div class="swiper-container" ref="a">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <p>关于关于关于</p>
-            </div>
-            <div class="swiper-slide">
-              <p>sjsjsjsjsjsjsjsjsjsjsjss</p>
-            </div>
-            <div class="swiper-slide">
-              <p>njbbbbvytdfyguhdxfcvh</p>
-            </div>
-            <div class="swiper-slide">
-              <p>njbbbbvytdfyguhdxfcvh</p>
+            <div
+              class="swiper-slide"
+              v-for="(rightSideTitleEvery,index) in rightSideTitle.contents"
+              :key="rightSideTitleEvery.title"
+            >
+              <p>{{rightSideTitleEvery.title}}</p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="t">
-      <div>
-        <img src="https://jf-asset1.10086.cn/pic/topic/5ea25f/6/5ea25f64347439236be423fc.png" alt />
-        <p>lalla</p>
-      </div>
-      <div>
-        <img src="https://jf-asset1.10086.cn/pic/topic/5ea25f/6/5ea25f64347439236be423fc.png" alt />
-        <p>lalla</p>
-      </div>
-      <div>
-        <img src="https://jf-asset1.10086.cn/pic/topic/5ea25f/6/5ea25f64347439236be423fc.png" alt />
-        <p>lalla</p>
-      </div>
-      <div>
-        <img src="https://jf-asset1.10086.cn/pic/topic/5ea25f/6/5ea25f64347439236be423fc.png" alt />
-        <p>lalla</p>
-      </div>
-      <div>
-        <img src="https://jf-asset1.10086.cn/pic/topic/5ea25f/6/5ea25f64347439236be423fc.png" alt />
-        <p>lalla</p>
-      </div>
-      <div>
-        <img src="https://jf-asset1.10086.cn/pic/topic/5ea25f/6/5ea25f64347439236be423fc.png" alt />
-        <p>lalla</p>
-      </div>
+      <a
+        v-for="(smallEvery,index) in small.contents"
+        :key="smallEvery.butttonName"
+        :href="smallEvery.targetUrl"
+      >
+        <img :src="smallEvery.imageUrl" alt />
+        <p>{{smallEvery.buttonName}}</p>
+      </a>
     </section>
 
     <div class="one">
@@ -80,11 +59,12 @@
     </div>
 
     <div class="two">
-      <button>5</button>
-      <button>5</button>
-      <button>5</button>
-      <button>5</button>
-      <input type="text" />
+      <button
+        v-for="(rightSidePriceEvery,index) in rightSidePrice.contents"
+        :key="rightSidePrice.position"
+      >{{rightSidePriceEvery.labelName}}</button>
+
+      <input type="text" placeholder="默认显示" />
       <span>使用0积分</span>
       <button>立即兑换</button>
     </div>
@@ -95,6 +75,7 @@
 import Swiper from 'swiper'
 export default {
   name: 'RightSide',
+  props: ['rightSideTitle', 'rightSidePrice', 'small'],
   mounted() {
     new Swiper(this.$refs.a, {
       slidesPerView: 2, //显示几个
@@ -163,7 +144,7 @@ export default {
   font-size: 14px;
 }
 .rightSide .s p {
-  margin: 10px 23px 0;
+  margin: 0 23px 0;
 }
 .rightSide .s .top {
   width: 190px;
@@ -181,7 +162,9 @@ export default {
   box-sizing: border-box;
   margin: 10px 0;
 }
-.rightSide .t div {
+
+.rightSide .t a {
+  display: block;
   justify-content: space-around;
   display: flex;
   flex-direction: column;
@@ -189,7 +172,7 @@ export default {
   align-items: center;
 }
 
-.rightSide .t div img {
+.rightSide .t a img {
   width: 28px;
   height: 28px;
 }
@@ -197,6 +180,8 @@ export default {
   color: #e3007c;
 }
 .rightSide .t p {
+  color: #666;
+  font-weight: 300;
   text-align: center;
   width: 66px;
   height: 17px;
@@ -223,7 +208,7 @@ export default {
   position: relative;
 }
 .rightSide .two button {
-  margin: 0 2px 8px 6px;
+  margin: 0 5px 2px 4px;
   width: 41px;
   height: 24px;
   border: 1px solid orange;
@@ -232,10 +217,13 @@ export default {
   color: orange;
 }
 .rightSide .two input {
+  width: 92%;
+  height: 25px;
+  text-indent: 8px;
   outline: none;
   display: block;
   margin: 10px 6px;
-  border: ipx grey solid;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
 }
 .rightSide .two span {
   display: block;
@@ -256,7 +244,14 @@ export default {
   height: 80px;
 }
 .swiper-container .swiper-slide {
-  margin: 0px;
+  height: 40px;
+  line-height: 40px;
+}
+.swiper-container .swiper-slide p {
+  width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>
 

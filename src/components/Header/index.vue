@@ -1,11 +1,11 @@
 <template>
   <div>
-    <!-- 头部导航栏 -->
     <div class="outer">
       <div class="tab-bar">
         <div class="tab-left">
           <a>您好，欢迎访问中国移动积分商城</a>
-          <a class="qdl">请登录</a>
+          <!-- <a class="qdl">请登录</a> -->
+          <router-link to="/login" class="pink">请登录</router-link>
         </div>
         <div class="tab-right">
           <div class="one q">
@@ -44,8 +44,8 @@
 
         <!-- 搜索栏区域 -->
         <div class="middle" action="###">
-          <input type="text" class="searchinput" />
-          <button type="button">
+          <input type="text" class="searchinput" v-model="keyword" />
+          <button type="button" @click="toSearch">
             <i class="iconfont iconsousuo"></i>
           </button>
         </div>
@@ -60,18 +60,14 @@
       </div>
 
       <!-- 导航栏 -->
-      <div class="nav">
+      <div class="nav" v-if="navBar && navBar.contents">
         <div class="nav-l">
           <i class="iconfont iconmenu"></i>
           <span>全部商品分类</span>
+          <ListContainer class="aaaa" :cateGoryList="cateGoryList"></ListContainer>
         </div>
-        <div class="nav-r">
-          <a class="sy" href="javascript:;">首页</a>
-          <a href="javascript:;">我能兑换</a>
-          <a href="javascript:;">品牌专区</a>
-          <a href="javascript:;">积分权益</a>
-          <a href="javascript:;">乐享生活</a>
-          <a href="javascript:;">积分互换</a>
+        <div class="nav-r" v-for="(navEvery,index) in navBar.contents" :key="navEvery.name">
+          <a class="sy" :href="navEvery.targetUrl">{{navEvery.name}}</a>
         </div>
       </div>
     </div>
@@ -79,8 +75,54 @@
 </template>
 
 <script>
+import ListContainer from '../../pages/Home/components/ListContainer'
 export default {
   name: 'Header',
+  components: {
+    ListContainer,
+  },
+  data() {
+    return {
+      resData: '',
+      cateGoryList: [],
+      keyword: '',
+    }
+  },
+  mounted() {
+    this.getHome(), this.getCateGoryList()
+  },
+  methods: {
+    async getHome() {
+      const result = await this.$API.home.home()
+      this.resData = result.data
+    },
+    async getCateGoryList() {
+      const result = await this.$API.home.cateGoryList()
+      this.cateGoryList = result.data
+    },
+    toSearch() {
+      let location = {
+        name: 'search',
+        params: {
+          keyword: this.keyword || undefined,
+        },
+      }
+      if (this.$router.query) {
+        location.query = this.$route.query
+      }
+      if (this.$route.path !== '/home') {
+        this.$router.replace(location) //对象
+      } else {
+        this.$router.push(location) //对象
+      }
+    },
+  },
+  computed: {
+    navBar() {
+      // console.log(this.resData[1])
+      return this.resData[1] || []
+    },
+  },
 }
 </script>
 
@@ -89,10 +131,11 @@ export default {
   margin: 0 auto;
   width: 1200px;
 }
-.outer .qdl {
+.tab-bar .tab-left .pink {
   padding-left: 30px;
   color: #e3007c;
 }
+
 .outer .icondown {
   padding-left: 6px;
   line-height: 30px;
@@ -132,8 +175,6 @@ export default {
   position: absolute;
   z-index: 99;
   background-color: #fff;
-  box-shadow: 0 2px 2px 2px #e6e6e6;
-  box-shadow: 10px 10px 10px 10px #333;
 }
 
 .tab-right a.sjb + .ewm {
@@ -294,6 +335,7 @@ export default {
   height: 40px;
   text-align: center;
 }
+
 .nav .nav-l span {
   font-size: 16px;
   font-weight: 400;
@@ -311,5 +353,13 @@ export default {
 }
 .nav-r {
   margin-left: 20px;
+}
+.aaaa {
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 99;
+  top: 205px;
+  text-align: left;
 }
 </style>

@@ -2,24 +2,33 @@
   <div>
     <!-- 聚便利  原网页 image  image和p标签-->
     <div class="devicefour">
-      <h2 class="h5">聚便利</h2>
+      <h2 class="h5">{{convenient.moduleName}}</h2>
       <div class="bottom">
-        <div class="left"></div>
+        <div class="left">
+          <a :href="convenient.contents[0].mainTargetUrl">
+            <img :src="convenient.contents[0].mainImageUrl" alt />
+          </a>
+        </div>
         <div class="right">
+          <div class="right-o" v-for="(convenientEvery,index) in convenient.contents[0].floorInfo">
+            <a :href="convenientEvery.targetUrl">
+              <img :src="convenientEvery.imageUrl" alt />
+              <p>{{convenientEvery.title}}</p>
+            </a>
+          </div>
+          <!-- <div class="right-o"></div>
           <div class="right-o"></div>
           <div class="right-o"></div>
           <div class="right-o"></div>
           <div class="right-o"></div>
           <div class="right-o"></div>
-          <div class="right-o"></div>
-          <div class="right-o"></div>
-          <div class="right-o"></div>
+          <div class="right-o"></div>-->
         </div>
       </div>
     </div>
     <!-- 相同的图片 -->
     <div class="sameimg">
-      <img src alt />
+      <img :src="cImage.contents[0].floorInfo[0].imageUrl" alt />
     </div>
   </div>
 </template>
@@ -27,6 +36,7 @@
 <script>
 export default {
   name: 'Convenient',
+  props: ['convenient', 'cImage'],
 }
 </script>
 
@@ -50,6 +60,16 @@ export default {
   border-radius: 10px;
   margin-right: 20px;
 }
+.devicefour .left:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.devicefour .left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
 .devicefour .right {
   width: 920px;
   height: 600px;
@@ -60,9 +80,17 @@ export default {
   flex-shrink: 0;
   width: 210px;
   height: 290px;
-  background-color: green;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   margin: 0 0 20px 20px;
+}
+.devicefour .right .right-o p {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+.devicefour .right .right-o:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .sameimg {
@@ -71,5 +99,10 @@ export default {
   border-radius: 10px;
   background-color: #bfa;
   margin: 40px auto;
+}
+.sameimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 </style>

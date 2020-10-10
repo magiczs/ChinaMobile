@@ -1,14 +1,8 @@
 <template>
   <div class="swiper-container" ref="banner">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="./images/5ed5fbd7d5f19b2f93ae5d87.jpg" alt />
-      </div>
-      <div class="swiper-slide">
-        <img src="./images/5ee1a0043c98ae50c3409668.jpg" alt />
-      </div>
-      <div class="swiper-slide">
-        <img src="./images/5f71a4a145af596d7c48c7ed.jpg" alt />
+      <div class="swiper-slide" v-for="(lbt,index) in swiperData.contents" :key="lbt.name">
+        <img :src="lbt.imageUrl" alt />
       </div>
     </div>
     <!-- 如果需要分页器 -->
@@ -24,6 +18,7 @@
 import Swiper from 'swiper'
 export default {
   name: 'SliderLoop',
+  props: ['swiperData'],
   mounted() {
     new Swiper(this.$refs.banner, {
       // oberserve: true,
