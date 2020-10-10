@@ -8,18 +8,18 @@
         <div class="headerContent">
           <div class="part1">
             <p class="pay">应付</p>
-            <p class="money">1积分</p>
+            <p class="money">{{ payInfo.total ? payInfo.total : "" }}积分</p>
             <p class="money" style="display: none">1积分+0元</p>
             <p class="money" style="display: none">0元</p>
           </div>
           <div class="longLine"></div>
           <div class="part2">
             <p class="orderNum">
-              订单提交成功，请尽快支付！订单编号 92201007115741542218
+              订单提交成功，请尽快支付！订单编号 {{ orderNo }}
             </p>
             <p class="timeout">
-              <span>请您在提交订单30分钟内支付,</span>
-              <span class="decsTime">剩余支付时间：7分40秒</span>
+              <span>请您在提交订单30分钟内支付</span>
+              <!-- <span class="decsTime">剩余支付时间：7分40秒</span> -->
             </p>
             <p class="wenan">
               未成功支付的订单，可继续支付或取消订单，超时未支付的订单，将自动取消
@@ -36,7 +36,8 @@
           </p>
           <div class="secondBox add">
             <p class="second">
-              <span>车萝卜停车牌6个月体验</span> <span>×1</span> <span></span>
+              <span>{{ payInfo.productName }}</span>
+              <span>×{{ payInfo.count }}</span> <span></span>
               <span>直接兑换</span>
             </p>
           </div>
@@ -52,7 +53,12 @@
                 placeholder="请输入短信验证码"
                 maxlength="6"
                 class="txt"
+                v-model="code"
+                name="code"
+                v-validate="{ required: true, regex: /^\d{6}$/ }"
+                :class="{ invalid: errors.has('code') }"
               />
+              <span class="error-msg">{{ errors.first("code") }}</span>
               <span class="line"></span>
               <span
                 class="getShortMes"
@@ -61,26 +67,22 @@
                 v-show="!isSendCode"
                 >获取短信验证码</span
               >
-              <span class="getShortMes_time" style="" v-show="isSendCode"
+              <span class="getShortMes_time" v-show="isSendCode"
                 >{{ timeout }}s后重新获取</span
               >
             </p>
             <p class="checkLog">
               <input
-                type="password"
-                placeholder="请输入客服密码"
+                type="txt"
+                placeholder="请输入手机号码"
                 maxlength="20"
                 class="txt"
+                v-model="password"
+                name="password"
+                v-validate="{ required: true, regex: /^\w{6,20}$/ }"
+                :class="{ invalid: errors.has('password') }"
               />
-              <span class="forget">忘记密码，请咨询10086</span>
-            </p>
-            <p class="checkLog" style="display: none">
-              <input
-                type="password"
-                placeholder="请输入支付密码"
-                maxlength="20"
-                class="txt"
-              />
+              <span class="error-msg">{{ errors.first("password") }}</span>
               <span class="forget">忘记密码，请咨询10086</span>
             </p>
           </div>
@@ -98,29 +100,81 @@ export default {
   name: "Pay",
   data() {
     return {
+      password: "",
+      //输入的验证码
+      code: "",
+      //随机生成的验证码
+      isCode: "",
       //重新获取验证码时间
-      timeout: 5,
+      timeout: 30,
       //验证码发送状态
       isSendCode: false,
+      //订单详情数据
+      payInfo: {},
     };
   },
+  mounted() {
+    // this.getPayInfo();
+  },
   methods: {
+    //获取订单详情
+    async getPayInfo() {
+      const result = await this.$API.pay.reqPayInfo(this.$route.params.orderId);
+      if (result.code === 200) {
+        this.payInfo = result.data;
+      }
+    },
     //发送验证码
-    getShortMes() {
+    async getShortMes() {
+      //生成随机6位数字作为验证码
+      this.isCode = Math.floor((Math.random() * 9 + 1) * 100000);
+      //改变验证码发送状态
       this.isSendCode = true;
+      const result = await this.$API.pay.reqCode({
+        isCode: this.isCode,
+        phone: this.password,
+      });
+      if (result.statusCode !== "000000") {
+        this.$message.error("验证码发送失败!");
+        return;
+      } else {
+        this.$message.success("验证码发送成功!");
+      }
       const timer = setInterval(() => {
         this.timeout--;
         if (this.timeout < 0) {
           this.isSendCode = false;
-          this.timeout = 5;
+          this.timeout = 30;
           clearInterval(timer);
           return;
         }
       }, 1000);
     },
     //支付
-    pay() {
-      this.$router.push("/paysuccess");
+    async pay() {
+      // if (!this.password || !this.code) {
+      //   this.$message.error("请输入短信验证码和支付密码!");
+      //   return;
+      // } else if (this.code != this.isCode) {
+      //   this.$message.error("验证码错误!");
+      //   return;
+      // }
+      this.$message.success("验证码输入正确!");
+      // let { count, total, orderId } = this.payInfo;
+      // const result = await this.$API.pay.reqOrderStatus({ orderId });
+      // if (result.code === 200) {
+      // let location = {
+      //   name: "paysuccess",
+      //   params: { total, count },
+      //   query: { orderNo: this.orderNo },
+      // };
+      // this.$router.push(location);
+      // }
+    },
+  },
+  computed: {
+    orderNo() {
+      return this.$route.query.orderNo;
     },
   },
 };
@@ -280,6 +334,9 @@ export default {
             line-height: 21px;
             display: block;
             float: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
           }
           span:nth-child(2) {
             height: 21px;
@@ -352,6 +409,10 @@ export default {
         .checkLog {
           padding: 0 0 35px 20px;
           width: 396px;
+          .error-msg {
+            color: red;
+            font-size: 16px;
+          }
           input {
             display: block;
             width: 381px;

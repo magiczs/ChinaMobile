@@ -20,6 +20,7 @@ export default [
   {
     path: "/paysuccess",
     component: PaySuccess,
+    name: "paysuccess",
   },
   {
     path: "/",

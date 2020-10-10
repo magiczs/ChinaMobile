@@ -232,14 +232,14 @@ export default {
   data() {
     return {
       spuInfo: {
-        spuId: 100001,
-        count: 3,
+        spuId: 100010,
+        count: 1,
       },
       tradeInfo: {},
       isActive: 0,
       isDefault: 0,
       //用户可用积分
-      userCanuseIntegral: 103,
+      userCanuseIntegral: 99999,
     };
   },
   mounted() {
@@ -248,7 +248,7 @@ export default {
   methods: {
     async getTradeInfo() {
       const result = await this.$API.pay.reqTradeInfo(this.spuInfo);
-      if (result.code === 2000) {
+      if (result.code === 200) {
         this.tradeInfo = result.data;
       }
     },
@@ -263,15 +263,23 @@ export default {
         return;
       }
     },
-    handleSubmit() {
+    async handleSubmit() {
       if (this.userCanuseIntegral < this.totalPrice) {
         this.$message.error("可用积分不足");
         return;
       }
-      let location = {
-        name: "pay",
-      };
-      this.$router.push(location);
+      //获取发送请求订单数据的参数
+      let { spuId, count } = this.tradeInfo;
+      const result = await this.$API.pay.reqTradeInfo({ spuId, count });
+      if (result.code === 200) {
+        let { orderId, created } = result.data;
+        let location = {
+          name: "pay",
+          params: { orderId },
+          query: { orderNo: created },
+        };
+        this.$router.push(location);
+      }
     },
   },
   computed: {

@@ -19,10 +19,10 @@
           </thead>
           <tbody>
             <tr class="opTable_tr">
-              <td>62201009153815368253</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
+              <td>{{ $route.query.orderNo }}</td>
+              <td>{{ $route.params.count }}</td>
+              <td>{{ $route.params.count }}</td>
+              <td>{{ $route.params.total }}</td>
               <td>0元</td>
             </tr>
           </tbody>
@@ -37,6 +37,7 @@
             <router-link class="opBtn_fla fanhuishouye" to="/"
               >返回首页</router-link
             >
+            <img :src="imgUrl" alt="" />
           </p>
         </div>
       </div>
