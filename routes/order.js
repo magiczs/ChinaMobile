@@ -26,21 +26,22 @@ router.post("/", async (req, res) => {
 });
 
 /**
- * 支付订单
+ * 支付订单 请求体传入 orderId
  */
 router.post("/pay", async (req, res) => {
-  let o = await orderService.setOrderSuccess(req.body.spuId, req.user.username);
+  let o = await orderService.setOrderSuccess(req.body, req.user.username);
   res.success(o);
 });
 
 /**
  * 取消订单
  */
+
 /**
- * 支付订单
+ * 取消订单 请求体传入 orderId
  */
-router.post("/pay", async (req, res) => {
-  let o = await orderService.setOrderCancel(req.body.spuId, req.user.username);
+router.post("/cancel", async (req, res) => {
+  let o = await orderService.setOrderCancel(req.body, req.user.username);
   res.success(o);
 });
 module.exports = router;

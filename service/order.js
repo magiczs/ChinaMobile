@@ -59,8 +59,9 @@ async function getOrders(username) {
  * @param order
  * @returns {Promise<void>}
  */
-function update(productId, username, order) {
-  let res = Order.updateOne({ orderId: productId, username }, order);
+async function update(productId, username, order) {
+  console.log(productId, username, order);
+  let res = await Order.updateOne({ orderId: productId }, order);
   if (!res || res.n === 0) {
     throw Error("订单更新失败");
   }
@@ -71,23 +72,30 @@ function update(productId, username, order) {
  * @param id
  * @returns {Promise<void>}
  */
-async function setOrderCancel(id, username) {
-  let order = await getOrderById(id, username);
+async function setOrderCancel({ orderId }, username) {
+  console.log(orderId, username);
+  let order = await getOrderById(orderId, username);
+
   order.status = 2;
   order.cancelTime = Date.now();
-  await update(id, order);
+  let result = await Order.updateOne({ orderId, username }, order);
+  console.log(result);
 }
-
 /**
  * 支付订单
  * @param id
  * @returns {Promise<void>}
  */
-async function setOrderSuccess(id, username) {
-  let order = await getOrderById(id, username);
+async function setOrderSuccess({ orderId }, username) {
+  let order = await getOrderById(orderId, username);
+
   order.status = 1;
   order.payTime = Date.now();
-  await update(id, username, order);
+  // console.log({ orderId, username });
+  // console.log(order);
+  let result = await Order.updateOne({ orderId, username }, order);
+  console.log(result);
+  return "ok";
 }
 
 module.exports = {
