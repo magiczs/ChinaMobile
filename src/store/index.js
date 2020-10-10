@@ -8,6 +8,7 @@ const mutations = {};
 const actions = {};
 const getters = {};
 
+import search from "./search";
 export default new Vuex.Store({
   state,
   mutations,
@@ -15,5 +16,6 @@ export default new Vuex.Store({
   getters,
   modules: {
     home,
+    search,
   },
 });

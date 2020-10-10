@@ -146,21 +146,13 @@
             <div class="itemType" style>
               <div class="sortName h40">品牌：</div>
               <div class="w50 h40 nolimit">不限</div>
-              <div class="overHid fx wrap">
+              <div
+                class="overHid fx wrap"
+                v-for="(teademark, index) in CategoryList.trademarkList"
+                :key="index"
+              >
                 <div class="w104 beyond_ellipsis1 ml30 h40 filTerm">
-                  小米有品
-                </div>
-                <div class="w104 beyond_ellipsis1 ml30 h40 filTerm">
-                  小适
-                </div>
-                <div class="w104 beyond_ellipsis1 ml30 h40 filTerm">
-                  Reepro
-                </div>
-                <div class="w104 beyond_ellipsis1 ml30 h40 filTerm">
-                  映趣
-                </div>
-                <div class="w104 beyond_ellipsis1 ml30 h40 filTerm">
-                  须眉（SMATE）
+                  {{ teademark }}
                 </div>
               </div>
               <div class="btnBox h40">
@@ -276,21 +268,22 @@
       </div>
       <!-- 商品卡片 -->
       <div class="gdList">
-        <div class="gdItem curPoint">
+        <div
+          class="gdItem curPoint"
+          v-for="(goods, index) in CategoryList.products"
+          :key="goods.categoryId"
+        >
           <div class="imgCont">
-            <img src="./img/yashua.jpg" />
+            <img :src="goods.spuImgUrl[0]" />
           </div>
           <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
+            <div v-for="(smgood, index) in goods.spuImgUrl" :key="index">
+              <img :src="smgood" />
             </div>
           </div>
           <div class="payParams fx">
             <span class="font24 clRed">
-              1690
+              {{ goods.marketPrice }}
             </span>
             <span class="lText clRed font12">
               积分
@@ -302,313 +295,7 @@
           <div class="fx mb5 mt5">
             <span class="beyond_ellipsis2 title">
               <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
-            </span>
-          </div>
-          <div class="commont">
-            <span>9999评价</span>
-            <span> 100%好评</span>
-          </div>
-        </div>
-        <div class="gdItem curPoint">
-          <div class="imgCont">
-            <img src="./img/yashua.jpg" />
-          </div>
-          <div class="smallImg">
-            <div>
-              <img src="./img/xyashua1.jpg" />
-            </div>
-            <div>
-              <img src="./img/xyashua2.jpg" />
-            </div>
-          </div>
-          <div class="payParams fx">
-            <span class="font24 clRed">
-              1690
-            </span>
-            <span class="lText clRed font12">
-              积分
-            </span>
-          </div>
-          <div class="listTags">
-            <i class="iconfont icon-ChinaMobile"></i>
-          </div>
-          <div class="fx mb5 mt5">
-            <span class="beyond_ellipsis2 title">
-              <img src="./img/qqt.png" class="param discount" />
-              小米有品贝医生牙刷青春版
+              {{ goods.wareName }}
             </span>
           </div>
           <div class="commont">
@@ -617,13 +304,28 @@
           </div>
         </div>
       </div>
+      <Pagination></Pagination>
     </div>
   </div>
 </template>
 
 <script>
+import { mapState } from "vuex";
 export default {
   name: "search",
+  mounted() {
+    this.getCategoryList();
+  },
+  methods: {
+    getCategoryList() {
+      this.$store.dispatch("getCategoryList");
+    },
+  },
+  computed: {
+    ...mapState({
+      CategoryList: (state) => state.search.categoryList,
+    }),
+  },
 };
 </script>
 
