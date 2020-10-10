@@ -42,7 +42,6 @@ async function updateProduct(id, product) {
  * @returns {Promise<*>}
  */
 async function findById(spuId) {
-  console.log(spuId);
   await isIdExist(spuId);
   let res = await Product.findOne(
     { spuId },
@@ -89,7 +88,6 @@ async function getProductsByPage(page = 1, pageCount = 5, sort = 1, body = {}) {
  * @returns {Promise<void>}
  */
 async function isIdExist(spuId) {
-  console.log(1, spuId);
   let p = await Product.findOne({ spuId });
   if (!p || p.n === 0) {
     throw Error(`spuId为${spuId}的商品不存在`);

@@ -60,7 +60,6 @@ async function getOrders(username) {
  * @returns {Promise<void>}
  */
 async function update(productId, username, order) {
-  console.log(productId, username, order);
   let res = await Order.updateOne({ orderId: productId }, order);
   if (!res || res.n === 0) {
     throw Error("订单更新失败");
@@ -73,13 +72,12 @@ async function update(productId, username, order) {
  * @returns {Promise<void>}
  */
 async function setOrderCancel({ orderId }, username) {
-  console.log(orderId, username);
   let order = await getOrderById(orderId, username);
 
   order.status = 2;
   order.cancelTime = Date.now();
   let result = await Order.updateOne({ orderId, username }, order);
-  console.log(result);
+  return "订单已取消";
 }
 /**
  * 支付订单
@@ -94,8 +92,7 @@ async function setOrderSuccess({ orderId }, username) {
   // console.log({ orderId, username });
   // console.log(order);
   let result = await Order.updateOne({ orderId, username }, order);
-  console.log(result);
-  return "ok";
+  return "订单已支付成功";
 }
 
 module.exports = {
