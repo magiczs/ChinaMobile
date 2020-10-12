@@ -8,8 +8,8 @@ const mutations = {
   },
 };
 const actions = {
-  async getCategoryList({ commit }) {
-    const result = await API.reqCategoryList();
+  async getCategoryList({ commit }, { sort, wareBrandName }) {
+    const result = await API.reqCategoryList(sort, wareBrandName);
     if (result.code === 200) {
       commit("RECEIVECATEGORYLIST", result.data);
     }

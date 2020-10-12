@@ -9,6 +9,10 @@
             <span class="fw">全部</span>
             <span class="plf6">></span>
             <span>小米有品</span>
+            <span v-show="searchinfo.wareBrandName" class="searchinfo"
+              >{{ searchinfo.wareBrandName
+              }}<i class="iconfont icon-x iconx" @click="iconx"></i
+            ></span>
           </div>
           <div class="fx alignCt"></div>
         </div>
@@ -150,6 +154,7 @@
                 class="overHid fx wrap"
                 v-for="(teademark, index) in CategoryList.trademarkList"
                 :key="index"
+                @click="searchfotrademak(teademark)"
               >
                 <div class="w104 beyond_ellipsis1 ml30 h40 filTerm">
                   {{ teademark }}
@@ -178,7 +183,7 @@
               <span class="ml30 h40 filTerm">10000-20000</span>
               <span class="ml30 h40 filTerm">20000以上</span>
             </div>
-            <div class="btnBox fx writeFen">
+            <!-- <div class="btnBox fx writeFen">
               <div class="w56 el-input el-input--mini">
                 <input type="text" autocomplete="off" class="el-input__inner" />
               </div>
@@ -192,7 +197,7 @@
               >
                 <span>确定</span>
               </button>
-            </div>
+            </div> -->
           </div>
           <!-- 商品选项第五行 -->
           <div class="itemType" style>
@@ -209,10 +214,11 @@
       <div class="sortType">
         <span>排序方式：</span>
         <div class="fx alignCt">
-          <span class="sortItem fx redColor">
+          <span class="sortItem fx redColor" @click="handlesort">
             积分值
             <span class="jfArrow">
-              <img src="./img/up.png" />
+              <img src="./img/up.png" v-if="sort === 1" />
+              <img src="./img/down.png" v-else />
             </span>
           </span>
           <span class="sortItem">
@@ -252,26 +258,13 @@
             <span>确定</span>
           </button>
         </div>
-        <div class="turnPage">
-          <button type="button" class="el-button arrowBth el-button--default">
-            <i class="iconfont icon-arrow-left-bold"></i>
-          </button>
-          <span class="ml10 mr10">
-            <span>1</span>
-            <span>/</span>
-            <span>9</span>
-          </span>
-          <button type="button" class="el-button arrowBth el-button--default">
-            <i class="iconfont icon-arrow-right-bold"></i>
-          </button>
-        </div>
       </div>
       <!-- 商品卡片 -->
       <div class="gdList">
         <div
           class="gdItem curPoint"
           v-for="(goods, index) in CategoryList.products"
-          :key="goods.categoryId"
+          :key="goods.spuId"
         >
           <div class="imgCont">
             <img :src="goods.spuImgUrl[0]" />
@@ -304,7 +297,13 @@
           </div>
         </div>
       </div>
-      <Pagination></Pagination>
+      <Pagination
+        :currentPageNum="searchinfo.pege"
+        :total="CategoryList.total"
+        :pageSize="searchinfo.pageSize"
+        :continueSize="3"
+        @changePageNum="changePageNum"
+      />
     </div>
   </div>
 </template>
@@ -313,13 +312,36 @@
 import { mapState } from "vuex";
 export default {
   name: "search",
+  data() {
+    return {
+      searchinfo: {},
+      keyword: "",
+      page: 1,
+      limit: 3,
+      sort: 1,
+      body: "",
+    };
+  },
   mounted() {
-    this.getCategoryList();
+    this.getCategoryList({});
   },
   methods: {
-    getCategoryList() {
-      this.$store.dispatch("getCategoryList");
+    getCategoryList(searchinfo) {
+      this.$store.dispatch("getCategoryList", searchinfo);
     },
+    handlesort() {
+      this.sort === 1 ? (this.sort = -1) : (this.sort = 1);
+      this.$store.dispatch("getCategoryList", { sort: this.sort });
+    },
+    searchfotrademak(wareBrandName) {
+      this.searchinfo.wareBrandName = wareBrandName;
+      this.$store.dispatch("getCategoryList", this.searchinfo);
+    },
+    iconx() {
+      this.searchinfo.wareBrandName = "";
+      this.getCategoryList({});
+    },
+    changePageNum() {},
   },
   computed: {
     ...mapState({
@@ -359,6 +381,24 @@ export default {
     span {
       font-size: 12px;
       color: #030303;
+    }
+    .searchinfo {
+      background-color: #fff;
+      height: 12px;
+      width: 12px;
+      margin: 0 0 0 10px;
+      color: #e5008d;
+      .iconx {
+        width: 24px;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+        cursor: pointer;
+        height: 22px;
+        line-height: 2px;
+      }
     }
   }
   // 商品选项第一行
