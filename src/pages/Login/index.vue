@@ -152,10 +152,7 @@ export default {
     };
   },
   methods: {
-    // changeTab(flag) {
-    //   // console.log(111);
-    //   this.isShow = flag;
-    // },
+    
 
     async Login() {
       if (!this.isShow && (!this.phone || !this.code)) {
