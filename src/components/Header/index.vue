@@ -111,9 +111,9 @@ export default {
         location.query = this.$route.query
       }
       if (this.$route.path !== '/home') {
-        this.$router.replace(location) //对象
+        this.$router.replace(location)
       } else {
-        this.$router.push(location) //对象
+        this.$router.push(location)
       }
     },
   },

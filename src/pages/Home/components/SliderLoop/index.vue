@@ -2,7 +2,7 @@
   <div class="swiper-container" ref="banner">
     <div class="swiper-wrapper">
       <div class="swiper-slide" v-for="(lbt,index) in swiperData.contents" :key="lbt.name">
-        <img :src="lbt.imageUrl" alt />
+        <img v-lazy="lbt.imageUrl" alt />
       </div>
     </div>
     <!-- 如果需要分页器 -->

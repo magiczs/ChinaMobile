@@ -1,8 +1,9 @@
 <template>
-  <div class="listContainer">
+  <div class="listContainer" @click="toSearch">
     <div class="first" v-for="(c1,index) in cateGoryList" :key="c1.categoryId">
       <h3>
         <a
+          class="yj"
           href="javascript:;"
           :data-categoryName="c1.categoryName"
           :data-category1Id="c1.categoryId"
@@ -37,7 +38,7 @@ export default {
   data() {
     return {
       currentIndex: -1, //移入下标的时候初始值
-      isShow: true,
+      // isShow: true,
     }
   },
   mounted() {
@@ -54,11 +55,15 @@ export default {
       30,
       { trailing: false }
     ),
+    //点击跳转到search页 带上三级列表的参数
     toSearch(event) {
-      let target = event.target //目标元素
-      let data = target.dataset //拿到目标元素的自定义属性组成的对象
-      console.log(data)
-      let { categoryname, category1id, category2id, category3id } = data
+      //拿到目标元素的自定义属性组成的对象
+      let {
+        categoryname,
+        category1id,
+        category2id,
+        category3id,
+      } = event.target.dataset
       if (categoryname) {
         //点击的就是a标签
         let location = {
@@ -74,18 +79,18 @@ export default {
         } else {
           query.category3Id = category3id
         }
-        //到了这query参数就收集ok
+        //收集参数完毕
         location.query = query
 
-        //点击类别的时候带的是query参数，我们得去看看原来有没有params参数，有的话也得带上
+        //要考虑带上params参数
         if (this.$route.params) {
           location.params = this.$route.params
         }
-
+        //优化
         if (this.$route.path !== '/home') {
-          this.$router.replace(location) //对象
+          this.$router.replace(location)
         } else {
-          this.$router.push(location) //对象
+          this.$router.push(location)
         }
       }
     },
@@ -119,6 +124,15 @@ export default {
 
 .listContainer .first:hover {
   background-color: #eee;
+}
+.listContainer .first:hover a.yj {
+  color: pink;
+}
+.listContainer .first .item-list:hover a.ej {
+  color: pink;
+}
+.listContainer .first .item-list-a:hover a.sj {
+  color: pink;
 }
 
 .listContainer .first .item-list {

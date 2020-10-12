@@ -1,4 +1,5 @@
 import Home from '../pages/Home'
+import Search from '../pages/Search'
 import Login from '../pages/Login'
 const routes = [
   { path: '/home', component: Home },
@@ -12,6 +13,11 @@ const routes = [
   {
     path: '/login',
     component: Login,
+  },
+  {
+    path: '/search/:keyword?',
+    name: 'search',
+    component: Search,
   },
 ]
 export default routes
