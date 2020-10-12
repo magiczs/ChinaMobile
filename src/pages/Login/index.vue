@@ -5,7 +5,6 @@
         <div class="headerCenter">
           <div class="logo">
             <img src="./images/logo230x42.30b1340.png" alt="" />
-            <!-- <a class="back" href="javascript:;">返回</a> -->
             <router-link class="back" to="/Home">返回</router-link>
           </div>
         </div>
@@ -25,9 +24,7 @@
               <li @click="isShow = 1" :class="{ active: isShow == 1 }">
                 服务密码登录
               </li>
-              <!-- <li @click="changeTab(2)" :class="{ active: isShow == 2 }">
-                服务密码登录
-              </li> -->
+             
             </ul>
             <ul class="tabsContent">
               <!-- 短信随机码登录 -->
@@ -42,8 +39,7 @@
                     :class="{ invalid: errors.has('phone') }"
                   />
                   <span class="error-msg">{{ errors.first("phone") }}</span>
-                  <!-- <input type="text" placeholder="请输入手机号码" class="txt" />
-                  <span>请输入手机号码</span> -->
+                  
                 </p>
                 <p>
                   <input
@@ -84,52 +80,7 @@
                 <button class="login" @click="Login">登录</button>
               </li>
             </ul>
-            <!-- <ul v-else-if="isShow == 1" class="tabsContent2"> -->
-            <!-- 服务密码登录 -->
-            <!-- <li class="servePassword">
-                <p>
-                  <input
-                    class="txt3"
-                    placeholder="请输入手机号码"
-                    v-model="phone"
-                    name="phone"
-                    v-validate="{ required: true, regex: /^1\d{10}$/ }"
-                    :class="{ invalid: errors.has('phone') }"
-                  />
-                  <span class="error-msg">{{ errors.first("phone") }}</span> -->
-            <!-- <input
-                    type="text"
-                    placeholder="请输入手机号码"
-                    class="txt3"
-                    
-                  />
-                  <span>请输入手机号码</span> -->
-            <!-- </p> -->
-
-            <!-- <p>
-                  <input
-                    placeholder="请输入短信验证码"
-                    class="txt5"
-                    v-model="code"
-                    name="code"
-                    v-validate="{ required: true, regex: /^\d{6}$/ }"
-                    :class="{ invalid: errors.has('code') }"
-                  />
-                  <span class="error-msg">{{ errors.first("code") }}</span>
-                  <span class="line2">|</span>
-                  <span
-                    class="getShortMes"
-                    @click="getShortMes"
-                    v-show="!isSendCode"
-                    >获取短信验证码</span
-                  >
-                  <span class="getShortMes_time" v-show="isSendCode"
-                    >{{ timeout }}s后重新获取</span
-                  >
-                  <button class="login2" @click="passwordLogin()">登录</button>
-                </p> -->
-            <!-- </li>
-            </ul> -->
+            
           </div>
         </div>
       </section>
