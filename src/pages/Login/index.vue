@@ -177,7 +177,6 @@ export default {
           });
           if (result.code === 200) {
             let token = result.data.token;
-            // console.log(token);
             localStorage.setItem("token", token);
             this.$message.success("恭喜登录成功");
             this.$router.push("/home");
