@@ -17,26 +17,26 @@
             <ul class="tabsTitle">
               <li
                 class="add"
-                @click="changeTab(0)"
+                @click="isShow = 0"
                 :class="{ active: isShow == 0 }"
               >
                 短信随机码登录
               </li>
-              <li @click="changeTab(1)" :class="{ active: isShow == 1 }">
+              <li @click="isShow = 1" :class="{ active: isShow == 1 }">
                 服务密码登录
               </li>
               <!-- <li @click="changeTab(2)" :class="{ active: isShow == 2 }">
                 服务密码登录
               </li> -->
             </ul>
-            <ul class="tabsContent" v-if="isShow == 0">
+            <ul class="tabsContent">
               <!-- 短信随机码登录 -->
               <li class="shortMessage">
                 <p>
                   <input
                     class="txt"
                     placeholder="请输入手机号码"
-                    v-model="mobile"
+                    v-model="phone"
                     name="phone"
                     v-validate="{ required: true, regex: /^1\d{10}$/ }"
                     :class="{ invalid: errors.has('phone') }"
@@ -55,40 +55,18 @@
                     :class="{ invalid: errors.has('code') }"
                   />
                   <span class="error-msg">{{ errors.first("code") }}</span>
-                  <!-- <input
-                    type="text"
-                    placeholder="请输入短信验证码"
-                    class="txt2"
-                  />
-                  <span>请输入验证码</span> -->
                   <span class="line">|</span>
-                  <span class="getShortMes1">获取短信验证码</span>
+                  <span
+                    class="getShortMes1"
+                    @click="getShortMes"
+                    v-show="!isSendCode"
+                    >获取短信验证码</span
+                  >
+                  <span class="getShortMes_time" v-show="isSendCode"
+                    >{{ timeout }}s后重新获取</span
+                  >
                 </p>
-                <button class="login" @click="codeLogin">登录</button>
-              </li>
-            </ul>
-            <ul v-else-if="isShow == 1" class="tabsContent2">
-              <!-- 服务密码登录 -->
-              <li class="servePassword">
-                <p>
-                  <input
-                    class="txt3"
-                    placeholder="请输入手机号码"
-                    v-model="mobile"
-                    name="phone"
-                    v-validate="{ required: true, regex: /^1\d{10}$/ }"
-                    :class="{ invalid: errors.has('phone') }"
-                  />
-                  <span class="error-msg">{{ errors.first("phone") }}</span>
-                  <!-- <input
-                    type="text"
-                    placeholder="请输入手机号码"
-                    class="txt3"
-                    
-                  />
-                  <span>请输入手机号码</span> -->
-                </p>
-                <p>
+                <p v-show="isShow === 1">
                   <input
                     type="password"
                     placeholder="请输入服务密码"
@@ -99,15 +77,36 @@
                     :class="{ invalid: errors.has('password') }"
                   />
                   <span class="error-msg">{{ errors.first("password") }}</span>
-                  <!-- <input
-                    type="text"
-                    placeholder="请输入服务密码"
-                    class="txt4"
-                  />
-                  <span>请输入服务密码</span> -->
+
                   <i>忘记密码，请咨询10086</i>
                 </p>
+
+                <button class="login" @click="Login">登录</button>
+              </li>
+            </ul>
+            <!-- <ul v-else-if="isShow == 1" class="tabsContent2"> -->
+            <!-- 服务密码登录 -->
+            <!-- <li class="servePassword">
                 <p>
+                  <input
+                    class="txt3"
+                    placeholder="请输入手机号码"
+                    v-model="phone"
+                    name="phone"
+                    v-validate="{ required: true, regex: /^1\d{10}$/ }"
+                    :class="{ invalid: errors.has('phone') }"
+                  />
+                  <span class="error-msg">{{ errors.first("phone") }}</span> -->
+            <!-- <input
+                    type="text"
+                    placeholder="请输入手机号码"
+                    class="txt3"
+                    
+                  />
+                  <span>请输入手机号码</span> -->
+            <!-- </p> -->
+
+            <!-- <p>
                   <input
                     placeholder="请输入短信验证码"
                     class="txt5"
@@ -118,11 +117,19 @@
                   />
                   <span class="error-msg">{{ errors.first("code") }}</span>
                   <span class="line2">|</span>
-                  <span class="getShortMes">获取短信验证码</span>
+                  <span
+                    class="getShortMes"
+                    @click="getShortMes"
+                    v-show="!isSendCode"
+                    >获取短信验证码</span
+                  >
+                  <span class="getShortMes_time" v-show="isSendCode"
+                    >{{ timeout }}s后重新获取</span
+                  >
                   <button class="login2" @click="passwordLogin()">登录</button>
-                </p>
-              </li>
-            </ul>
+                </p> -->
+            <!-- </li>
+            </ul> -->
           </div>
         </div>
       </section>
@@ -131,41 +138,113 @@
 </template>
 
 <script>
-import { reqLogin } from "@/api";
 export default {
   name: "Login",
   data() {
     return {
       isShow: 0,
-      mobile: "",
+      phone: "",
       password: "",
       code: "",
+      isCode: "",
+      isSendCode: false,
+      timeout: 5,
     };
   },
   methods: {
-    changeTab(flag) {
-      // console.log(111);
-      this.isShow = flag;
-    },
-    codeLogin() {
-      console.log(111);
-    },
-    async passwordLogin() {
-      // console.log(222);
-      let username = this.mobile;
+    // changeTab(flag) {
+    //   // console.log(111);
+    //   this.isShow = flag;
+    // },
+
+    async Login() {
+      if (!this.isShow && (!this.phone || !this.code)) {
+        this.$message.error("请输入手机号或验证码");
+        return;
+      } else if (this.isShow && (!this.password || !this.code)) {
+        this.$message.error("请输入验证码或登录密码!");
+        return;
+      } else if (this.code != this.isCode) {
+        this.$message.error("验证码输入错误!");
+        return;
+      }
+ 
+      if (this.phone && this.password && this.code) {
+        try {
+          const result = await this.$API.login.reqLogin({
+            username: this.phone,
+            password: this.password,
+          });
+          if (result.code === 200) {
+            let token = result.data.token;
+            // console.log(token);
+            localStorage.setItem("token", token);
+            this.$message.success("恭喜登录成功");
+            this.$router.push("/home");
+            return;
+          } else {
+            this.$message.error(`${result.data}`);
+            return;
+          }
+        } catch (error) {
+          console.log(error.message);
+          return;
+        }
+      }
 
       try {
-        const result = await reqLogin({ username, password: this.password });
-        if (result.code === 200) {
-          let token = result.data.token;
-          // console.log(token);
-          localStorage.setItem("token", token);
-          alert("恭喜登录成功");
-          this.$router.push("/home");
+          const result = await this.$API.login.reqLogin({
+            username: this.phone,
+            password: '123456',
+          });
+          if (result.code === 200) {
+            let token = result.data.token;
+            // console.log(token);
+            localStorage.setItem("token", token);
+            this.$message.success("恭喜登录成功");
+            this.$router.push("/home");
+            return;
+          } else {
+            this.$message.error(`${result.data}`);
+            return;
+          }
+        } catch (error) {
+          console.log(error.message);
+          return;
         }
-      } catch (error) {
-        console.log(error.message);
+
+      
+    },
+    //发送验证码
+    async getShortMes() {
+      if (this.phone === "") {
+        this.$message.error("请输入手机号码");
+        return;
       }
+      //生成随机6位数字作为验证码
+      this.isCode = Math.floor((Math.random() * 9 + 1) * 100000);
+      console.log(this.isCode);
+      //改变验证码发送状态
+      this.isSendCode = true;
+      // const result = await this.$API.pay.reqCode({
+      //   isCode: this.isCode,
+      //   phone: this.password,
+      // });
+      // if (result.statusCode !== "000000") {
+      //   this.$message.error("验证码发送失败!");
+      //   return;
+      // } else {
+      //   this.$message.success("验证码发送成功!");
+      // }
+      const timer = setInterval(() => {
+        this.timeout--;
+        if (this.timeout < 0) {
+          this.isSendCode = false;
+          this.timeout = 30;
+          clearInterval(timer);
+          return;
+        }
+      }, 1000);
     },
   },
 };
@@ -270,7 +349,7 @@ export default {
             padding: 0 0 0 15px;
             margin-top: 30px;
           }
-          .tabsContent2 .servePassword .txt4 {
+          .tabsContent .shortMessage .txt4 {
             width: 379px;
             height: 54px;
             border-radius: 4px;
@@ -328,6 +407,21 @@ export default {
             right: 25px;
             cursor: pointer;
           }
+          .tabsContent2 .servePassword .getShortMes_time {
+            width: 99px;
+            height: 20px;
+            font-size: 14px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            line-height: 20px;
+            display: block;
+            padding: 18px 21px 18px 20px;
+            position: absolute;
+            top: 285px;
+            right: 25px;
+            cursor: pointer;
+            color: #666;
+          }
           .tabsContent .shortMessage .line {
             width: 1px;
             height: 11px;
@@ -347,6 +441,19 @@ export default {
             top: 200px;
             right: 25px;
             cursor: pointer;
+          }
+          .tabsContent .shortMessage .getShortMes_time {
+            width: 99px;
+            height: 20px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            padding: 18px 21px 18px 20px;
+            position: absolute;
+            top: 200px;
+            right: 25px;
+            cursor: pointer;
+            color: #666;
           }
           .tabsContent .shortMessage .login {
             width: 396px;
