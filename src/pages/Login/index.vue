@@ -226,10 +226,12 @@ export default {
     }
   }
   .loginPage {
+    width: 100%;
     .content {
       background: url("./images/bg.51062a9.jpg");
       width: 1486px;
       height: 706px;
+      width: 100%;
       .contentCenter {
         width: 1200px;
         height: 706px;
