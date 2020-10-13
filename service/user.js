@@ -79,7 +79,8 @@ async function register(user) {
   //设置默认角色，默认是商家用户
   user.role = 0;
   user.created = Date.now();
-  user.nickName = "移动用户" + user.username.slice(0, 6);
+  // user.nickName = "移动用户" + user.username.slice(0, 6);
+  user.nickName = user.username;
   user.imgUrl =
     "https://dss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=641708822,1181531870&fm=58";
   await User.create(user);

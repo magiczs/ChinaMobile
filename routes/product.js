@@ -4,7 +4,7 @@ const router = require("express").Router();
 /**
  * 添加商品
  */
-router.post("/", async (req, res) => {
+router.post("/addProduct", async (req, res) => {
   await productService.addProduct(req.body);
   res.success();
 });
@@ -35,9 +35,16 @@ router.get("/getProductInfo/:spuId", async (req, res) => {
 
 /**
  * 分页查询
+ * params 参数 keyword 关键字搜索
+ * query 参数 page 第几页
+ * query 参数 limit 一页显示数量
+ * query 参数 sort 积分排序 1正序 -1倒序
+ * 请求体参数 ：categoryId 通过三级分类Id查询
+ * 请求体参数 wareBrandName 通过品牌Id查询
  */
-router.post("/getProducts", async (req, res) => {
+router.post("/getProducts/:keyword?", async (req, res) => {
   let products = await productService.getProductsByPage(
+    req.params.keyword,
     req.query.page,
     req.query.limit,
     req.query.sort,

@@ -58,16 +58,25 @@ async function findById(spuId) {
  * @param page
  * @returns {Promise<void>}
  */
-async function getProductsByPage(page = 1, pageCount = 5, sort = 1, body = {}) {
+async function getProductsByPage(
+  keywords = "",
+  page = 1,
+  pageCount = 5,
+  sort = 1,
+  body = {}
+) {
   // let pageCount = require("../config").PageCount;
   let sorts = +sort;
   let searchInfo = { ...body };
   if (!searchInfo.wareBrandName) {
     delete searchInfo.wareBrandName;
-  } else if (searchInfo.categoryId) {
+  } else if (!searchInfo.categoryId) {
     delete searchInfo.categoryId;
   }
-
+  if (keywords) {
+    let regRxp = new RegExp(keywords);
+    searchInfo.wareName = regRxp;
+  }
   let products = await Product.find(searchInfo)
     .skip((page - 1) * pageCount)
     .limit(+pageCount)
@@ -75,11 +84,12 @@ async function getProductsByPage(page = 1, pageCount = 5, sort = 1, body = {}) {
     .select("-__v");
   let trademaSet = new Set();
   let total = await Product.find(searchInfo).count();
-  products.forEach((item) => {
+  let tradema = await Product.find(searchInfo);
+  tradema.forEach((item) => {
     trademaSet.add(item.wareBrandName);
   });
-  let trademark = Array.from(trademaSet);
-  return { products, total, trademark };
+  let trademarkList = Array.from(trademaSet);
+  return { products, total, trademarkList };
 }
 
 /**
