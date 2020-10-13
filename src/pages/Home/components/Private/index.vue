@@ -5,7 +5,7 @@
     <div class="bottom">
       <div class="left">
         <a v-if="private.contents" :href="private.contents[0]?private.contents[0].mainTargetUrl:''">
-          <img :src="private.contents[0]?private.contents[0].mainImageUrl:''" alt />
+          <img v-lazy="private.contents[0]?private.contents[0].mainImageUrl:''" alt />
         </a>
       </div>
       <div class="middle">
@@ -15,14 +15,14 @@
           :key="privateSmall.sequenceNum"
         >
           <a :href="privateSmall.targetUrl">
-            <img :src="privateSmall.imageUrl" alt />
+            <img v-lazy="privateSmall.imageUrl" alt />
             <p>{{privateSmall.subtitle}}</p>
           </a>
         </div>
       </div>
       <div class="right">
         <a :href="private.contents[0].sideTargetUrl">
-          <img :src="private.contents[0].sideImageUrl" alt />
+          <img v-lazy="private.contents[0].sideImageUrl" alt />
         </a>
       </div>
     </div>

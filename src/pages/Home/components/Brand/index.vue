@@ -9,7 +9,7 @@
         :key="brandEvery.sequenceNum"
       >
         <a :href="brandEvery.targetUrl">
-          <img :src="brandEvery.imageUrl" alt />
+          <img v-lazy="brandEvery.imageUrl" alt />
         </a>
       </div>
     </div>

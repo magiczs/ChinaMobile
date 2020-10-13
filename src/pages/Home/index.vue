@@ -9,7 +9,7 @@
     <img
       v-if="floor.contents"
       class="box"
-      :src="floor.contents[0].floorInfo[0].imageUrl"
+      v-lazy="floor.contents[0].floorInfo[0].imageUrl"
       :floor="floor"
     />
     <Recommend :recommend="recommend"></Recommend>

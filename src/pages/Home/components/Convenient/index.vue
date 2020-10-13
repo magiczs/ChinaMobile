@@ -6,13 +6,13 @@
       <div class="bottom">
         <div class="left">
           <a :href="convenient.contents[0].mainTargetUrl">
-            <img :src="convenient.contents[0].mainImageUrl" alt />
+            <img v-lazy="convenient.contents[0].mainImageUrl" alt />
           </a>
         </div>
         <div class="right">
           <div class="right-o" v-for="(convenientEvery,index) in convenient.contents[0].floorInfo">
             <a :href="convenientEvery.targetUrl">
-              <img :src="convenientEvery.imageUrl" alt />
+              <img v-lazy="convenientEvery.imageUrl" alt />
               <p>{{convenientEvery.title}}</p>
             </a>
           </div>
@@ -28,7 +28,7 @@
     </div>
     <!-- 相同的图片 -->
     <div class="sameimg">
-      <img :src="cImage.contents[0].floorInfo[0].imageUrl" alt />
+      <img v-lazy="cImage.contents[0].floorInfo[0].imageUrl" alt />
     </div>
   </div>
 </template>

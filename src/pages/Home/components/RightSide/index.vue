@@ -11,7 +11,7 @@
       <button>登录</button>
     </section>
     <section class="s">
-      <div>
+      <div class="over">
         <div class="top">
           <h4>商城广告</h4>
           <span>更多></span>
@@ -269,7 +269,9 @@ export default {
 }
 .swiper-container {
   height: 80px;
+  overflow: hidden;
 }
+
 .swiper-container .swiper-slide {
   height: 40px;
   line-height: 40px;
@@ -289,5 +291,8 @@ export default {
 }
 .rightSide .asdfg button {
   background: linear-gradient(128deg, #bfa 13%, #fe6f00 96%);
+}
+.over {
+  overflow: hidden;
 }
 </style>
