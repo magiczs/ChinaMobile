@@ -2,6 +2,7 @@ import Vue from "vue";
 import Vuex from "vuex";
 Vue.use(Vuex);
 import home from "./home";
+import search from "@/store/search";
 
 const state = {};
 const mutations = {};
@@ -15,5 +16,6 @@ export default new Vuex.Store({
   getters,
   modules: {
     home,
+    search,
   },
 });

@@ -1,16 +1,23 @@
-import Login from '../pages/Login'
-import Home from '@/pages/Home'
+import Login from "../pages/Login";
+import Home from "@/pages/Home";
+import Search from "@/pages/Search";
+import { search } from "../api";
 export default [
   {
-    path: '/home',
+    path: "/home",
     component: Home,
   },
   {
-    path: '/',
-    redirect: '/home',
+    path: "/",
+    redirect: "/home",
   },
   {
-    path: '/login',
+    path: "/login",
     component: Login,
   },
-]
+  {
+    path: "/Search:keyword?",
+    name:"search",
+    component: Search,
+  },
+];
