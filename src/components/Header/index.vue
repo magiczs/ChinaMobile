@@ -38,9 +38,14 @@
     <!-- 网站标志以及以及二维码区域 -->
     <div id="white">
       <div class="header">
-        <a class="logo" title="中国移动积分商城" href="###" target="_blank">
+        <router-link
+          class="logo"
+          to="/home"
+          title="中国移动积分商城"
+          href="###"
+        >
           <img src="./images/logo.fccfc0f.png" alt />
-        </a>
+        </router-link>
 
         <!-- 搜索栏区域 -->
         <div class="middle" action="###">
@@ -61,13 +66,21 @@
 
       <!-- 导航栏 -->
       <div class="nav" v-if="navBar && navBar.contents">
-        <div class="nav-l">
+        <div class="nav-l" @mouseenter="isShow = true" @mouseleave="moveOut">
           <i class="iconfont iconmenu"></i>
           <span>全部商品分类</span>
-          <ListContainer class="aaaa" :cateGoryList="cateGoryList"></ListContainer>
+          <ListContainer
+            v-show="isShow"
+            class="aaaa"
+            :cateGoryList="cateGoryList"
+          ></ListContainer>
         </div>
-        <div class="nav-r" v-for="(navEvery,index) in navBar.contents" :key="navEvery.name">
-          <a class="sy" :href="navEvery.targetUrl">{{navEvery.name}}</a>
+        <div
+          class="nav-r"
+          v-for="(navEvery, index) in navBar.contents"
+          :key="navEvery.name"
+        >
+          <a class="sy" :href="navEvery.targetUrl">{{ navEvery.name }}</a>
         </div>
       </div>
     </div>
@@ -75,58 +88,81 @@
 </template>
 
 <script>
-import ListContainer from '../../pages/Home/components/ListContainer'
+import ListContainer from "../../pages/Home/components/ListContainer";
 export default {
-  name: 'Header',
+  name: "Header",
   components: {
     ListContainer,
   },
   data() {
     return {
-      resData: '',
+      resData: "",
       cateGoryList: [],
-      keyword: '',
-    }
+      keyword: "",
+      isShow: true,
+    };
   },
   mounted() {
-    this.getHome(), this.getCateGoryList()
+    this.getHome();
+    this.getCateGoryList();
+    if (this.$route.path !== "/home") {
+      this.isShow = false;
+    } else {
+      this.isShow = true;
+    }
   },
   methods: {
     async getHome() {
-      const result = await this.$API.home.home()
-      this.resData = result.data
+      const result = await this.$API.home.home();
+      this.resData = result.data;
     },
     async getCateGoryList() {
-      const result = await this.$API.home.cateGoryList()
-      this.cateGoryList = result.data
+      const result = await this.$API.home.cateGoryList();
+      this.cateGoryList = result.data;
     },
     toSearch() {
       let location = {
-        name: 'search',
+        name: "search",
         params: {
           keyword: this.keyword || undefined,
         },
-      }
+      };
       if (this.$router.query) {
-        location.query = this.$route.query
+        location.query = this.$route.query;
       }
-      if (this.$route.path !== '/home') {
-        this.$router.replace(location)
+      if (this.$route.path !== "/home") {
+        this.$router.replace(location);
       } else {
-        this.$router.push(location)
+        this.$router.push(location);
       }
+    },
+    moveOut() {
+      if (this.$route.path === "/home") {
+        return;
+      }
+      this.isShow = false;
     },
   },
   computed: {
     navBar() {
       // console.log(this.resData[1])
-      return this.resData[1] || []
+      return this.resData[1] || [];
     },
   },
-}
+  watch: {
+    "$route.path": function() {
+      console.log(this.$route.path);
+      if (this.$route.path !== "/home") {
+        this.isShow = false;
+      } else {
+        this.isShow = true;
+      }
+    },
+  },
+};
 </script>
 
-<style lang="less" scoped>
+<style lang="less" scoped>
 .outer {
   margin: 0 auto;
   width: 1200px;
@@ -334,6 +370,7 @@ export default {
   width: 200px;
   height: 40px;
   text-align: center;
+  position: relative;
 }
 
 .nav .nav-l span {
@@ -359,7 +396,9 @@ export default {
   background-color: #fff;
   position: absolute;
   z-index: 99;
-  top: 205px;
+  padding-top: 10px;
+  background-clip: content-box;
+  top: 40px;
   text-align: left;
 }
 </style>

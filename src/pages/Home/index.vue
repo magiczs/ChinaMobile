@@ -1,10 +1,14 @@
 <template>
   <div class="wm" v-if="private.contents">
-    <Header :navBar="navBar"></Header>
+    <!-- <Header :navBar="navBar"></Header> -->
     <div class="second">
       <!-- <ListContainer :cateGoryList="cateGoryList"></ListContainer> -->
       <SliderLoop :swiperData="swiperData" class="bbbb"></SliderLoop>
-      <RightSide :rightSideTitle="rightSideTitle" :rightSidePrice="rightSidePrice" :small="small"></RightSide>
+      <RightSide
+        :rightSideTitle="rightSideTitle"
+        :rightSidePrice="rightSidePrice"
+        :small="small"
+      ></RightSide>
     </div>
     <img
       v-if="floor.contents"
@@ -19,30 +23,26 @@
     <Same :same="same" :lImage="lImage"></Same>
     <Same :same="same1" :lImage="xImage"></Same>
     <Same :same="same2" :lImage="pImage"></Same>
-    <Footer></Footer>
+    <!-- <Footer></Footer> -->
   </div>
 </template>
 
 <script>
-import Header from '../../components/Header/index.vue'
-import Footer from '../../components/Footer/index.vue'
-import SliderLoop from './components/SliderLoop'
+import SliderLoop from "./components/SliderLoop";
 // import ListContainer from './components/ListContainer/index.vue'
-import RightSide from './components/RightSide/index.vue'
-import Recommend from './components/Recommend/index.vue'
-import Brand from './components/Brand/index.vue'
-import Private from './components/Private/index.vue'
-import Convenient from './components/Convenient/index.vue'
-import Same from './components/Same/index.vue'
+import RightSide from "./components/RightSide/index.vue";
+import Recommend from "./components/Recommend/index.vue";
+import Brand from "./components/Brand/index.vue";
+import Private from "./components/Private/index.vue";
+import Convenient from "./components/Convenient/index.vue";
+import Same from "./components/Same/index.vue";
 
-import { home } from '../../api/index.js'
+import { home } from "../../api/index.js";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    Footer,
     SliderLoop,
-    Header,
     // ListContainer,
     RightSide,
     Recommend,
@@ -51,78 +51,78 @@ export default {
     Convenient,
     Same,
   },
-  props: ['navBar'],
+  props: ["navBar"],
   data() {
     return {
       resData: [],
-    }
+    };
   },
   mounted() {
-    this.getHome()
+    this.getHome();
     // this.getCateGoryList()
   },
   methods: {
     async getHome() {
-      const result = await this.$API.home.home()
-      this.resData = result.data
+      const result = await this.$API.home.home();
+      this.resData = result.data;
     },
   },
   computed: {
     small() {
-      return this.resData[2] || []
+      return this.resData[2] || [];
     },
     swiperData() {
-      return this.resData[0] || []
+      return this.resData[0] || [];
     },
     // navBar() {
     //   return this.resData[1] || []
     // },
     rightSideTitle() {
-      return this.resData[3] || []
+      return this.resData[3] || [];
     },
     rightSidePrice() {
-      return this.resData[4] || []
+      return this.resData[4] || [];
     },
     recommend() {
-      return this.resData[5] || []
+      return this.resData[5] || [];
     },
     brand() {
-      return this.resData[6] || []
+      return this.resData[6] || [];
     },
     private() {
-      return this.resData[7] || []
+      return this.resData[7] || [];
     },
     convenient() {
-      return this.resData[8] || []
+      return this.resData[8] || [];
     },
     same() {
-      return this.resData[10] || []
+      return this.resData[10] || [];
     },
     same1() {
-      return this.resData[12] || []
+      return this.resData[12] || [];
     },
     same2() {
-      return this.resData[14] || []
+      return this.resData[14] || [];
     },
     floor() {
-      return this.resData[9] || []
+      return this.resData[9] || [];
     },
     cImage() {
       // console.log(this.resData[11])
-      return this.resData[11] || []
+      return this.resData[11] || [];
     },
 
     lImage() {
-      return this.resData[11] || []
+      return this.resData[11] || [];
     },
     xImage() {
-      return this.resData[13] || []
+      return this.resData[13] || [];
     },
     pImage() {
-      return this.resData[15] || []
+      return this.resData[15] || [];
     },
   },
-}
+};
 </script>
 
 <style lang="less" scoped>

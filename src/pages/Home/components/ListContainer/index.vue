@@ -1,29 +1,40 @@
 <template>
   <div class="listContainer" @click="toSearch">
-    <div class="first" v-for="(c1,index) in cateGoryList" :key="c1.categoryId">
+    <div class="first" v-for="(c1, index) in cateGoryList" :key="c1.categoryId">
       <h3>
         <a
           class="yj"
           href="javascript:;"
           :data-categoryName="c1.categoryName"
           :data-category1Id="c1.categoryId"
-        >{{c1.categoryName}}</a>
+          >{{ c1.categoryName }}</a
+        >
       </h3>
-      <div class="item-list" v-for="(c2,index) in c1.categories" :key="c2.categoryId">
+      <div
+        class="item-list"
+        v-for="(c2, index) in c1.categories"
+        :key="c2.categoryId"
+      >
         <a
           class="cccc"
           href="javascript:;"
           :data-categoryName="c2.categoryName"
           :data-category2Id="c2.categoryId"
-        >{{c2.categoryName}}</a>
+          >{{ c2.categoryName }}</a
+        >
 
-        <div class="item-list-a" v-for="(c3,index) in c2.categories" :key="c3.categoryId">
+        <div
+          class="item-list-a"
+          v-for="(c3, index) in c2.categories"
+          :key="c3.categoryId"
+        >
           <a
             class="dddd"
             href="javascript:;"
             :data-categoryName="c3.categoryName"
             :data-category3Id="c3.categoryId"
-          >{{c3.categoryName}}</a>
+            >{{ c3.categoryName }}</a
+          >
         </div>
       </div>
     </div>
@@ -31,26 +42,26 @@
 </template>
 
 <script>
-import throttle from 'lodash/throttle'
+import throttle from "lodash/throttle";
 export default {
-  name: 'ListContainer',
-  props: ['cateGoryList'],
+  name: "ListContainer",
+  props: ["cateGoryList"],
   data() {
     return {
       currentIndex: -1, //移入下标的时候初始值
       // isShow: true,
-    }
+    };
   },
   mounted() {
-    if (this.$route.path !== '/home') {
-      this.isShow == false
+    if (this.$route.path !== "/home") {
+      this.isShow == false;
     }
   },
   methods: {
     moveIn: throttle(
-      function (index) {
+      function(index) {
         // console.log(index)
-        this.currentIndex = index
+        this.currentIndex = index;
       },
       30,
       { trailing: false }
@@ -63,42 +74,42 @@ export default {
         category1id,
         category2id,
         category3id,
-      } = event.target.dataset
+      } = event.target.dataset;
       if (categoryname) {
         //点击的就是a标签
         let location = {
-          name: 'search',
-        }
+          name: "search",
+        };
         let query = {
           categoryName: categoryname,
-        }
+        };
         if (category1id) {
-          query.category1Id = category1id
+          query.category1Id = category1id;
         } else if (category2id) {
-          query.category2Id = category2id
+          query.category2Id = category2id;
         } else {
-          query.category3Id = category3id
+          query.category3Id = category3id;
         }
         //收集参数完毕
-        location.query = query
+        location.query = query;
 
         //要考虑带上params参数
         if (this.$route.params) {
-          location.params = this.$route.params
+          location.params = this.$route.params;
         }
         //优化
-        if (this.$route.path !== '/home') {
-          this.$router.replace(location)
+        if (this.$route.path !== "/home") {
+          this.$router.replace(location);
         } else {
-          this.$router.push(location)
+          this.$router.push(location);
         }
       }
     },
   },
-}
+};
 </script>
 
-<style lang="less" scoped>
+<style lang="less" scoped>
 .listContainer {
   border-radius: 10px;
   width: 200px;
@@ -146,6 +157,8 @@ export default {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
   top: 0;
   z-index: 9999 !important;
+  padding-top: 10px;
+  background-clip: content-box;
 }
 .listContainer .first:hover .item-list {
   display: block;

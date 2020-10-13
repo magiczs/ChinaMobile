@@ -414,6 +414,15 @@ export default {
   }
   .searchBox {
     width: 240px;
+    input {
+      height: 22px;
+      border-radius: 11px;
+      line-height: 22px;
+      font-size: 12px;
+      &:focus {
+        border: 1px solid #e5008d;
+      }
+    }
   }
 }
 // 商品卡片
