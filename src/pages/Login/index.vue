@@ -5,7 +5,7 @@
         <div class="headerCenter">
           <div class="logo">
             <img src="./images/logo230x42.30b1340.png" alt="" />
-            <router-link class="back" to="/Home">返回</router-link>
+            <router-link class="back" to="/home">返回</router-link>
           </div>
         </div>
       </div>
@@ -24,7 +24,6 @@
               <li @click="isShow = 1" :class="{ active: isShow == 1 }">
                 服务密码登录
               </li>
-             
             </ul>
             <ul class="tabsContent">
               <!-- 短信随机码登录 -->
@@ -39,7 +38,6 @@
                     :class="{ invalid: errors.has('phone') }"
                   />
                   <span class="error-msg">{{ errors.first("phone") }}</span>
-                  
                 </p>
                 <p>
                   <input
@@ -80,7 +78,6 @@
                 <button class="login" @click="Login">登录</button>
               </li>
             </ul>
-            
           </div>
         </div>
       </section>
@@ -103,7 +100,6 @@ export default {
     };
   },
   methods: {
-
     async Login() {
       if (!this.isShow && (!this.phone || !this.code)) {
         this.$message.error("请输入手机号或验证码");
@@ -115,7 +111,7 @@ export default {
         this.$message.error("验证码输入错误!");
         return;
       }
- 
+
       if (this.phone && this.password && this.code) {
         try {
           const result = await this.$API.login.reqLogin({
@@ -139,28 +135,26 @@ export default {
       }
 
       try {
-          const result = await this.$API.login.reqLogin({
-            username: this.phone,
-            password: '123456',
-          });
-          if (result.code === 200) {
-            let token = result.data.token;
-            let phone = result.data.userInfo.nickName
-            localStorage.setItem("token", token);
-            localStorage.setItem("phone", phone);
-            this.$message.success("恭喜登录成功");
-            this.$router.push("/home");
-            return;
-          } else {
-            this.$message.error(`${result.data}`);
-            return;
-          }
-        } catch (error) {
-          console.log(error.message);
+        const result = await this.$API.login.reqLogin({
+          username: this.phone,
+          password: "123456",
+        });
+        if (result.code === 200) {
+          let token = result.data.token;
+          let phone = result.data.userInfo.nickName;
+          localStorage.setItem("token", token);
+          sessionStorage.setItem("phone", phone);
+          this.$message.success("恭喜登录成功");
+          this.$router.push("/home");
+          return;
+        } else {
+          this.$message.error(`${result.data}`);
           return;
         }
-
-      
+      } catch (error) {
+        console.log(error.message);
+        return;
+      }
     },
     //发送验证码
     async getShortMes() {
@@ -173,16 +167,16 @@ export default {
       console.log(this.isCode);
       //改变验证码发送状态
       this.isSendCode = true;
-      // const result = await this.$API.login.reqCode({
-      //   isCode: this.isCode,
-      //   phone: this.phone,
-      // });
-      // if (result.statusCode !== "000000") {
-      //   this.$message.error("验证码发送失败!");
-      //   return;
-      // } else {
-      //   this.$message.success("验证码发送成功!");
-      // }
+      const result = await this.$API.login.reqCode({
+        isCode: this.isCode,
+        phone: this.phone,
+      });
+      if (result.statusCode !== "000000") {
+        this.$message.error("验证码发送失败!");
+        return;
+      } else {
+        this.$message.success("验证码发送成功!");
+      }
       const timer = setInterval(() => {
         this.timeout--;
         if (this.timeout < 0) {

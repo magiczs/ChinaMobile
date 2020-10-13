@@ -2,8 +2,13 @@
   <div>
     <div class="outer">
       <div class="tab-bar">
-        <div class="tab-left">
-          <a>您好，欢迎访问中国移动积分商城</a>
+        <div class="tab-left" v-if="phone1">
+          <a>您好，{{ phone1 + "****" + phone2 }} 欢迎访问中国移动积分商城</a>
+          <!-- <a class="qdl">请登录</a> -->
+          <!-- <router-link to="/login" class="pink" >请登录</router-link> -->
+        </div>
+        <div class="tab-left" v-else>
+          <a>您好， 欢迎访问中国移动积分商城</a>
           <!-- <a class="qdl">请登录</a> -->
           <router-link to="/login" class="pink">请登录</router-link>
         </div>
@@ -36,7 +41,7 @@
     </div>
 
     <!-- 网站标志以及以及二维码区域 -->
-    <div id="white">
+    <div id="white" v-show="!$route.meta.noHeader">
       <div class="header">
         <router-link
           class="logo"
@@ -148,10 +153,24 @@ export default {
       // console.log(this.resData[1])
       return this.resData[1] || [];
     },
+    phone1() {
+      if (sessionStorage.getItem("phone")) {
+        return sessionStorage.getItem("phone").slice(0, 3);
+      } else {
+        return "";
+      }
+    },
+    phone2() {
+      if (sessionStorage.getItem("phone")) {
+        return sessionStorage.getItem("phone").slice(7, 11);
+      } else {
+        return "";
+      }
+    },
   },
   watch: {
-    "$route.path": function() {
-      console.log(this.$route.path);
+    "$route.path": function () {
+      // console.log(this.$route.path);
       if (this.$route.path !== "/home") {
         this.isShow = false;
       } else {

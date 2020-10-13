@@ -337,7 +337,7 @@ export default {
         //   this.skuNum = 1;
         //   return;
         // });
-        console.log(num, "++");
+        // console.log(num, "++");
         if (this.skuNum === 1) {
           this.$forceUpdate();
         } else {
@@ -350,10 +350,16 @@ export default {
 
     //去往订单页
     async toTrade() {
+      if (!sessionStorage.getItem("phone")) {
+        this.$router.push("/login");
+        this.$message.error("请先登录~~");
+        return;
+      }
       const { spuId } = this.detailInfo;
+      this.detailInfo.count = this.skuNum;
       sessionStorage.setItem("spuInfo", JSON.stringify(this.detailInfo));
       const location = {
-        path: "/trade",
+        name: "trade",
         query: {
           spuId,
           num: this.skuNum,
@@ -392,7 +398,7 @@ export default {
       },
       set(val) {
         if (typeof val !== "number") {
-          console.log(this.skuNum);
+          // console.log(this.skuNum);
           return this.skuNum;
         } else {
           if (val < 1) {

@@ -129,7 +129,7 @@ html {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* 清除浮动 */

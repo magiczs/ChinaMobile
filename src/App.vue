@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header></Header>
+    <Header v-if="!$route.meta.isHide"></Header>
     <router-view></router-view>
     <Footer></Footer>
   </div>

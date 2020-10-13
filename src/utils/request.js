@@ -1,27 +1,32 @@
 import axios from "axios";
+import Nprogress from "nprogress";
+import "nprogress/nprogress.css";
 
 const instance = axios.create({
-  baseURL: "/api", //配置请求基础路径
-  timeout: 20000, //配置请求超时时间
+  baseURL: "/api",
+  timeout: 20000,
 });
 
-//响应拦截器修改响应为直接返回的数据
+instance.interceptors.request.use((config) => {
+  Nprogress.start();
+  if (localStorage.getItem("token")) {
+    config.headers["token"] = localStorage.getItem("token");
+  }
+  // config.headers["token"] =
+  //   "94f993dbcedd4ed326971081007215e9def974d28814dee6d19201be69bad2085670de0cc38ad112b7aa6f2166436bdc57b12c5807164fa059a78f1bcdb7a0a1";
+  return config;
+});
+
 instance.interceptors.response.use(
-  (response) => {
-    //3
-    //默认返回去的是response 也就是我们的响应报文信息  如果我们要拿到数据  response.data去获取
-    //现在我们是在返回响应之前把响应直接改成了数据，以后我们拿数据不需要再去.data了
-    // console.log(response.data.data)
-    return response.data;
+  (result) => {
+    Nprogress.done();
+    return result.data;
   },
   (error) => {
-    //4、
-    alert("发送请求失败：" + error.message || "未知错误");
-    //如果你需要进一步去处理这个错误，那么就返回一个失败的promise
-    // return Promise.reject(new Error('请求失败')) //new Error('请求失败')自定义错误消息
-    //如果你不需要再去处理这个错误，那么就返回一个pending状态的promise（终止promise链）
+    Nprogress.done();
+    alert("请求失败" + error.message || "未知错误");
     return new Promise(() => {});
   }
 );
 
-export default instance; //暴露出去我们的axios工具  后面发请求使用
+export default instance;
