@@ -1,0 +1,103 @@
+[
+  {
+    "data": {
+      "id": 500,
+      "rid": 0,
+      "username": "admin",
+      "mobile": "13999999999",
+      "email": "123999@qq.com"
+    },
+    "rights": [
+      {
+        "id": 125,
+        "authName": "用户管理",
+        "icon": "icon-user",
+        "children": [
+          {
+            "id": 110,
+            "authName": "用户列表",
+            "path": "users",
+            "rights": ["view", "edit", "add", "delete"]
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "authName": "角色管理",
+        "icon": "icon-tijikongjian",
+        "children": [
+          {
+            "id": 111,
+            "authName": "角色列表",
+            "path": "roles",
+            "rights": ["view", "edit", "add", "delete"]
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "authName": "商品管理",
+        "icon": "icon-shangpin",
+        "children": [
+          {
+            "id": 104,
+            "authName": "商品列表",
+            "path": "goods",
+            "rights": ["view", "edit", "add", "delete"]
+          },
+          {
+            "id": 121,
+            "authName": "商品分类",
+            "path": "categories",
+            "rights": ["view", "edit", "add", "delete"]
+          }
+        ]
+      }
+    ],
+    "username": "admin"
+  },
+  {
+    "data": {
+      "id": 666,
+      "rid": 0,
+      "username": "zhangsan",
+      "mobile": "13812811228",
+      "email": "123@qq.com"
+    },
+    "rights": [
+      {
+        "id": 125,
+        "authName": "用户管理",
+        "icon": "icon-user",
+        "children": [
+          {
+            "id": 110,
+            "authName": "用户列表",
+            "path": "users",
+            "rights": ["view"]
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "authName": "商品管理",
+        "icon": "icon-shangpin",
+        "children": [
+          {
+            "id": 104,
+            "authName": "商品列表",
+            "path": "goods",
+            "rights": ["view", "add"]
+          },
+          {
+            "id": 121,
+            "authName": "商品分类",
+            "path": "categories",
+            "rights": ["view"]
+          }
+        ]
+      }
+    ],
+    "username": "13700000000"
+  }
+]

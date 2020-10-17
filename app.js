@@ -11,9 +11,10 @@ const bodyParser = require("body-parser");
 let config = require("./config");
 
 const app = express();
-
+const cors = require("cors");
 //注册中间件
 //注册解析请求体参数的中间件
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded());
 //注册log中间件

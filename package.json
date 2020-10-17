@@ -5,6 +5,7 @@
     "axios": "^0.20.0",
     "big.js": "^5.1.2",
     "body-parser": "latest",
+    "cors": "^2.8.5",
     "express": "latest",
     "express-async-errors": "^3.0.0",
     "js-base64": "^3.5.2",

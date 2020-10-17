@@ -13,7 +13,7 @@ const schema = new mongoose.Schema({
     require: [true, "商品品牌名称不能少"],
   },
   spuId: {
-    type: Number,
+    type: String,
     require: [true, "分类名称不能少"],
   },
   marketPrice: {
@@ -33,7 +33,7 @@ const schema = new mongoose.Schema({
   },
   wareSaleAttr: {
     type: Array,
-    require: [true, "基础销售属性"],
+    // require: [true, "基础销售属性"],
   },
 
   partnerName: String,
@@ -42,7 +42,7 @@ const schema = new mongoose.Schema({
   stock: {
     type: Number,
     min: [0, "库存不能小于0"],
-    default: 0,
+    default: 100,
   },
   category: {
     type: Object,
@@ -59,5 +59,8 @@ const schema = new mongoose.Schema({
   // },
 });
 
-module.exports = mongoose.model("product", schema);
-mongoose.model("product", schema).create().then().catch();
+module.exports = mongoose.model("products", schema);
+// mongoose
+//   .model("product", schema)
+//   .create().then()
+//   .catch();

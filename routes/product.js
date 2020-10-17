@@ -2,9 +2,18 @@ const productService = require("../service/product");
 const router = require("express").Router();
 
 /**
+ * 查询所有商品
+ */
+router.get("/getAllProducts", async (req, res) => {
+  let product = await productService.getAllProducts();
+  res.json({ data: product, code: 200 });
+});
+
+/**
  * 添加商品
  */
 router.post("/addProduct", async (req, res) => {
+  console.log(req.body);
   await productService.addProduct(req.body);
   res.success();
 });
@@ -12,7 +21,7 @@ router.post("/addProduct", async (req, res) => {
 /**
  * 删除商品
  */
-router.delete("/:id", async (req, res) => {
+router.delete("/deleteProduct/:id?", async (req, res) => {
   await productService.deleteById(req.params.id);
   res.success();
 });
@@ -20,8 +29,8 @@ router.delete("/:id", async (req, res) => {
 /**
  * 修改商品信息
  */
-router.put("/:id", async (req, res) => {
-  await productService.updateProduct(req.params.id, req.body);
+router.post("/updateProduct", async (req, res) => {
+  await productService.updateProduct(req.body);
   res.success();
 });
 

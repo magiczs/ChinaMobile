@@ -1,13 +1,14 @@
 const router = require("express").Router();
 const userService = require("../service/user");
+const menuService = require("../service/menu");
 
 /**
  * 获取用户信息
  */
-router.get("/:username", async (req, res) => {
-  let userInfo = await userService.getUserInfo(req.params.username);
-  res.json(userInfo);
-});
+// router.get("/:username", async (req, res) => {
+//   let userInfo = await userService.getUserInfo(req.params.username);
+//   res.json(userInfo);
+// });
 
 /**
  * 注册
@@ -42,6 +43,14 @@ router.post("/login", async (req, res) => {
       data: "用户名密码错误",
     });
   }
+});
+
+/**
+ * 获取用户权限列表
+ */
+router.get("/menu", async (req, res) => {
+  let userInfo = await menuService.getMenu(req.user.username);
+  res.json({ data: userInfo, code: 200 });
 });
 
 /**
